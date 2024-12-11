@@ -23,7 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 Constants.InterstitialBannerAdUnit,
                 Constants.VideoAdUnit,
                 Constants.InterstitialVideoAdUnit,
-                Constants.RewardVideoAdUnit
+                Constants.RewardVideoAdUnit,
+                Constants.NativeAdUnit
             ]
         )
         GADMobileAds.sharedInstance().start(completionHandler: nil)

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var interstitialVideoButton: UIButton!
     @IBOutlet weak var videoButton: UIButton!
     @IBOutlet weak var rewardVideoButton: UIButton!
+    @IBOutlet weak var nativeButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +58,12 @@ class ViewController: UIViewController {
         rewardVideo.delegate = self
         rewardVideo.load()
     }
+    
+    @IBAction func nativeButtonTapped(_ sender: Any) {
+        let nativeVC = NativeViewController()
+        self.navigationController?.pushViewController(nativeVC, animated: true)
+    }
+    
 }
 
 extension ViewController: AMMInterstitialDelegate {

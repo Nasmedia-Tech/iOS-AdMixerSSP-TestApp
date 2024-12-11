@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-Rk-DGQ">
-                                <rect key="frame" x="120.33333333333333" y="320.33333333333331" width="152.66666666666669" height="211.66666666666669"/>
+                                <rect key="frame" x="120.33333333333333" y="298" width="152.66666666666669" height="256"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOh-OC-h2H">
                                         <rect key="frame" x="0.0" y="0.0" width="152.66666666666666" height="34.333333333333336"/>
@@ -44,7 +44,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKC-7p-iDR">
-                                        <rect key="frame" x="0.0" y="44.333333333333371" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="44.333333333333314" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="InterstitialBanner"/>
                                         <connections>
@@ -68,11 +68,19 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xi6-KI-SFL">
-                                        <rect key="frame" x="0.0" y="177.33333333333337" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="177.33333333333331" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="RewardVideo"/>
                                         <connections>
                                             <action selector="rewardVideoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRl-5O-Nkj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyt-pL-xDM">
+                                        <rect key="frame" x="0.0" y="221.66666666666663" width="152.66666666666666" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Native"/>
+                                        <connections>
+                                            <action selector="nativeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1MZ-hr-msD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -90,6 +98,7 @@
                         <outlet property="bannerButton" destination="sOh-OC-h2H" id="PjC-zO-ck2"/>
                         <outlet property="interstitalBannerButton" destination="fKC-7p-iDR" id="rqR-zM-JEN"/>
                         <outlet property="interstitialVideoButton" destination="HS4-mn-c6k" id="ImW-gd-Roq"/>
+                        <outlet property="nativeButton" destination="vyt-pL-xDM" id="UcG-B4-Jm0"/>
                         <outlet property="rewardVideoButton" destination="xi6-KI-SFL" id="wjJ-Ay-tAT"/>
                         <outlet property="videoButton" destination="Pti-fV-i6O" id="zC0-tq-5eR"/>
                     </connections>

@@ -14,4 +14,5 @@ struct Constants {
     static let InterstitialVideoAdUnit = -1
     static let VideoAdUnit = -1
     static let RewardVideoAdUnit = -1
+    static let NativeAdUnit = -1
 }
