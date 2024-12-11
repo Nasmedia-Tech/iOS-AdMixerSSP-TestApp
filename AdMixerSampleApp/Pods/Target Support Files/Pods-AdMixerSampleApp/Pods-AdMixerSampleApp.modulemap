@@ -1,0 +1,6 @@
+framework module Pods_AdMixerSampleApp {
+  umbrella header "Pods-AdMixerSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

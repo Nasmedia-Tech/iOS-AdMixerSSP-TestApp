@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uve-TQ-P7A">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0Li-HT-nYr">
+            <objects>
+                <navigationController id="Uve-TQ-P7A" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dwk-j1-1Jf">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5Sj-SS-6TN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgg-gV-QOo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642" y="-174"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdMixerSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-Rk-DGQ">
+                                <rect key="frame" x="120.33333333333333" y="320.33333333333331" width="152.66666666666669" height="211.66666666666669"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOh-OC-h2H">
+                                        <rect key="frame" x="0.0" y="0.0" width="152.66666666666666" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Banner"/>
+                                        <connections>
+                                            <action selector="bannerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EOv-00-tbH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKC-7p-iDR">
+                                        <rect key="frame" x="0.0" y="44.333333333333371" width="152.66666666666666" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="InterstitialBanner"/>
+                                        <connections>
+                                            <action selector="interstitialBannerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bEv-iF-Ce2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS4-mn-c6k">
+                                        <rect key="frame" x="0.0" y="88.666666666666686" width="152.66666666666666" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="OutstreamVideo"/>
+                                        <connections>
+                                            <action selector="interstitialVideoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZSs-aZ-siE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pti-fV-i6O">
+                                        <rect key="frame" x="0.0" y="133" width="152.66666666666666" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="InstreamVideo"/>
+                                        <connections>
+                                            <action selector="videoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AxW-8B-5TH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xi6-KI-SFL">
+                                        <rect key="frame" x="0.0" y="177.33333333333337" width="152.66666666666666" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="RewardVideo"/>
+                                        <connections>
+                                            <action selector="rewardVideoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRl-5O-Nkj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kf9-Rk-DGQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7Ai-id-ems"/>
+                            <constraint firstItem="kf9-Rk-DGQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kLe-B9-noG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sGQ-rT-mN5"/>
+                    <connections>
+                        <outlet property="bannerButton" destination="sOh-OC-h2H" id="PjC-zO-ck2"/>
+                        <outlet property="interstitalBannerButton" destination="fKC-7p-iDR" id="rqR-zM-JEN"/>
+                        <outlet property="interstitialVideoButton" destination="HS4-mn-c6k" id="ImW-gd-Roq"/>
+                        <outlet property="rewardVideoButton" destination="xi6-KI-SFL" id="wjJ-Ay-tAT"/>
+                        <outlet property="videoButton" destination="Pti-fV-i6O" id="zC0-tq-5eR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="-175"/>
+        </scene>
+    </scenes>
+</document>

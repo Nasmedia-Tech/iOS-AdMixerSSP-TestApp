@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F2BDDD78A7A9C22B6DD9D8 /* Pods_AdMixerSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF6560A3DA7DB587D4CE06C /* Pods_AdMixerSampleApp.framework */; };
+		5315B8DF07E1051E770D812A /* Pods_AdMixerSampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740BEC7AEDF54C5F5D7FA96C /* Pods_AdMixerSampleAppTests.framework */; };
+		AB3EE53297411A2EDA6978B3 /* Pods_AdMixerSampleApp_AdMixerSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BF21F1397849569714272E /* Pods_AdMixerSampleApp_AdMixerSampleAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0249C3172D09514300DC7B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0249C2F82D09514200DC7B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0249C2FF2D09514200DC7B41;
+			remoteInfo = AdMixerSampleApp;
+		};
+		0249C3212D09514300DC7B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0249C2F82D09514200DC7B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0249C2FF2D09514200DC7B41;
+			remoteInfo = AdMixerSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0249C3002D09514200DC7B41 /* AdMixerSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMixerSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0249C3162D09514300DC7B41 /* AdMixerSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMixerSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0249C3202D09514300DC7B41 /* AdMixerSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMixerSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079C8F1F7AA3F9CAEFEA2F9B /* Pods-AdMixerSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMixerSampleApp.release.xcconfig"; path = "Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		1F1453430685756A1E30CA21 /* Pods-AdMixerSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMixerSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-AdMixerSampleAppTests/Pods-AdMixerSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FF6560A3DA7DB587D4CE06C /* Pods_AdMixerSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMixerSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BEC7AEDF54C5F5D7FA96C /* Pods_AdMixerSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMixerSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E169D8C1C73913F9CF6EAD2 /* Pods-AdMixerSampleApp-AdMixerSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMixerSampleApp-AdMixerSampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9704243F4C2FB50473E8A06B /* Pods-AdMixerSampleApp-AdMixerSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMixerSampleApp-AdMixerSampleAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD1E646DAA72C83B3240D9DA /* Pods-AdMixerSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMixerSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BF21F1397849569714272E /* Pods_AdMixerSampleApp_AdMixerSampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMixerSampleApp_AdMixerSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FEE3B4F7AA955409148A52 /* Pods-AdMixerSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMixerSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AdMixerSampleAppTests/Pods-AdMixerSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0249C3282D09514300DC7B41 /* Exceptions for "AdMixerSampleApp" folder in "AdMixerSampleApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0249C2FF2D09514200DC7B41 /* AdMixerSampleApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0249C3022D09514200DC7B41 /* AdMixerSampleApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0249C3282D09514300DC7B41 /* Exceptions for "AdMixerSampleApp" folder in "AdMixerSampleApp" target */,
+			);
+			path = AdMixerSampleApp;
+			sourceTree = "<group>";
+		};
+		0249C3192D09514300DC7B41 /* AdMixerSampleAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdMixerSampleAppTests;
+			sourceTree = "<group>";
+		};
+		0249C3232D09514300DC7B41 /* AdMixerSampleAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdMixerSampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0249C2FD2D09514200DC7B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F2BDDD78A7A9C22B6DD9D8 /* Pods_AdMixerSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C3132D09514300DC7B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5315B8DF07E1051E770D812A /* Pods_AdMixerSampleAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C31D2D09514300DC7B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3EE53297411A2EDA6978B3 /* Pods_AdMixerSampleApp_AdMixerSampleAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249C2F72D09514200DC7B41 = {
+			isa = PBXGroup;
+			children = (
+				0249C3022D09514200DC7B41 /* AdMixerSampleApp */,
+				0249C3192D09514300DC7B41 /* AdMixerSampleAppTests */,
+				0249C3232D09514300DC7B41 /* AdMixerSampleAppUITests */,
+				0249C3012D09514200DC7B41 /* Products */,
+				B151697CDAC5617D2C3D6FAB /* Pods */,
+				50945A51C6EE65B40453FA4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0249C3012D09514200DC7B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0249C3002D09514200DC7B41 /* AdMixerSampleApp.app */,
+				0249C3162D09514300DC7B41 /* AdMixerSampleAppTests.xctest */,
+				0249C3202D09514300DC7B41 /* AdMixerSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50945A51C6EE65B40453FA4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF6560A3DA7DB587D4CE06C /* Pods_AdMixerSampleApp.framework */,
+				E5BF21F1397849569714272E /* Pods_AdMixerSampleApp_AdMixerSampleAppUITests.framework */,
+				740BEC7AEDF54C5F5D7FA96C /* Pods_AdMixerSampleAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B151697CDAC5617D2C3D6FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E646DAA72C83B3240D9DA /* Pods-AdMixerSampleApp.debug.xcconfig */,
+				079C8F1F7AA3F9CAEFEA2F9B /* Pods-AdMixerSampleApp.release.xcconfig */,
+				8E169D8C1C73913F9CF6EAD2 /* Pods-AdMixerSampleApp-AdMixerSampleAppUITests.debug.xcconfig */,
+				9704243F4C2FB50473E8A06B /* Pods-AdMixerSampleApp-AdMixerSampleAppUITests.release.xcconfig */,
+				F4FEE3B4F7AA955409148A52 /* Pods-AdMixerSampleAppTests.debug.xcconfig */,
+				1F1453430685756A1E30CA21 /* Pods-AdMixerSampleAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0249C2FF2D09514200DC7B41 /* AdMixerSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0249C3292D09514300DC7B41 /* Build configuration list for PBXNativeTarget "AdMixerSampleApp" */;
+			buildPhases = (
+				2B37EB9D6CDF0FB7D5D54F65 /* [CP] Check Pods Manifest.lock */,
+				0249C2FC2D09514200DC7B41 /* Sources */,
+				0249C2FD2D09514200DC7B41 /* Frameworks */,
+				0249C2FE2D09514200DC7B41 /* Resources */,
+				499F02A4C396E21071903E2D /* [CP] Embed Pods Frameworks */,
+				B18C7855292C22CCA559893C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0249C3022D09514200DC7B41 /* AdMixerSampleApp */,
+			);
+			name = AdMixerSampleApp;
+			productName = AdMixerSampleApp;
+			productReference = 0249C3002D09514200DC7B41 /* AdMixerSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0249C3152D09514300DC7B41 /* AdMixerSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0249C32E2D09514300DC7B41 /* Build configuration list for PBXNativeTarget "AdMixerSampleAppTests" */;
+			buildPhases = (
+				0075786DCA8E05CE19F568A1 /* [CP] Check Pods Manifest.lock */,
+				0249C3122D09514300DC7B41 /* Sources */,
+				0249C3132D09514300DC7B41 /* Frameworks */,
+				0249C3142D09514300DC7B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0249C3182D09514300DC7B41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0249C3192D09514300DC7B41 /* AdMixerSampleAppTests */,
+			);
+			name = AdMixerSampleAppTests;
+			productName = AdMixerSampleAppTests;
+			productReference = 0249C3162D09514300DC7B41 /* AdMixerSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0249C31F2D09514300DC7B41 /* AdMixerSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0249C3312D09514300DC7B41 /* Build configuration list for PBXNativeTarget "AdMixerSampleAppUITests" */;
+			buildPhases = (
+				2026CD4A3418625396182A60 /* [CP] Check Pods Manifest.lock */,
+				0249C31C2D09514300DC7B41 /* Sources */,
+				0249C31D2D09514300DC7B41 /* Frameworks */,
+				0249C31E2D09514300DC7B41 /* Resources */,
+				C697A669F93C1CF07D544768 /* [CP] Embed Pods Frameworks */,
+				DF0C75A7F8663BF68E0360EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0249C3222D09514300DC7B41 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0249C3232D09514300DC7B41 /* AdMixerSampleAppUITests */,
+			);
+			name = AdMixerSampleAppUITests;
+			productName = AdMixerSampleAppUITests;
+			productReference = 0249C3202D09514300DC7B41 /* AdMixerSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0249C2F82D09514200DC7B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					0249C2FF2D09514200DC7B41 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0249C3152D09514300DC7B41 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0249C2FF2D09514200DC7B41;
+					};
+					0249C31F2D09514300DC7B41 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0249C2FF2D09514200DC7B41;
+					};
+				};
+			};
+			buildConfigurationList = 0249C2FB2D09514200DC7B41 /* Build configuration list for PBXProject "AdMixerSampleApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0249C2F72D09514200DC7B41;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0249C3012D09514200DC7B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0249C2FF2D09514200DC7B41 /* AdMixerSampleApp */,
+				0249C3152D09514300DC7B41 /* AdMixerSampleAppTests */,
+				0249C31F2D09514300DC7B41 /* AdMixerSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0249C2FE2D09514200DC7B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C3142D09514300DC7B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C31E2D09514300DC7B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0075786DCA8E05CE19F568A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMixerSampleAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2026CD4A3418625396182A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B37EB9D6CDF0FB7D5D54F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMixerSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		499F02A4C396E21071903E2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18C7855292C22CCA559893C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C697A669F93C1CF07D544768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0C75A7F8663BF68E0360EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp-AdMixerSampleAppUITests/Pods-AdMixerSampleApp-AdMixerSampleAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0249C2FC2D09514200DC7B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C3122D09514300DC7B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C31C2D09514300DC7B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0249C3182D09514300DC7B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0249C2FF2D09514200DC7B41 /* AdMixerSampleApp */;
+			targetProxy = 0249C3172D09514300DC7B41 /* PBXContainerItemProxy */;
+		};
+		0249C3222D09514300DC7B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0249C2FF2D09514200DC7B41 /* AdMixerSampleApp */;
+			targetProxy = 0249C3212D09514300DC7B41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0249C32A2D09514300DC7B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1E646DAA72C83B3240D9DA /* Pods-AdMixerSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D3ZQUU66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdMixerSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0249C32B2D09514300DC7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079C8F1F7AA3F9CAEFEA2F9B /* Pods-AdMixerSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D3ZQUU66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdMixerSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0249C32C2D09514300DC7B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0249C32D2D09514300DC7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0249C32F2D09514300DC7B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FEE3B4F7AA955409148A52 /* Pods-AdMixerSampleAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D3ZQUU66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMixerSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdMixerSampleApp";
+			};
+			name = Debug;
+		};
+		0249C3302D09514300DC7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1453430685756A1E30CA21 /* Pods-AdMixerSampleAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D3ZQUU66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdMixerSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdMixerSampleApp";
+			};
+			name = Release;
+		};
+		0249C3322D09514300DC7B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E169D8C1C73913F9CF6EAD2 /* Pods-AdMixerSampleApp-AdMixerSampleAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D3ZQUU66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdMixerSampleApp;
+			};
+			name = Debug;
+		};
+		0249C3332D09514300DC7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9704243F4C2FB50473E8A06B /* Pods-AdMixerSampleApp-AdMixerSampleAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6D3ZQUU66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdMixerSampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0249C2FB2D09514200DC7B41 /* Build configuration list for PBXProject "AdMixerSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C32C2D09514300DC7B41 /* Debug */,
+				0249C32D2D09514300DC7B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0249C3292D09514300DC7B41 /* Build configuration list for PBXNativeTarget "AdMixerSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C32A2D09514300DC7B41 /* Debug */,
+				0249C32B2D09514300DC7B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0249C32E2D09514300DC7B41 /* Build configuration list for PBXNativeTarget "AdMixerSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C32F2D09514300DC7B41 /* Debug */,
+				0249C3302D09514300DC7B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0249C3312D09514300DC7B41 /* Build configuration list for PBXNativeTarget "AdMixerSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C3322D09514300DC7B41 /* Debug */,
+				0249C3332D09514300DC7B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0249C2F82D09514200DC7B41 /* Project object */;
+}
