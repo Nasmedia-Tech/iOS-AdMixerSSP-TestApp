@@ -537,6 +537,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AMMediation 
 - (void)setDebugEnabledWithIsEnabled:(BOOL)isEnabled;
 - (void)initializeWithMediaKey:(NSInteger)mediaKey adunitID:(NSSet<NSNumber *> * _Nonnull)adunitID;
 - (void)setWithIsEnabled:(BOOL)isEnabled;
+- (void)setAdMixerDebugEnabledWithIsEnabled:(BOOL)isEnabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

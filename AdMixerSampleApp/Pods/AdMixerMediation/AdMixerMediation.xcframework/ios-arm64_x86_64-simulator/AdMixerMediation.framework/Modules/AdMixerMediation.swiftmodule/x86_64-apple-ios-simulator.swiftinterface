@@ -49,6 +49,7 @@ extension AdMixerMediation.AMMBannerView : GoogleMobileAds.GADBannerViewDelegate
   @objc public func setDebugEnabled(isEnabled: Swift.Bool)
   @objc public func initialize(mediaKey: Swift.Int, adunitID: Swift.Set<Swift.Int>)
   @objc public func set(isEnabled: Swift.Bool)
+  @objc public func setAdMixerDebugEnabled(isEnabled: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }

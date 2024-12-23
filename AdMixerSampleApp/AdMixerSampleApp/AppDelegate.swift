@@ -7,7 +7,6 @@
 
 import UIKit
 import AdMixerMediation
-import AdMixer
 import GoogleMobileAds
 
 @main
@@ -28,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             ]
         )
         GADMobileAds.sharedInstance().start(completionHandler: nil)
-        AdMixerSDK.shared.debug(isEnabled: true)
+        AMMediation.shared.setAdMixerDebugEnabled(isEnabled: true)
         
         return true
     }

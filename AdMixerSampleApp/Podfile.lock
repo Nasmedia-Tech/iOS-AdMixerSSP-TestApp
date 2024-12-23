@@ -1,37 +1,28 @@
 PODS:
-  - AdMixer (0.5.10)
-  - AdMixerMediation (0.3.8):
+  - AdMixer (1.0.1)
+  - AdMixerMediation (1.0.0):
     - AdMixer
     - Google-Mobile-Ads-SDK (= 11.10.0)
-    - GoogleMobileAdsMediationFacebook
-  - FBAudienceNetwork (6.16.0)
   - Google-Mobile-Ads-SDK (11.10.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleMobileAdsMediationFacebook (6.16.0.0):
-    - FBAudienceNetwork (= 6.16.0)
-    - Google-Mobile-Ads-SDK (~> 11.0)
   - GoogleUserMessagingPlatform (2.7.0)
 
 DEPENDENCIES:
-  - AdMixerMediation (= 0.3.8)
+  - AdMixerMediation
 
 SPEC REPOS:
   trunk:
     - AdMixer
     - AdMixerMediation
-    - FBAudienceNetwork
     - Google-Mobile-Ads-SDK
-    - GoogleMobileAdsMediationFacebook
     - GoogleUserMessagingPlatform
 
 SPEC CHECKSUMS:
-  AdMixer: 0b09b99e6e6d6e85e30c36ce9d1421bd59261f6f
-  AdMixerMediation: 4833e3cbeff8b4ffcb80734f01efb13438a7e567
-  FBAudienceNetwork: d1670939884e3a2e0ad98dca98d7e0c841417228
+  AdMixer: 104228abff6f95955c45c49fc35edb251e449080
+  AdMixerMediation: 61fc0665f878d02d59fec515aee1b6dd4037f2eb
   Google-Mobile-Ads-SDK: 13e6e98edfd78ad8d8a791edb927658cc260a56f
-  GoogleMobileAdsMediationFacebook: 234b9cecc2f9c751567a71d035974c00e6803777
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
 
-PODFILE CHECKSUM: 666a686c73c307173bee1486f83bf2593f116231
+PODFILE CHECKSUM: fdfa0de0e30e5f00a956ad420ee3496bb95505f2
 
 COCOAPODS: 1.16.2

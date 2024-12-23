@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AdMixer",
+    "printedName": "AdMixer",
     "children": [
       {
         "kind": "Import",
@@ -98,6 +98,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -155,8 +171,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -285,8 +302,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -407,6 +425,7 @@
             "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC6adInfo04rooteF09videoTypeAcA07AMVideoaH0C_So06UIViewF0CAA0dK0Otcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -438,6 +457,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -465,6 +485,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -572,6 +593,7 @@
             "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC04loadA07success4failyyycSg_ys5Error_pSgcSgtF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -624,6 +646,7 @@
             "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC04showA08animated7successySb_yycSgtF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -679,6 +702,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -690,6 +714,7 @@
         "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -702,6 +727,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1259,6 +1298,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1344,6 +1397,7 @@
             "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC6adInfo04rootdE0AcA07AMVideoaG0C_So06UIViewE0Ctcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1365,6 +1419,7 @@
             "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC04loadA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1392,6 +1447,7 @@
             "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC04showA08animatedySb_tF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1434,6 +1490,7 @@
             "overriding": true,
             "implicit": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1445,6 +1502,7 @@
         "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -1459,6 +1517,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1764,6 +1836,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2267,6 +2353,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3612,6 +3712,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3692,6 +3806,7 @@
             "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC6adInfo04rootdE0AcA0caG0C_So06UIViewE0Ctcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3713,6 +3828,7 @@
             "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC04loadA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3740,6 +3856,7 @@
             "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC04showA08animatedySb_tF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3782,6 +3899,7 @@
             "overriding": true,
             "implicit": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3793,6 +3911,7 @@
         "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -3807,6 +3926,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4100,6 +4233,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4448,6 +4595,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4525,6 +4686,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4637,6 +4812,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4843,6 +5032,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4951,6 +5154,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5056,6 +5273,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5186,8 +5417,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -5296,6 +5528,7 @@
             "mangledName": "$s7AdMixer07AMVideoA4ViewC6adInfoAcA0caF0C_tcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5321,6 +5554,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5343,6 +5577,7 @@
             "mangledName": "$s7AdMixer07AMVideoA4ViewC04loadA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5364,6 +5599,7 @@
             "mangledName": "$s7AdMixer07AMVideoA4ViewC04showA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5397,6 +5633,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -5408,6 +5645,7 @@
         "mangledName": "$s7AdMixer07AMVideoA4ViewC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -5421,6 +5659,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5752,6 +6004,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5802,8 +6070,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5910,6 +6179,7 @@
             "mangledName": "$s7AdMixer08AMBannerA4ViewC6adInfoAcA0caF0C_tcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5931,6 +6201,7 @@
             "mangledName": "$s7AdMixer08AMBannerA4ViewC04loadA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5952,6 +6223,7 @@
             "mangledName": "$s7AdMixer08AMBannerA4ViewC09loadHouseA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5973,6 +6245,7 @@
             "mangledName": "$s7AdMixer08AMBannerA4ViewC04showA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6006,6 +6279,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6063,6 +6337,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -6109,6 +6384,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6121,6 +6397,7 @@
         "mangledName": "$s7AdMixer08AMBannerA4ViewC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -6134,6 +6411,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6245,8 +6536,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl"
             ],
@@ -6361,6 +6653,7 @@
             "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC6adInfo04rootdE0AcA012AMFullBanneraG0C_So06UIViewE0Ctcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6386,6 +6679,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -6413,6 +6707,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -6461,6 +6756,7 @@
             "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC04loadA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6482,6 +6778,7 @@
             "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC09loadHouseA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6509,6 +6806,7 @@
             "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC04showA08animatedySb_tF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6564,6 +6862,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6621,6 +6920,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -6667,6 +6967,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6679,6 +6980,7 @@
         "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -6692,6 +6994,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7021,6 +7337,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7141,6 +7471,22 @@
         "moduleName": "AdMixer",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8045,6 +8391,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8698,6 +9058,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9068,6 +9442,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -9708,6 +10096,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10112,6 +10514,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -10605,6 +11021,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11404,6 +11834,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11458,6 +11902,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -11489,8 +11934,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11600,8 +12046,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -11713,6 +12160,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -11724,6 +12172,7 @@
         "mangledName": "$s7AdMixer11AMMediaViewC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -11736,6 +12185,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11964,6 +12427,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12184,6 +12661,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12596,6 +13087,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -13153,6 +13658,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -13368,6 +13887,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13924,6 +14457,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -14342,6 +14891,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -14721,6 +15284,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15066,6 +15643,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -15322,6 +15913,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -15785,6 +16390,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -15844,8 +16463,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -15955,8 +16575,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -16057,8 +16678,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -16169,8 +16791,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -16281,8 +16904,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -16393,8 +17017,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -16505,8 +17130,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -16617,8 +17243,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC",
@@ -16738,8 +17365,9 @@
             "moduleName": "AdMixer",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -16844,6 +17472,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16865,6 +17494,7 @@
             "mangledName": "$s7AdMixer08AMNativeA4ViewC04loadA0yyF",
             "moduleName": "AdMixer",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16898,6 +17528,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -16909,6 +17540,7 @@
         "mangledName": "$s7AdMixer08AMNativeA4ViewC",
         "moduleName": "AdMixer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -16921,6 +17553,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17289,6 +17935,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -17554,6 +18214,22 @@
         "moduleName": "AdMixer",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17892,6 +18568,22 @@
         "moduleName": "AdMixer",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -18216,6 +18908,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -18462,6 +19168,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19449,6 +20169,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -19568,6 +20302,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -20094,13 +20842,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/AMBaseVideoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 124,
-      "length": 25,
-      "value": "\"AdMixer.AMBaseVideoViewController\""
-    },
-    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AdFormat.swift",
       "kind": "StringLiteral",
       "offset": 145,
@@ -20120,1077 +20861,6 @@
       "offset": 197,
       "length": 8,
       "value": "\"native\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AdFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 145,
-      "length": 8,
-      "value": "\"banner\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AdFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 7,
-      "value": "\"video\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AdFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 8,
-      "value": "\"native\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/AMRewardAdViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 24,
-      "value": "\"AdMixer.AMRewardAdViewController\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 9,
-      "value": "\"iPod1,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 9,
-      "value": "\"iPod2,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 418,
-      "length": 9,
-      "value": "\"iPod3,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 481,
-      "length": 9,
-      "value": "\"iPod4,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 9,
-      "value": "\"iPod5,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
-      "length": 9,
-      "value": "\"iPod7,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 9,
-      "value": "\"iPod9,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 11,
-      "value": "\"iPhone1,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 791,
-      "length": 11,
-      "value": "\"iPhone1,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 843,
-      "length": 11,
-      "value": "\"iPhone2,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 897,
-      "length": 11,
-      "value": "\"iPhone3,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 956,
-      "length": 11,
-      "value": "\"iPhone3,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 11,
-      "value": "\"iPhone3,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1081,
-      "length": 11,
-      "value": "\"iPhone4,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1135,
-      "length": 11,
-      "value": "\"iPhone5,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1192,
-      "length": 11,
-      "value": "\"iPhone5,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1247,
-      "length": 11,
-      "value": "\"iPhone5,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1305,
-      "length": 11,
-      "value": "\"iPhone5,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1360,
-      "length": 11,
-      "value": "\"iPhone6,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
-      "length": 11,
-      "value": "\"iPhone6,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1473,
-      "length": 11,
-      "value": "\"iPhone7,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1523,
-      "length": 11,
-      "value": "\"iPhone7,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1574,
-      "length": 11,
-      "value": "\"iPhone8,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1630,
-      "length": 11,
-      "value": "\"iPhone8,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1681,
-      "length": 11,
-      "value": "\"iPhone8,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1749,
-      "length": 11,
-      "value": "\"iPhone9,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1805,
-      "length": 11,
-      "value": "\"iPhone9,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1878,
-      "length": 11,
-      "value": "\"iPhone9,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 1939,
-      "length": 11,
-      "value": "\"iPhone9,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2008,
-      "length": 12,
-      "value": "\"iPhone10,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2066,
-      "length": 12,
-      "value": "\"iPhone10,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2141,
-      "length": 12,
-      "value": "\"iPhone10,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2204,
-      "length": 12,
-      "value": "\"iPhone10,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2268,
-      "length": 12,
-      "value": "\"iPhone10,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2326,
-      "length": 12,
-      "value": "\"iPhone10,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2403,
-      "length": 12,
-      "value": "\"iPhone11,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2468,
-      "length": 12,
-      "value": "\"iPhone11,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2537,
-      "length": 12,
-      "value": "\"iPhone11,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2600,
-      "length": 12,
-      "value": "\"iPhone11,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2653,
-      "length": 12,
-      "value": "\"iPhone12,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2710,
-      "length": 12,
-      "value": "\"iPhone12,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2771,
-      "length": 12,
-      "value": "\"iPhone12,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2839,
-      "length": 12,
-      "value": "\"iPhone12,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2897,
-      "length": 12,
-      "value": "\"iPhone13,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 2950,
-      "length": 12,
-      "value": "\"iPhone13,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3007,
-      "length": 12,
-      "value": "\"iPhone13,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3068,
-      "length": 12,
-      "value": "\"iPhone13,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3126,
-      "length": 12,
-      "value": "\"iPhone14,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3179,
-      "length": 12,
-      "value": "\"iPhone14,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3236,
-      "length": 12,
-      "value": "\"iPhone14,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3296,
-      "length": 12,
-      "value": "\"iPhone14,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3364,
-      "length": 12,
-      "value": "\"iPhone14,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3417,
-      "length": 12,
-      "value": "\"iPhone14,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3475,
-      "length": 12,
-      "value": "\"iPhone14,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3532,
-      "length": 12,
-      "value": "\"iPhone15,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3593,
-      "length": 12,
-      "value": "\"iPhone15,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3646,
-      "length": 12,
-      "value": "\"iPhone15,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3704,
-      "length": 12,
-      "value": "\"iPhone15,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3761,
-      "length": 12,
-      "value": "\"iPhone16,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3822,
-      "length": 12,
-      "value": "\"iPhone16,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3888,
-      "length": 9,
-      "value": "\"iPad1,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3932,
-      "length": 9,
-      "value": "\"iPad2,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 3979,
-      "length": 9,
-      "value": "\"iPad2,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4039,
-      "length": 9,
-      "value": "\"iPad2,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4091,
-      "length": 9,
-      "value": "\"iPad2,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4143,
-      "length": 9,
-      "value": "\"iPad2,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4205,
-      "length": 9,
-      "value": "\"iPad2,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4270,
-      "length": 9,
-      "value": "\"iPad2,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4319,
-      "length": 9,
-      "value": "\"iPad3,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4379,
-      "length": 9,
-      "value": "\"iPad3,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4438,
-      "length": 9,
-      "value": "\"iPad3,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4487,
-      "length": 9,
-      "value": "\"iPad3,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4546,
-      "length": 9,
-      "value": "\"iPad3,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4608,
-      "length": 9,
-      "value": "\"iPad3,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4659,
-      "length": 9,
-      "value": "\"iPad4,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4714,
-      "length": 9,
-      "value": "\"iPad4,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4771,
-      "length": 9,
-      "value": "\"iPad4,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4825,
-      "length": 9,
-      "value": "\"iPad4,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4883,
-      "length": 9,
-      "value": "\"iPad4,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4943,
-      "length": 9,
-      "value": "\"iPad4,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 4997,
-      "length": 9,
-      "value": "\"iPad4,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5055,
-      "length": 9,
-      "value": "\"iPad4,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5115,
-      "length": 9,
-      "value": "\"iPad4,9\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5169,
-      "length": 9,
-      "value": "\"iPad5,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5227,
-      "length": 9,
-      "value": "\"iPad5,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5280,
-      "length": 9,
-      "value": "\"iPad5,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5337,
-      "length": 9,
-      "value": "\"iPad5,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5396,
-      "length": 9,
-      "value": "\"iPad6,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5459,
-      "length": 9,
-      "value": "\"iPad6,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5519,
-      "length": 9,
-      "value": "\"iPad6,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5583,
-      "length": 9,
-      "value": "\"iPad6,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5646,
-      "length": 10,
-      "value": "\"iPad6,11\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5714,
-      "length": 10,
-      "value": "\"iPad6,12\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5790,
-      "length": 9,
-      "value": "\"iPad7,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5869,
-      "length": 9,
-      "value": "\"iPad7,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 5935,
-      "length": 9,
-      "value": "\"iPad7,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6005,
-      "length": 9,
-      "value": "\"iPad7,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6067,
-      "length": 9,
-      "value": "\"iPad7,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6133,
-      "length": 9,
-      "value": "\"iPad7,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6196,
-      "length": 10,
-      "value": "\"iPad7,11\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6264,
-      "length": 10,
-      "value": "\"iPad7,12\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6323,
-      "length": 9,
-      "value": "\"iPad8,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6381,
-      "length": 9,
-      "value": "\"iPad8,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6443,
-      "length": 9,
-      "value": "\"iPad8,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6505,
-      "length": 9,
-      "value": "\"iPad8,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6565,
-      "length": 9,
-      "value": "\"iPad8,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6625,
-      "length": 9,
-      "value": "\"iPad8,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6689,
-      "length": 9,
-      "value": "\"iPad8,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6753,
-      "length": 9,
-      "value": "\"iPad8,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6826,
-      "length": 9,
-      "value": "\"iPad8,9\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6904,
-      "length": 10,
-      "value": "\"iPad8,10\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 6981,
-      "length": 10,
-      "value": "\"iPad8,11\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7062,
-      "length": 10,
-      "value": "\"iPad8,12\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7120,
-      "length": 10,
-      "value": "\"iPad11,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7182,
-      "length": 10,
-      "value": "\"iPad11,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7250,
-      "length": 10,
-      "value": "\"iPad11,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7322,
-      "length": 10,
-      "value": "\"iPad11,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7386,
-      "length": 10,
-      "value": "\"iPad11,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7454,
-      "length": 10,
-      "value": "\"iPad11,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7522,
-      "length": 10,
-      "value": "\"iPad13,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7594,
-      "length": 10,
-      "value": "\"iPad13,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7669,
-      "length": 10,
-      "value": "\"iPad13,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7744,
-      "length": 10,
-      "value": "\"iPad13,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7823,
-      "length": 10,
-      "value": "\"iPad13,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7902,
-      "length": 10,
-      "value": "\"iPad13,7\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 7977,
-      "length": 10,
-      "value": "\"iPad13,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8052,
-      "length": 10,
-      "value": "\"iPad13,9\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8132,
-      "length": 11,
-      "value": "\"iPad13,10\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8213,
-      "length": 11,
-      "value": "\"iPad13,11\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8283,
-      "length": 10,
-      "value": "\"iPad14,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8356,
-      "length": 10,
-      "value": "\"iPad14,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8420,
-      "length": 10,
-      "value": "\"iPad12,1\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8488,
-      "length": 10,
-      "value": "\"iPad12,2\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8557,
-      "length": 11,
-      "value": "\"iPad13,16\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8631,
-      "length": 11,
-      "value": "\"iPad13,17\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8686,
-      "length": 11,
-      "value": "\"iPad13,18\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8741,
-      "length": 11,
-      "value": "\"iPad13,19\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8806,
-      "length": 10,
-      "value": "\"iPad14,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8870,
-      "length": 10,
-      "value": "\"iPad14,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 8936,
-      "length": 10,
-      "value": "\"iPad14,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9002,
-      "length": 10,
-      "value": "\"iPad14,6\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9065,
-      "length": 10,
-      "value": "\"iPad14,8\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9132,
-      "length": 10,
-      "value": "\"iPad14,9\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9196,
-      "length": 11,
-      "value": "\"iPad14,10\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9265,
-      "length": 11,
-      "value": "\"iPad14,11\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9329,
-      "length": 10,
-      "value": "\"iPad16,3\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9396,
-      "length": 10,
-      "value": "\"iPad16,4\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9459,
-      "length": 10,
-      "value": "\"iPad16,5\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 9526,
-      "length": 10,
-      "value": "\"iPad16,6\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/DeviceCode.swift",
@@ -22243,20 +21913,6 @@
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Data\/Response\/AMNative.swift",
-      "kind": "StringLiteral",
-      "offset": 912,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Data\/Response\/AMNative.swift",
-      "kind": "StringLiteral",
-      "offset": 45,
-      "length": 8,
-      "value": "\"AdMixer.AMNative\""
-    },
-    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
@@ -22479,461 +22135,6 @@
       "offset": 1409,
       "length": 3,
       "value": "901"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 170,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 260,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 292,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 346,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 3,
-      "value": "202"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 448,
-      "length": 3,
-      "value": "203"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 3,
-      "value": "204"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 520,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 552,
-      "length": 3,
-      "value": "301"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 587,
-      "length": 3,
-      "value": "302"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 3,
-      "value": "303"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 671,
-      "length": 3,
-      "value": "304"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 705,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 3,
-      "value": "402"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 804,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 846,
-      "length": 3,
-      "value": "405"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 883,
-      "length": 3,
-      "value": "408"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 931,
-      "length": 3,
-      "value": "409"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 980,
-      "length": 3,
-      "value": "410"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1020,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1061,
-      "length": 3,
-      "value": "501"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1098,
-      "length": 3,
-      "value": "502"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1143,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1183,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1215,
-      "length": 3,
-      "value": "601"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1255,
-      "length": 3,
-      "value": "602"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 3,
-      "value": "603"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1346,
-      "length": 3,
-      "value": "604"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1376,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1409,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 170,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 260,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 292,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 346,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 3,
-      "value": "202"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 448,
-      "length": 3,
-      "value": "203"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 3,
-      "value": "204"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 520,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 552,
-      "length": 3,
-      "value": "301"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 587,
-      "length": 3,
-      "value": "302"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 3,
-      "value": "303"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 671,
-      "length": 3,
-      "value": "304"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 705,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 3,
-      "value": "402"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 804,
-      "length": 3,
-      "value": "403"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 846,
-      "length": 3,
-      "value": "405"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 883,
-      "length": 3,
-      "value": "408"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 931,
-      "length": 3,
-      "value": "409"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 980,
-      "length": 3,
-      "value": "410"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1020,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1061,
-      "length": 3,
-      "value": "501"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1098,
-      "length": 3,
-      "value": "502"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1143,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1183,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1215,
-      "length": 3,
-      "value": "601"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1255,
-      "length": 3,
-      "value": "602"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 3,
-      "value": "603"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1346,
-      "length": 3,
-      "value": "604"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1376,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastErrorCodes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1409,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/AMVideoAdViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 169,
-      "length": 23,
-      "value": "\"AdMixer.AMVideoAdViewController\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastParser.swift",
@@ -22986,73 +22187,17 @@
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastCompanionAds.swift",
-      "kind": "StringLiteral",
-      "offset": 895,
-      "length": 5,
-      "value": "\"all\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastCompanionAds.swift",
-      "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 5,
-      "value": "\"any\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastCompanionAds.swift",
-      "kind": "StringLiteral",
-      "offset": 1552,
-      "length": 6,
-      "value": "\"none\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastCompanionAds.swift",
       "kind": "Array",
       "offset": 1705,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Common\/AMAdInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 120,
-      "length": 8,
-      "value": "\"AdMixer.AMAdInfo\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Common\/AMAdInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 331,
-      "length": 14,
-      "value": "\"AdMixer.AMBannerAdInfo\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Common\/AMAdInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 18,
-      "value": "\"AdMixer.AMFullBannerAdInfo\""
-    },
-    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Data\/Response\/NativeDTO.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 15,
       "value": "\"eventtrackers\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Data\/Response\/NativeDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 15,
-      "value": "\"eventtrackers\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/AMVideoAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 154,
-      "length": 13,
-      "value": "\"AdMixer.AMVideoAdView\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
@@ -23060,27 +22205,6 @@
       "offset": 513,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 17,
-      "value": "\"AdMixer.AMVideoPlayerView\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Banner\/AMBannerAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 14,
-      "value": "\"AdMixer.AMBannerAdView\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Banner\/Interstitial\/AMBannerAdViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 24,
-      "value": "\"AdMixer.AMBannerAdViewController\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastCompanionCreative.swift",
@@ -23608,32 +22732,11 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Native\/AMMediaView.swift",
-      "kind": "StringLiteral",
-      "offset": 27,
-      "length": 11,
-      "value": "\"AdMixer.AMMediaView\""
-    },
-    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastVideoClick.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 4,
       "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastVideoClick.swift",
-      "kind": "StringLiteral",
-      "offset": 233,
-      "length": 15,
-      "value": "\"ClickTracking\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastVideoClick.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 14,
-      "value": "\"ClickThrough\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastVideoClick.swift",
@@ -23676,13 +22779,6 @@
       "offset": 435,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/TimeCountView.swift",
-      "kind": "StringLiteral",
-      "offset": 138,
-      "length": 13,
-      "value": "\"AdMixer.TimeCountView\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/Log.swift",
@@ -23769,13 +22865,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/SpeakerButton.swift",
-      "kind": "StringLiteral",
-      "offset": 138,
-      "length": 13,
-      "value": "\"AdMixer.SpeakerButton\""
-    },
-    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastMediaFiles.swift",
       "kind": "Array",
       "offset": 194,
@@ -23816,13 +22905,6 @@
       "offset": 288,
       "length": 14,
       "value": "\"VASTAdTagURI\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Native\/AMNativeAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 32,
-      "length": 14,
-      "value": "\"AdMixer.AMNativeAdView\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdMixerSDK.swift",
