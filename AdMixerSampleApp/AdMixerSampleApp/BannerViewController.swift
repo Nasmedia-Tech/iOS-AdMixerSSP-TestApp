@@ -19,7 +19,7 @@ class BannerViewController: UIViewController {
         ammbanner = AMMBannerView(width: view.frame.size.width)
         addBannerViewToView(ammbanner!)
         ammbanner?.adUnitID = Constants.BannerAdUnit
-        
+        ammbanner?.viewController = self
         ammbanner?.delegate = self
         ammbanner?.load()
     }

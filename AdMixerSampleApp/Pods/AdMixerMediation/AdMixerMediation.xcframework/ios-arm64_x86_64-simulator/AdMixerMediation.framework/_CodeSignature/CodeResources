@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AdMixerMediation-Swift.h</key>
 		<data>
-		jOWwsNYZzjUKM9mdwIE4aLkBwi0=
+		nBJFo8vdq8AY0JAS4vnRNyi4IOk=
 		</data>
 		<key>Headers/AdMixerMediation-umbrella.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZpO+RKgMX1yiTZpdlJamzWZTwlQ=
+		MvWS+kri2u5aLGsw+xh3LAQDcf8=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UQypnxJT4/v+C/tKXuDVBoTGKSA=
+		QfVAuGsu7YZ3UPsUmAKHZSVBu34=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QgWjY9R1LZJUhZvHmf56DLW6YzU=
+		5dpSHbl3yTBGQiYTFCg0MfaVhiQ=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9SkzwmcL77O/AgsHeW+oSyINbKg=
+		qA1uSF4T4W1RaNP1zutL9SvUuNo=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QgWjY9R1LZJUhZvHmf56DLW6YzU=
+		5dpSHbl3yTBGQiYTFCg0MfaVhiQ=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sbgopsOeVuA4hxXdTlTmHMoQDSI=
+		Wt6NE9Dq1iA4cF56ls+GNsKBrr4=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UQypnxJT4/v+C/tKXuDVBoTGKSA=
+		QfVAuGsu7YZ3UPsUmAKHZSVBu34=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zbxEj/YAtCYamwF1k/odr6qmWk8=
+		YdF+cuZjCpXa2/3rJfxYLBJR0b8=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UzsBzJAY4VwV4nhLVbf1BH9J7Ig=
+		kIquq/YA4pZT9UZHSQMIciDXtms=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zbxEj/YAtCYamwF1k/odr6qmWk8=
+		YdF+cuZjCpXa2/3rJfxYLBJR0b8=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jhnbubTOWs3ibOd0JydF1J8/79E=
+		/aNsmHc/7Lw77R6HhWVmR6GHG+0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,21 +65,13 @@
 	<dict>
 		<key>Headers/AdMixerMediation-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jOWwsNYZzjUKM9mdwIE4aLkBwi0=
-			</data>
 			<key>hash2</key>
 			<data>
-			kizXRe8ZwV7VUphaXVB48ifbIjvqq5P3m+BwtADN3+c=
+			ZJDIpN+/NnYm7y8zhD64ZkFLdiePFk9a0HH1ad5y/rc=
 			</data>
 		</dict>
 		<key>Headers/AdMixerMediation-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Pnwm1KwlxqyJuEmsCNC+3EXRv5s=
-			</data>
 			<key>hash2</key>
 			<data>
 			POWbq2ZlYPfxXuTOw9lGJz7TkzrtIFsKoTfiZ858/gE=
@@ -87,120 +79,76 @@
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UQypnxJT4/v+C/tKXuDVBoTGKSA=
-			</data>
 			<key>hash2</key>
 			<data>
-			QXJeB6eZ++CONaaPOq0eO7PjaQsCamJ3FckdPlMAiA8=
+			uKlQuqemxWcvRjUW+K9ckuoJoiWUTwdX2ntSEO/hFxM=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QgWjY9R1LZJUhZvHmf56DLW6YzU=
-			</data>
 			<key>hash2</key>
 			<data>
-			+2b0OH9CoIl5hcyNJoKX+kGAgtLJtNvINV1Ha90MAXQ=
+			anobCqyyIh4j3ame3DOek4m48ry2i6hsteAmKcbx2TQ=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9SkzwmcL77O/AgsHeW+oSyINbKg=
-			</data>
 			<key>hash2</key>
 			<data>
-			IzxV4FBZHcu3pdv+bZfePhbda16qHRacdErlG1A0lK4=
+			E4mOCjpr5jnMDf7Uw17D5LIXP+jr0YcJ6wt7/BnoQVk=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QgWjY9R1LZJUhZvHmf56DLW6YzU=
-			</data>
 			<key>hash2</key>
 			<data>
-			+2b0OH9CoIl5hcyNJoKX+kGAgtLJtNvINV1Ha90MAXQ=
+			anobCqyyIh4j3ame3DOek4m48ry2i6hsteAmKcbx2TQ=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sbgopsOeVuA4hxXdTlTmHMoQDSI=
-			</data>
 			<key>hash2</key>
 			<data>
-			9oVAhovn3O7MS7N+tUTrPI8cq+RM5U/numw3Z0AHBtQ=
+			HntAipSdU3Snl+gB6vw4kx+COgtkIn0YCVAkgoFC4cY=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UQypnxJT4/v+C/tKXuDVBoTGKSA=
-			</data>
 			<key>hash2</key>
 			<data>
-			QXJeB6eZ++CONaaPOq0eO7PjaQsCamJ3FckdPlMAiA8=
+			uKlQuqemxWcvRjUW+K9ckuoJoiWUTwdX2ntSEO/hFxM=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zbxEj/YAtCYamwF1k/odr6qmWk8=
-			</data>
 			<key>hash2</key>
 			<data>
-			dB7IxKwLXNIw1yRiXPBZUVYEBZDJnnTx+MT17Ql/BbY=
+			84eQMR14Z7mo+F7mZegcPPGHLbJWxIws0dqlYFUau2w=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UzsBzJAY4VwV4nhLVbf1BH9J7Ig=
-			</data>
 			<key>hash2</key>
 			<data>
-			8okpicux9i6hFQej2xF3zvVDKtbMHaW0eXl709a3RDM=
+			64i+/qjtmYKrgn7E2UK8NCQxyc4a3OdLYlJrAq4QRJw=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zbxEj/YAtCYamwF1k/odr6qmWk8=
-			</data>
 			<key>hash2</key>
 			<data>
-			dB7IxKwLXNIw1yRiXPBZUVYEBZDJnnTx+MT17Ql/BbY=
+			84eQMR14Z7mo+F7mZegcPPGHLbJWxIws0dqlYFUau2w=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jhnbubTOWs3ibOd0JydF1J8/79E=
-			</data>
 			<key>hash2</key>
 			<data>
-			AVxGlhAWFEKKd5+6pfSKFZDaKdguJu2Ju/Z6h4wlI7I=
+			gkNTbS1/YQ/ereFWzf2BRBFvTJc8pHja+1e3C7erf6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iGti4p/6agBIfs+T4+BQHJOoaxY=
-			</data>
 			<key>hash2</key>
 			<data>
 			K9QUK6awszUvaPR6F3KOTgvNzVv+M6GHwqElaku3SqA=

@@ -1,1 +1,2 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdMixer.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdMixerMediation.framework

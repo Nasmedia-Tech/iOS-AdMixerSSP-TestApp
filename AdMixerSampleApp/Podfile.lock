@@ -1,7 +1,9 @@
 PODS:
-  - AdMixer (1.0.1)
-  - AdMixerMediation (1.0.0):
+  - AdMixer (1.0.4)
+  - AdMixerMediation (2.0.0):
     - AdMixer
+  - AdMixerMediationGAM (1.0.0):
+    - AdMixerMediation
     - Google-Mobile-Ads-SDK (= 11.10.0)
   - Google-Mobile-Ads-SDK (11.10.0):
     - GoogleUserMessagingPlatform (>= 1.1)
@@ -9,20 +11,23 @@ PODS:
 
 DEPENDENCIES:
   - AdMixerMediation
+  - AdMixerMediationGAM
 
 SPEC REPOS:
   trunk:
     - AdMixer
     - AdMixerMediation
+    - AdMixerMediationGAM
     - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
 
 SPEC CHECKSUMS:
-  AdMixer: 104228abff6f95955c45c49fc35edb251e449080
-  AdMixerMediation: 61fc0665f878d02d59fec515aee1b6dd4037f2eb
+  AdMixer: 312e19073b96949bc521ee683b4bfbdc105c5962
+  AdMixerMediation: 012889d7b7f2acbb4e031a1897cbf17a073cd1d7
+  AdMixerMediationGAM: 193f2f653aa63a490e8255eef1f78b60cdd04fcf
   Google-Mobile-Ads-SDK: 13e6e98edfd78ad8d8a791edb927658cc260a56f
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
 
-PODFILE CHECKSUM: fdfa0de0e30e5f00a956ad420ee3496bb95505f2
+PODFILE CHECKSUM: c225e7d9cac48a4b4f576c7b8ea90f7cc8c1f4a3
 
 COCOAPODS: 1.16.2

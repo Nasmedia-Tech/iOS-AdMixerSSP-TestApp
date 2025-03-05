@@ -177,9 +177,11 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixer/AdMixer.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixer/AdMixer.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

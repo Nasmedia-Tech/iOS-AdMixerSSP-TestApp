@@ -426,6 +426,7 @@ SWIFT_PROTOCOL("_TtP7AdMixer18AMNativeAdDelegate_")
 @optional
 - (void)didLoadNativeAdSuccessWithAmNative:(AMNative * _Nonnull)amNative;
 - (void)didLoadNativeAdFailWith:(NSError * _Nullable)error;
+- (void)didTapNativeAd;
 @end
 
 
@@ -439,12 +440,12 @@ SWIFT_CLASS("_TtC7AdMixer14AMNativeAdInfo")
 
 SWIFT_CLASS("_TtC7AdMixer14AMNativeAdView")
 @interface AMNativeAdView : UIView
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified iv_icon;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified l_headline;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified l_advertiser;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified l_description;
-@property (nonatomic, weak) IBOutlet AMMediaView * _Null_unspecified amv_media;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified b_cta;
+@property (nonatomic, weak) IBOutlet UIImageView * _Nullable iv_icon;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable l_headline;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable l_advertiser;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable l_description;
+@property (nonatomic, weak) IBOutlet AMMediaView * _Nullable amv_media;
+@property (nonatomic, weak) IBOutlet UIButton * _Nullable b_cta;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -954,6 +955,7 @@ SWIFT_PROTOCOL("_TtP7AdMixer18AMNativeAdDelegate_")
 @optional
 - (void)didLoadNativeAdSuccessWithAmNative:(AMNative * _Nonnull)amNative;
 - (void)didLoadNativeAdFailWith:(NSError * _Nullable)error;
+- (void)didTapNativeAd;
 @end
 
 
@@ -967,12 +969,12 @@ SWIFT_CLASS("_TtC7AdMixer14AMNativeAdInfo")
 
 SWIFT_CLASS("_TtC7AdMixer14AMNativeAdView")
 @interface AMNativeAdView : UIView
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified iv_icon;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified l_headline;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified l_advertiser;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified l_description;
-@property (nonatomic, weak) IBOutlet AMMediaView * _Null_unspecified amv_media;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified b_cta;
+@property (nonatomic, weak) IBOutlet UIImageView * _Nullable iv_icon;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable l_headline;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable l_advertiser;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable l_description;
+@property (nonatomic, weak) IBOutlet AMMediaView * _Nullable amv_media;
+@property (nonatomic, weak) IBOutlet UIButton * _Nullable b_cta;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;

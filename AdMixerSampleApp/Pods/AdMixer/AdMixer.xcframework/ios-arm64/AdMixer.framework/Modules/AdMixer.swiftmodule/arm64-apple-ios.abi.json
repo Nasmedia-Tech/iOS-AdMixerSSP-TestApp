@@ -87,6 +87,31 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTapNativeAd",
+            "printedName": "didTapNativeAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(pl)AMNativeAdDelegate(im)didTapNativeAd",
+            "mangledName": "$s7AdMixer08AMNativeA8DelegateP012didTapNativeA0yyF",
+            "moduleName": "AdMixer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixer.AMNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -16696,7 +16721,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UIImageView?",
                     "children": [
                       {
@@ -16731,7 +16756,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UIImageView?",
                     "children": [
                       {
@@ -16809,7 +16834,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UILabel?",
                     "children": [
                       {
@@ -16844,7 +16869,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UILabel?",
                     "children": [
                       {
@@ -16922,7 +16947,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UILabel?",
                     "children": [
                       {
@@ -16957,7 +16982,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UILabel?",
                     "children": [
                       {
@@ -17035,7 +17060,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UILabel?",
                     "children": [
                       {
@@ -17070,7 +17095,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UILabel?",
                     "children": [
                       {
@@ -17148,7 +17173,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "AdMixer.AMMediaView?",
                     "children": [
                       {
@@ -17183,7 +17208,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "AdMixer.AMMediaView?",
                     "children": [
                       {
@@ -17261,7 +17286,7 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UIButton?",
                     "children": [
                       {
@@ -17296,7 +17321,7 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
+                    "name": "Optional",
                     "printedName": "UIKit.UIButton?",
                     "children": [
                       {

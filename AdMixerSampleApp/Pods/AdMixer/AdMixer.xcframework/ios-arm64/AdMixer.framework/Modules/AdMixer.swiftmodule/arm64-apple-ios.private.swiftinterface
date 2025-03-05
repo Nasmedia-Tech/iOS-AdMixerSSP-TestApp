@@ -19,6 +19,7 @@ import os
 @objc public protocol AMNativeAdDelegate {
   @objc optional func didLoadNativeAdSuccess(amNative: AdMixer.AMNative)
   @objc optional func didLoadNativeAdFail(with error: (any Swift.Error)?)
+  @objc optional func didTapNativeAd()
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMBaseVideoViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var customParam: [Swift.String : Swift.String]?
@@ -474,12 +475,12 @@ extension AdMixer.VastWrapper : Swift.Equatable {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMNativeAdView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var adInfo: AdMixer.AMNativeAdInfo!
   @_Concurrency.MainActor @preconcurrency public var delegate: (any AdMixer.AMNativeAdDelegate)?
-  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var iv_icon: UIKit.UIImageView!
-  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_headline: UIKit.UILabel!
-  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_advertiser: UIKit.UILabel!
-  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_description: UIKit.UILabel!
-  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var amv_media: AdMixer.AMMediaView!
-  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var b_cta: UIKit.UIButton!
+  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var iv_icon: UIKit.UIImageView?
+  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_headline: UIKit.UILabel?
+  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_advertiser: UIKit.UILabel?
+  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_description: UIKit.UILabel?
+  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var amv_media: AdMixer.AMMediaView?
+  @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var b_cta: UIKit.UIButton?
   @_Concurrency.MainActor @preconcurrency public var iconImage: Swift.String? {
     get
     set

@@ -27,7 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             ]
         )
         GADMobileAds.sharedInstance().start(completionHandler: nil)
-        AMMediation.shared.setAdMixerDebugEnabled(isEnabled: true)
         
         return true
     }

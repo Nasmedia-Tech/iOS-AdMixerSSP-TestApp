@@ -1,0 +1,395 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GAMAdapter",
+        "printedName": "GAMAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadBannerAd",
+            "printedName": "loadBannerAd(bannerAdConfiguration:bannerHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerConfiguration",
+                "printedName": "AdMixerMediation.BannerConfiguration",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerHandler",
+                "printedName": "any AdMixerMediation.BannerHandler",
+                "usr": "s:16AdMixerMediation13BannerHandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdMixerMediationGAM10GAMAdapterC010loadBannerA006bannerA13Configuration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC010loadBannerA006bannerA13Configuration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "moduleName": "AdMixerMediationGAM",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitialAd",
+            "printedName": "loadInterstitialAd(bannerAdConfiguration:interstitialHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerConfiguration",
+                "printedName": "AdMixerMediation.BannerConfiguration",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InterstitialHandler",
+                "printedName": "any AdMixerMediation.InterstitialHandler",
+                "usr": "s:16AdMixerMediation19InterstitialHandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdMixerMediationGAM10GAMAdapterC016loadInterstitialA006bannerA13Configuration19interstitialHandlery0abC006BannerI0C_AG0gK0_ptF",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC016loadInterstitialA006bannerA13Configuration19interstitialHandlery0abC006BannerI0C_AG0gK0_ptF",
+            "moduleName": "AdMixerMediationGAM",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardAd",
+            "printedName": "loadRewardAd(rewardConfiguration:rewardHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardConfiguration",
+                "printedName": "AdMixerMediation.RewardConfiguration",
+                "usr": "s:16AdMixerMediation19RewardConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardHandler",
+                "printedName": "any AdMixerMediation.RewardHandler",
+                "usr": "s:16AdMixerMediation13RewardHandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdMixerMediationGAM10GAMAdapterC010loadRewardA019rewardConfiguration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC010loadRewardA019rewardConfiguration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "moduleName": "AdMixerMediationGAM",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadNativeAd",
+            "printedName": "loadNativeAd(nativeConfiguration:nativeHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeConfiguration",
+                "printedName": "AdMixerMediation.NativeConfiguration",
+                "usr": "s:16AdMixerMediation19NativeConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeHandler",
+                "printedName": "any AdMixerMediation.NativeHandler",
+                "usr": "s:16AdMixerMediation13NativeHandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19AdMixerMediationGAM10GAMAdapterC010loadNativeA019nativeConfiguration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC010loadNativeA019nativeConfiguration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "moduleName": "AdMixerMediationGAM",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GAMAdapter",
+                "printedName": "AdMixerMediationGAM.GAMAdapter",
+                "usr": "s:19AdMixerMediationGAM10GAMAdapterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19AdMixerMediationGAM10GAMAdapterCACycfc",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterCACycfc",
+            "moduleName": "AdMixerMediationGAM",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19AdMixerMediationGAM10GAMAdapterC",
+        "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC",
+        "moduleName": "AdMixerMediationGAM",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "c:@M@AdMixerMediation@objc(cs)Adapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AdMixerMediation.Adapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediationGAM"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAManagerInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 54,
+      "length": 23,
+      "value": "\"AdMixerMediationGAM.GAManagerInterstitialAd\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAMBannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 54,
+      "length": 11,
+      "value": "\"AdMixerMediationGAM.GAMBannerAd\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAMNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 54,
+      "length": 11,
+      "value": "\"AdMixerMediationGAM.GAMNativeAd\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAMRewardAd.swift",
+      "kind": "StringLiteral",
+      "offset": 54,
+      "length": 11,
+      "value": "\"AdMixerMediationGAM.GAMRewardAd\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Utils\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 9,
+      "value": "\"Network\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Utils\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Utils\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Utils\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 7,
+      "value": "\"Error\""
+    }
+  ]
+}
