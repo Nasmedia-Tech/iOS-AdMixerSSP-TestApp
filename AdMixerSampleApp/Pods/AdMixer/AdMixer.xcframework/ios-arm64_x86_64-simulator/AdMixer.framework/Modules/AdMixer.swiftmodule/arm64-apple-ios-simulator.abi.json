@@ -457,39 +457,6 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Function",
-            "name": "viewDidDisappear",
-            "printedName": "viewDidDisappear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AdMixer@objc(cs)AMBaseVideoViewController(im)viewDidDisappear:",
-            "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC16viewDidDisappearyySbF",
-            "moduleName": "AdMixer",
-            "overriding": true,
-            "objc_name": "viewDidDisappear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "supportedInterfaceOrientations",
             "printedName": "supportedInterfaceOrientations",
@@ -6076,17 +6043,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixer.AMBannerAdDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMBannerAdDelegate",
-                    "printedName": "any AdMixer.AMBannerAdDelegate",
-                    "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixer.AMBannerAdDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -6098,8 +6056,10 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -6373,7 +6333,7 @@
           {
             "kind": "Function",
             "name": "webView",
-            "printedName": "webView(_:didFinish:)",
+            "printedName": "webView(_:didCommit:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6402,10 +6362,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdView(im)webView:didFinishNavigation:",
-            "mangledName": "$s7AdMixer08AMBannerA4ViewC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdView(im)webView:didCommitNavigation:",
+            "mangledName": "$s7AdMixer08AMBannerA4ViewC03webD0_9didCommitySo05WKWebD0C_So12WKNavigationCSgtF",
             "moduleName": "AdMixer",
-            "objc_name": "webView:didFinishNavigation:",
+            "objc_name": "webView:didCommitNavigation:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -6956,7 +6916,7 @@
           {
             "kind": "Function",
             "name": "webView",
-            "printedName": "webView(_:didFinish:)",
+            "printedName": "webView(_:didCommit:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6985,10 +6945,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdViewController(im)webView:didFinishNavigation:",
-            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdViewController(im)webView:didCommitNavigation:",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC03webD0_9didCommitySo05WKWebD0C_So12WKNavigationCSgtF",
             "moduleName": "AdMixer",
-            "objc_name": "webView:didFinishNavigation:",
+            "objc_name": "webView:didCommitNavigation:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -16581,17 +16541,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixer.AMNativeAdDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMNativeAdDelegate",
-                    "printedName": "any AdMixer.AMNativeAdDelegate",
-                    "usr": "c:@M@AdMixer@objc(pl)AMNativeAdDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixer.AMNativeAdDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -16603,8 +16554,10 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -22227,7 +22180,7 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 513,
+      "offset": 524,
       "length": 5,
       "value": "false"
     },

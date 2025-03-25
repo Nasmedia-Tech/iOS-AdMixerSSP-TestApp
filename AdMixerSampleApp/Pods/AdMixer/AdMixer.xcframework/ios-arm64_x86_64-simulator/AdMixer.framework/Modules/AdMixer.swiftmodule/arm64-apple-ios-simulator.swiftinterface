@@ -25,7 +25,6 @@ import os
   @_Concurrency.MainActor @preconcurrency public var customParam: [Swift.String : Swift.String]?
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixer.AMVideoAdDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(adInfo: AdMixer.AMVideoAdInfo, rootViewController: UIKit.UIViewController, videoType: AdMixer.VideoType)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
@@ -182,7 +181,7 @@ extension AdMixer.VastCompanionAds : Swift.Equatable {
   @objc optional func didTapFullBannerAd()
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMBannerAdView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var delegate: (any AdMixer.AMBannerAdDelegate)?
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixer.AMBannerAdDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(adInfo: AdMixer.AMBannerAdInfo)
   @_Concurrency.MainActor @preconcurrency public func loadAd()
   @_Concurrency.MainActor @preconcurrency public func loadHouseAd()
@@ -191,7 +190,7 @@ extension AdMixer.VastCompanionAds : Swift.Equatable {
 }
 extension AdMixer.AMBannerAdView : WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMBannerAdViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixer.AMBannerAdDelegate)?
@@ -207,7 +206,7 @@ extension AdMixer.AMBannerAdView : WebKit.WKNavigationDelegate, WebKit.WKUIDeleg
 }
 extension AdMixer.AMBannerAdViewController : WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
 }
 public struct VastStaticResource : Swift.Codable {
   public let creativeType: Swift.String
@@ -474,7 +473,7 @@ extension AdMixer.VastWrapper : Swift.Equatable {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMNativeAdView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var adInfo: AdMixer.AMNativeAdInfo!
-  @_Concurrency.MainActor @preconcurrency public var delegate: (any AdMixer.AMNativeAdDelegate)?
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixer.AMNativeAdDelegate)?
   @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var iv_icon: UIKit.UIImageView?
   @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_headline: UIKit.UILabel?
   @IBOutlet @objc @_Concurrency.MainActor @preconcurrency weak public var l_advertiser: UIKit.UILabel?

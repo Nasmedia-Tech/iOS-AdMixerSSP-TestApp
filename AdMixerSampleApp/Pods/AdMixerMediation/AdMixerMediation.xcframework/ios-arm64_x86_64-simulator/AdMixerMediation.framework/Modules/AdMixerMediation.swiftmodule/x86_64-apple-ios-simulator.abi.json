@@ -363,17 +363,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMBannerViewDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMBannerViewDelegate",
-                    "printedName": "any AdMixerMediation.AMMBannerViewDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMBannerViewDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMBannerViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -385,8 +376,10 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -654,28 +647,6 @@
           },
           {
             "kind": "Function",
-            "name": "load",
-            "printedName": "load()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC4loadyyF",
-            "mangledName": "$s16AdMixerMediation13AMMBannerViewC4loadyyF",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "willMove",
             "printedName": "willMove(toWindow:)",
             "children": [
@@ -711,6 +682,50 @@
               "Preconcurrency",
               "Custom",
               "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation13AMMBannerViewC4stopyyF",
+            "mangledName": "$s16AdMixerMediation13AMMBannerViewC4stopyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation13AMMBannerViewC4loadyyF",
+            "mangledName": "$s16AdMixerMediation13AMMBannerViewC4loadyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -1842,17 +1857,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMInterstitialDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMInterstitialDelegate",
-                    "printedName": "any AdMixerMediation.AMMInterstitialDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMInterstitialDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMInterstitialDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -1862,8 +1868,10 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -2241,6 +2249,26 @@
             "declKind": "Func",
             "usr": "s:16AdMixerMediation15AMMInterstitialC4loadyyF",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC4loadyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation15AMMInterstitialC4stopyyF",
+            "mangledName": "$s16AdMixerMediation15AMMInterstitialC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "AccessControl"
@@ -2755,17 +2783,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMNativeDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMNativeDelegate",
-                    "printedName": "any AdMixerMediation.AMMNativeDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMNativeDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMNativeDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -2777,9 +2796,11 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl",
               "ObjC"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -4170,17 +4191,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMNativeDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMNativeDelegate",
-                    "printedName": "any AdMixerMediation.AMMNativeDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMNativeDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMNativeDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4192,8 +4204,10 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -4304,28 +4318,6 @@
           },
           {
             "kind": "Function",
-            "name": "load",
-            "printedName": "load()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC4loadyyF",
-            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC4loadyyF",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "willMove",
             "printedName": "willMove(toWindow:)",
             "children": [
@@ -4361,6 +4353,50 @@
               "Preconcurrency",
               "Custom",
               "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC4stopyyF",
+            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC4stopyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC4loadyyF",
+            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC4loadyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -4891,17 +4927,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMRewardVideoDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMRewardVideoDelegate",
-                    "printedName": "any AdMixerMediation.AMMRewardVideoDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMRewardVideoDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMRewardVideoDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4911,8 +4938,10 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -5001,17 +5030,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
               }
             ],
             "declKind": "Var",
@@ -5021,8 +5041,10 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -5270,6 +5292,26 @@
             "declKind": "Func",
             "usr": "s:16AdMixerMediation14AMMRewardVideoC4loadyyF",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC4loadyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation14AMMRewardVideoC4stopyyF",
+            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "AccessControl"
@@ -5940,17 +5982,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMVideoInterstitialDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMVideoInterstitialDelegate",
-                    "printedName": "any AdMixerMediation.AMMVideoInterstitialDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMVideoInterstitialDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMVideoInterstitialDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -5960,8 +5993,10 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -6167,6 +6202,26 @@
             "declKind": "Func",
             "usr": "s:16AdMixerMediation20AMMVideoInterstitialC4loadyyF",
             "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC4loadyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation20AMMVideoInterstitialC4stopyyF",
+            "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "AccessControl"
@@ -6724,17 +6779,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AdMixerMediation.AMMVideoViewDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMVideoViewDelegate",
-                    "printedName": "any AdMixerMediation.AMMVideoViewDelegate",
-                    "usr": "c:@M@AdMixerMediation@objc(pl)AMMVideoViewDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any AdMixerMediation.AMMVideoViewDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -6746,8 +6792,10 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -7183,6 +7231,29 @@
               "Preconcurrency",
               "Custom",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation12AMMVideoViewC4stopyyF",
+            "mangledName": "$s16AdMixerMediation12AMMVideoViewC4stopyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -10266,14 +10337,14 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 232,
+      "offset": 237,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 480,
+      "offset": 485,
       "length": 4,
       "value": "true"
     },
@@ -10308,7 +10379,7 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdViewContainer.swift",
       "kind": "BooleanLiteral",
-      "offset": 650,
+      "offset": 655,
       "length": 4,
       "value": "true"
     },

@@ -325,6 +325,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation13AMMBannerView")
 
 
 
+
 SWIFT_PROTOCOL("_TtP16AdMixerMediation21AMMBannerViewDelegate_")
 @protocol AMMBannerViewDelegate
 - (void)onSuccessBanner;
@@ -345,6 +346,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation15AMMInterstitial")
 - (void)didFullBannerAdDismiss;
 - (void)didTapFullBannerAd;
 @end
+
 
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation23AMMInterstitialDelegate_")
@@ -369,7 +371,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation26AMMInterstitialPopupOption")
 SWIFT_CLASS("_TtC16AdMixerMediation15AMMNativeAdView")
 @interface AMMNativeAdView : UIView
 @property (nonatomic) NSInteger adUnitID;
-@property (nonatomic, strong) id <AMMNativeDelegate> _Nullable delegate;
+@property (nonatomic, weak) id <AMMNativeDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Null_unspecified viewController;
 @property (nonatomic, weak) IBOutlet UIImageView * _Nullable iv_icon;
 @property (nonatomic, weak) IBOutlet UILabel * _Nullable l_headline;
@@ -401,6 +403,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation24AMMNativeAdViewContainer")
 @end
 
 
+
 SWIFT_PROTOCOL("_TtP16AdMixerMediation17AMMNativeDelegate_")
 @protocol AMMNativeDelegate
 - (void)onSuccessNative;
@@ -423,6 +426,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation14AMMRewardVideo")
 - (void)didTapRewardAdViewMore;
 - (void)didRewardVideoComplete;
 @end
+
 
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation22AMMRewardVideoDelegate_")
@@ -449,6 +453,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation20AMMVideoInterstitial")
 - (void)didTapFullAdViewMore;
 - (void)didFullAdComplete;
 @end
+
 
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation28AMMVideoInterstitialDelegate_")
