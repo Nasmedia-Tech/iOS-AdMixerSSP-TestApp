@@ -496,6 +496,9 @@ extension AdMixer.VastWrapper : Swift.Equatable {
   @objc public func setTimeoutIntervalForRequest(time: Foundation.TimeInterval, code: Swift.Int)
   @objc public func setURLSession(urlSession: Foundation.URLSession, code: Swift.Int)
   @objc public func setTestMode(isTestMode: Swift.Bool, code: Swift.Int)
+  @objc public func setVideo(isMute: Swift.Bool)
+  @objc public func setRewardVideo(isMute: Swift.Bool)
+  @objc public func setVideoInterstitial(isMute: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }

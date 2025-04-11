@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AdMixer-Swift.h</key>
 		<data>
-		ZlQ9hcsdbX4LqbPWryLhY4qUnLs=
+		AVkU3EVqtSR/PI28IpZxib/YaGo=
 		</data>
 		<key>Headers/AdMixer-umbrella.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7UcbHjrSy2JUxb+O4BoEwmdUUxc=
+		XNeJIm5rjgBBj4gCukAbbpp/1oU=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qRHyIfH9xe4HURcwSu0GqT354xM=
+		04OgYQMOOitXxJdhfrObwcl8dNw=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Iv9C3vLHxwGg/r/Cm2BOmNcW9a8=
+		51Rv1y8FCYiGJNz37SZpWbOqA6o=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Iv9C3vLHxwGg/r/Cm2BOmNcW9a8=
+		51Rv1y8FCYiGJNz37SZpWbOqA6o=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cgW6jRDGnYRcVTXx6jye4lxlh3c=
+		pt5Y8clA3gmleN5r8UwKu+KMe50=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qRHyIfH9xe4HURcwSu0GqT354xM=
+		04OgYQMOOitXxJdhfrObwcl8dNw=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Txq2iXO+CNLZclj5f6fvirTQEKU=
+		wXZFtDBC7ak8BCoD8rOik1sxoFo=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Txq2iXO+CNLZclj5f6fvirTQEKU=
+		wXZFtDBC7ak8BCoD8rOik1sxoFo=
 		</data>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MFooOjO97/I37zPzfbwh8SgzvzY=
+		65zytBdBqZZp/wg2JoN7WcjMdNQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			egjiO54eC7yNnXj2zPGmTXioaBNx+RrRsVpnk2y2VCQ=
+			9YXStd6u5QZePVmTTqA/IWxbkJlzphmqW//1Rt8XPdU=
 			</data>
 		</dict>
 		<key>Headers/AdMixer-umbrella.h</key>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6A9A/sWlf5VrVlrmTGMvoC21+1OjCydpnHvFGwxepVQ=
+			McsjDoTYcQwRddokITnf2rgJ5rCCdP+kmTyykQTKsOI=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U91C6svjbqQnLWh8UeHnSp6DvjArR59LwqKyxCTHRjk=
+			mgkXMCpIgXN8NbPh1d63Me2T7Q+bB9zQVAnNkhtqqP4=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -122,28 +122,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U91C6svjbqQnLWh8UeHnSp6DvjArR59LwqKyxCTHRjk=
+			mgkXMCpIgXN8NbPh1d63Me2T7Q+bB9zQVAnNkhtqqP4=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yoZDu0b5G+a/EKKKKE6iw6qY9feK3IXlYS09tOf/M9U=
+			TyrqKtp/8bV+akbKAU4Xu29QNdKI4RIEAND7b0DY/ZM=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6A9A/sWlf5VrVlrmTGMvoC21+1OjCydpnHvFGwxepVQ=
+			McsjDoTYcQwRddokITnf2rgJ5rCCdP+kmTyykQTKsOI=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sUbXFhXeZM+LJQuuCJIDw+dmwz+0mm/LcAEj2uqIeQ8=
+			zQyOKYs6YAPqLqOjSrsScrclDjNfs4QNmu4nPOvJf98=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -157,14 +157,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sUbXFhXeZM+LJQuuCJIDw+dmwz+0mm/LcAEj2uqIeQ8=
+			zQyOKYs6YAPqLqOjSrsScrclDjNfs4QNmu4nPOvJf98=
 			</data>
 		</dict>
 		<key>Modules/AdMixer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0XzWovs1E+8cF54/Mc4wFkHLtnnwLPwrsf0fq1QtT8=
+			PQQG29OSSlz0nXDMSK/tXJzMr1o4ajCIL+fWQbanGP8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

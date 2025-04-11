@@ -17870,6 +17870,90 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setVideo",
+            "printedName": "setVideo(isMute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(cs)AdMixerSDK(im)setVideoWithIsMute:",
+            "mangledName": "$s7AdMixer0aB3SDKC8setVideo6isMuteySb_tF",
+            "moduleName": "AdMixer",
+            "objc_name": "setVideoWithIsMute:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRewardVideo",
+            "printedName": "setRewardVideo(isMute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(cs)AdMixerSDK(im)setRewardVideoWithIsMute:",
+            "mangledName": "$s7AdMixer0aB3SDKC14setRewardVideo6isMuteySb_tF",
+            "moduleName": "AdMixer",
+            "objc_name": "setRewardVideoWithIsMute:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVideoInterstitial",
+            "printedName": "setVideoInterstitial(isMute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(cs)AdMixerSDK(im)setVideoInterstitialWithIsMute:",
+            "mangledName": "$s7AdMixer0aB3SDKC20setVideoInterstitial6isMuteySb_tF",
+            "moduleName": "AdMixer",
+            "objc_name": "setVideoInterstitialWithIsMute:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -22911,6 +22995,27 @@
       "offset": 292,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdMixerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 325,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdMixerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 364,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdMixerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/Extensions\/UIColor+Ex.swift",

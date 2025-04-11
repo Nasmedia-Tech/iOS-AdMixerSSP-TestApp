@@ -511,6 +511,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdMixerSDK *
 - (void)setTimeoutIntervalForRequestWithTime:(NSTimeInterval)time code:(NSInteger)code;
 - (void)setURLSessionWithUrlSession:(NSURLSession * _Nonnull)urlSession code:(NSInteger)code;
 - (void)setTestModeWithIsTestMode:(BOOL)isTestMode code:(NSInteger)code;
+- (void)setVideoWithIsMute:(BOOL)isMute;
+- (void)setRewardVideoWithIsMute:(BOOL)isMute;
+- (void)setVideoInterstitialWithIsMute:(BOOL)isMute;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1039,6 +1042,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdMixerSDK *
 - (void)setTimeoutIntervalForRequestWithTime:(NSTimeInterval)time code:(NSInteger)code;
 - (void)setURLSessionWithUrlSession:(NSURLSession * _Nonnull)urlSession code:(NSInteger)code;
 - (void)setTestModeWithIsTestMode:(BOOL)isTestMode code:(NSInteger)code;
+- (void)setVideoWithIsMute:(BOOL)isMute;
+- (void)setRewardVideoWithIsMute:(BOOL)isMute;
+- (void)setVideoInterstitialWithIsMute:(BOOL)isMute;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
