@@ -1,5 +1,5 @@
 # iOS-AdMixerSSP-TestApp
-나스미디어 **AdMixerMediation SDK** 샘플 앱입니다.  
+케이티 나스미디어 **AdMixerMediation SDK** 샘플 앱입니다.  
 앱을 실행하기 전에 아래 항목들을 설정해주세요.
 
 <br>
