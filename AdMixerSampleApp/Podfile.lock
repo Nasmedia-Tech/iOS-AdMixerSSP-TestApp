@@ -1,33 +1,66 @@
 PODS:
+  - AdFitSDK (3.14.5)
   - AdMixer (1.0.7)
-  - AdMixerMediation (2.0.2):
+  - AdMixerMediation (2.0.4):
     - AdMixer
-  - AdMixerMediationGAM (1.0.0):
+  - AdMixerMediationAdFit (1.0.2):
+    - AdFitSDK (= 3.14.5)
+    - AdMixerMediation
+  - AdMixerMediationGAM (1.0.1):
     - AdMixerMediation
     - Google-Mobile-Ads-SDK (= 11.10.0)
+  - AdMixerMediationMobWith (1.0.0):
+    - AdMixerMediation
+    - MobWithADSDK (= 1.2.20)
+  - Ads-Global (7.1.1.1):
+    - Ads-Global/BUAdSDK (= 7.1.1.1)
+  - Ads-Global/BUAdSDK (7.1.1.1)
   - Google-Mobile-Ads-SDK (11.10.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.0.0)
+  - IronSourceSDK (8.7.0.0)
+  - MobWithADSDK (1.2.20):
+    - AdFitSDK (= 3.14.5)
+    - Ads-Global (= 7.1.1.1)
+    - IronSourceSDK (= 8.7.0.0)
+    - UnityAds (= 4.14.1)
+  - UnityAds (4.14.1)
 
 DEPENDENCIES:
-  - AdMixerMediation
-  - AdMixerMediationGAM
+  - AdMixerMediation (= 2.0.4)
+  - AdMixerMediationAdFit (= 1.0.2)
+  - AdMixerMediationGAM (= 1.0.1)
+  - AdMixerMediationMobWith (= 1.0.0)
 
 SPEC REPOS:
   trunk:
+    - AdFitSDK
     - AdMixer
     - AdMixerMediation
+    - AdMixerMediationAdFit
     - AdMixerMediationGAM
+    - AdMixerMediationMobWith
+    - Ads-Global
     - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
+    - IronSourceSDK
+    - MobWithADSDK
+    - UnityAds
 
 SPEC CHECKSUMS:
+  AdFitSDK: 421ea48b024d6274ea23d81d188457a21e6348ef
   AdMixer: 562c9be75f4d6231a6746915e027db1be07ba29b
-  AdMixerMediation: 42529099b8231159bc6a60ab13b42029edbed4be
-  AdMixerMediationGAM: 193f2f653aa63a490e8255eef1f78b60cdd04fcf
+  AdMixerMediation: 13179d94914435211148127dd470836a7fe1d71f
+  AdMixerMediationAdFit: 2c2bb047b5d349910f19e7bfbd04ac689aa34a48
+  AdMixerMediationGAM: 2263da790890134f58636cde0765a337acdc3ccd
+  AdMixerMediationMobWith: 8a5ef195d2d3824b714ef4d1134acb6683d3a96a
+  Ads-Global: b81917c405e94ad38dd45022f0fe17042429f578
   Google-Mobile-Ads-SDK: 13e6e98edfd78ad8d8a791edb927658cc260a56f
   GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  IronSourceSDK: 0b5a640179ef91acc637332608183a05db1757df
+  MobWithADSDK: 550f5d2589f36d8d0382e23dfb9df0b542309e47
+  UnityAds: b79991b34b0fc648f3b6052274ac8a0a3463cd4f
 
-PODFILE CHECKSUM: c225e7d9cac48a4b4f576c7b8ea90f7cc8c1f4a3
+PODFILE CHECKSUM: 2ead9e035528ade0145aa5ecffb3970558af49d7
 
 COCOAPODS: 1.16.2

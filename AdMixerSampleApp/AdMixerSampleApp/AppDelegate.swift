@@ -7,13 +7,16 @@
 
 import UIKit
 import AdMixerMediation
+import AdMixer
 import GoogleMobileAds
+import MobWithADSDKFramework
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        // AdMixer 초기화
         AMMediation.shared.setDebugEnabled(isEnabled: true)
         AMMediation.shared.initialize(
             mediaKey: Constants.mediaKey,
@@ -26,7 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 Constants.NativeAdUnit
             ]
         )
+        
+        // Google AdManager 초기화
         GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+        // MobWith 초기화
+        MobWithADSDK.standard.initSDK()
         
         return true
     }
