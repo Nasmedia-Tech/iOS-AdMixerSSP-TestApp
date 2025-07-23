@@ -28,8 +28,7 @@ class BannerViewController: UIViewController {
         bannerView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(bannerView)
         NSLayoutConstraint.activate([
-            bannerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            bannerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            bannerView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             bannerView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50),
         ])
      }

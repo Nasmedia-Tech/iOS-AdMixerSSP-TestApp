@@ -9,7 +9,8 @@ target 'AdMixerSampleApp' do
   pod 'AdMixerMediation', '2.0.4'
   pod 'AdMixerMediationGAM', '1.0.1'
   pod 'AdMixerMediationAdFit', '1.0.2'
-  pod 'AdMixerMediationMobWith', '1.0.0'
+  pod 'AdMixerMediationMobWith', '1.0.1'
+  pod 'AdMixerMediationPangle', '1.0.0'
 
   target 'AdMixerSampleAppTests' do
     inherit! :search_paths

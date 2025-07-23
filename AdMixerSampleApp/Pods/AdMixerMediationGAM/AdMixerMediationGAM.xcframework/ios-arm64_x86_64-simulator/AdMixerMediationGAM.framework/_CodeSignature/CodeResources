@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bUIpjwyD7CjEAOR+XsdASpk8/vM=
+		hHMIIj5Q9oTGhC/QE4BaaTlDf+w=
 		</data>
 		<key>Modules/AdMixerMediationGAM.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AdMixerMediationGAM.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fSe0Js5v8mDdKf7Q7XesZ0ACTuM=
+		Zsi0MTtkpyrVQovFqWEveSaRyl0=
 		</data>
 		<key>Modules/AdMixerMediationGAM.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AdMixerMediationGAM.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ILtf5tvvF+VZ3BiKJ8Is5eCXHgc=
+		i0fUOGK6Y6uj7NTx3bPr5rWEimA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -133,11 +133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fSe0Js5v8mDdKf7Q7XesZ0ACTuM=
+			Zsi0MTtkpyrVQovFqWEveSaRyl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			K2fVFje359+gCIOmKdrXozDJp9V77eW2oh92EgvpD/o=
+			+ugxwteI4YJXEE19RaWvtK3kqB6rEFx2/zEUAlHCMiE=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediationGAM.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ILtf5tvvF+VZ3BiKJ8Is5eCXHgc=
+			i0fUOGK6Y6uj7NTx3bPr5rWEimA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VKOVbdy6WGmFspcuAdnkDVko55t+JA3KS6NcV8GO8DY=
+			+MMX9JOSTghDjvnTccaxaxGCOwrMewCwJ0pq4v6ghJw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

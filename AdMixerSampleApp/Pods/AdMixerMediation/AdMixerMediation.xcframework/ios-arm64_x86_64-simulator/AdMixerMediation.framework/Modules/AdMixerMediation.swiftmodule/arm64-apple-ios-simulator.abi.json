@@ -1073,6 +1073,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMBannerViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -1097,6 +1098,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMBannerViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -2479,6 +2481,27 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseBanner",
+            "printedName": "onCloseBanner()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation15AMMInterstitialC13onCloseBanneryyF",
+            "mangledName": "$s16AdMixerMediation15AMMInterstitialC13onCloseBanneryyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2605,6 +2628,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -2629,6 +2653,32 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseInterstitial",
+            "printedName": "onCloseInterstitial()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixerMediation@objc(pl)AMMInterstitialDelegate(im)onCloseInterstitial",
+            "mangledName": "$s16AdMixerMediation23AMMInterstitialDelegateP19onCloseInterstitialyyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMInterstitialDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMInterstitialDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -4758,6 +4808,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMNativeDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -4782,6 +4833,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMNativeDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -5738,6 +5790,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMRewardVideoDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -5762,6 +5815,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMRewardVideoDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -5786,6 +5840,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMRewardVideoDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -5810,6 +5865,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMRewardVideoDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -5834,6 +5890,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMRewardVideoDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -6533,6 +6590,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -6557,6 +6615,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -6581,6 +6640,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -6605,6 +6665,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -6629,6 +6690,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoInterstitialDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -7606,6 +7668,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -7630,6 +7693,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -7654,6 +7718,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -7678,6 +7743,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -7702,6 +7768,7 @@
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMVideoViewDelegate>",
             "protocolReq": true,
             "declAttributes": [
+              "Optional",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -9566,6 +9633,27 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseBanner",
+            "printedName": "onCloseBanner()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation19InterstitialHandlerP13onCloseBanneryyF",
+            "mangledName": "$s16AdMixerMediation19InterstitialHandlerP13onCloseBanneryyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.InterstitialHandler>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.InterstitialHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -9610,6 +9698,227 @@
         "printedName": "os.log",
         "declKind": "Import",
         "moduleName": "AdMixerMediation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Log",
+        "printedName": "Log",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation3LogV5debugyyyp_ypdtFZ",
+            "mangledName": "$s16AdMixerMediation3LogV5debugyyyp_ypdtFZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation3LogV4infoyyyp_ypdtFZ",
+            "mangledName": "$s16AdMixerMediation3LogV4infoyyyp_ypdtFZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "network",
+            "printedName": "network(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation3LogV7networkyyyp_ypdtFZ",
+            "mangledName": "$s16AdMixerMediation3LogV7networkyyyp_ypdtFZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation3LogV5erroryyyp_ypdtFZ",
+            "mangledName": "$s16AdMixerMediation3LogV5erroryyyp_ypdtFZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "custom",
+            "printedName": "custom(category:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation3LogV6custom8category__ySS_ypypdtFZ",
+            "mangledName": "$s16AdMixerMediation3LogV6custom8category__ySS_ypypdtFZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16AdMixerMediation3LogV",
+        "mangledName": "$s16AdMixerMediation3LogV",
+        "moduleName": "AdMixerMediation",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9972,10 +10281,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Network",
         "printedName": "Network",
         "declKind": "Import",
         "moduleName": "AdMixerMediation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -10344,7 +10673,7 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 485,
+      "offset": 608,
       "length": 4,
       "value": "true"
     },
@@ -10372,14 +10701,14 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdViewContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 510,
+      "offset": 591,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdViewContainer.swift",
       "kind": "BooleanLiteral",
-      "offset": 655,
+      "offset": 736,
       "length": 4,
       "value": "true"
     },
@@ -10511,15 +10840,36 @@
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 907,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 985,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 916,
+      "offset": 1033,
       "length": 25,
       "value": "\"USER_DEFAULT_MEDIA_CONF\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 993,
+      "offset": 1110,
       "length": 35,
       "value": "\"USER_DEFAULT_MEDIA_CONF_IMP_STATE\""
     },
@@ -10638,7 +10988,7 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Log.swift",
       "kind": "BooleanLiteral",
-      "offset": 537,
+      "offset": 544,
       "length": 5,
       "value": "false"
     },
@@ -10694,44 +11044,30 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1206,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1354,
       "length": 17,
       "value": "\"close_btn_delay\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1421,
       "length": 18,
       "value": "\"network_req_type\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1464,
+      "offset": 1467,
       "length": 15,
       "value": "\"house_ads_use\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
-      "kind": "StringLiteral",
-      "offset": 2814,
-      "length": 13,
-      "value": "\"adunit_code\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
-      "kind": "StringLiteral",
-      "offset": 2984,
-      "length": 14,
-      "value": "\"data-ad-unit\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/MineType.swift",
@@ -10746,6 +11082,34 @@
       "offset": 105,
       "length": 3223,
       "value": "[(\"html\", \"text\/html\"), (\"htm\", \"text\/html\"), (\"shtml\", \"text\/html\"), (\"css\", \"text\/css\"), (\"xml\", \"text\/xml\"), (\"gif\", \"image\/gif\"), (\"jpeg\", \"image\/jpeg\"), (\"jpg\", \"image\/jpeg\"), (\"js\", \"application\/javascript\"), (\"atom\", \"application\/atom+xml\"), (\"rss\", \"application\/rss+xml\"), (\"mml\", \"text\/mathml\"), (\"txt\", \"text\/plain\"), (\"jad\", \"text\/vnd.sun.j2me.app-descriptor\"), (\"wml\", \"text\/vnd.wap.wml\"), (\"htc\", \"text\/x-component\"), (\"png\", \"image\/png\"), (\"tif\", \"image\/tiff\"), (\"tiff\", \"image\/tiff\"), (\"wbmp\", \"image\/vnd.wap.wbmp\"), (\"ico\", \"image\/x-icon\"), (\"jng\", \"image\/x-jng\"), (\"bmp\", \"image\/x-ms-bmp\"), (\"svg\", \"image\/svg+xml\"), (\"svgz\", \"image\/svg+xml\"), (\"webp\", \"image\/webp\"), (\"woff\", \"application\/font-woff\"), (\"jar\", \"application\/java-archive\"), (\"war\", \"application\/java-archive\"), (\"ear\", \"application\/java-archive\"), (\"json\", \"application\/json\"), (\"hqx\", \"application\/mac-binhex40\"), (\"doc\", \"application\/msword\"), (\"pdf\", \"application\/pdf\"), (\"ps\", \"application\/postscript\"), (\"eps\", \"application\/postscript\"), (\"ai\", \"application\/postscript\"), (\"rtf\", \"application\/rtf\"), (\"m3u8\", \"application\/vnd.apple.mpegurl\"), (\"xls\", \"application\/vnd.ms-excel\"), (\"eot\", \"application\/vnd.ms-fontobject\"), (\"ppt\", \"application\/vnd.ms-powerpoint\"), (\"wmlc\", \"application\/vnd.wap.wmlc\"), (\"kml\", \"application\/vnd.google-earth.kml+xml\"), (\"kmz\", \"application\/vnd.google-earth.kmz\"), (\"7z\", \"application\/x-7z-compressed\"), (\"cco\", \"application\/x-cocoa\"), (\"jardiff\", \"application\/x-java-archive-diff\"), (\"jnlp\", \"application\/x-java-jnlp-file\"), (\"run\", \"application\/x-makeself\"), (\"pl\", \"application\/x-perl\"), (\"pm\", \"application\/x-perl\"), (\"prc\", \"application\/x-pilot\"), (\"pdb\", \"application\/x-pilot\"), (\"rar\", \"application\/x-rar-compressed\"), (\"rpm\", \"application\/x-redhat-package-manager\"), (\"sea\", \"application\/x-sea\"), (\"swf\", \"application\/x-shockwave-flash\"), (\"sit\", \"application\/x-stuffit\"), (\"tcl\", \"application\/x-tcl\"), (\"tk\", \"application\/x-tcl\"), (\"der\", \"application\/x-x509-ca-cert\"), (\"pem\", \"application\/x-x509-ca-cert\"), (\"crt\", \"application\/x-x509-ca-cert\"), (\"xpi\", \"application\/x-xpinstall\"), (\"xhtml\", \"application\/xhtml+xml\"), (\"xspf\", \"application\/xspf+xml\"), (\"zip\", \"application\/zip\"), (\"epub\", \"application\/epub+zip\"), (\"docx\", \"application\/vnd.openxmlformats-officedocument.wordprocessingml.document\"), (\"xlsx\", \"application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"), (\"pptx\", \"application\/vnd.openxmlformats-officedocument.presentationml.presentation\"), (\"mid\", \"audio\/midi\"), (\"midi\", \"audio\/midi\"), (\"kar\", \"audio\/midi\"), (\"mp3\", \"audio\/mpeg\"), (\"ogg\", \"audio\/ogg\"), (\"m4a\", \"audio\/x-m4a\"), (\"ra\", \"audio\/x-realaudio\"), (\"3gpp\", \"video\/3gpp\"), (\"3gp\", \"video\/3gpp\"), (\"ts\", \"video\/mp2t\"), (\"mp4\", \"video\/mp4\"), (\"mpeg\", \"video\/mpeg\"), (\"mpg\", \"video\/mpeg\"), (\"mov\", \"video\/quicktime\"), (\"webm\", \"video\/webm\"), (\"flv\", \"video\/x-flv\"), (\"m4v\", \"video\/x-m4v\"), (\"mng\", \"video\/x-mng\"), (\"asx\", \"video\/x-ms-asf\"), (\"asf\", \"video\/x-ms-asf\"), (\"wmv\", \"video\/x-ms-wmv\"), (\"avi\", \"video\/x-msvideo\")]"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 13,
+      "value": "\"adunit_code\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
+      "kind": "StringLiteral",
+      "offset": 2589,
+      "length": 14,
+      "value": "\"data-ad-unit\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 9,
+      "value": "\"zone_id\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
+      "kind": "StringLiteral",
+      "offset": 2883,
+      "length": 14,
+      "value": "\"placement_id\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/PriorityAdunit.swift",
@@ -10771,49 +11135,49 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "IntegerLiteral",
-      "offset": 4426,
+      "offset": 3261,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "IntegerLiteral",
-      "offset": 4585,
+      "offset": 3420,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "IntegerLiteral",
-      "offset": 4670,
+      "offset": 3505,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "IntegerLiteral",
-      "offset": 4865,
+      "offset": 3700,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 5025,
+      "offset": 3860,
       "length": 34,
       "value": "\"NextNetwork: \""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 5058,
+      "offset": 3893,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 5131,
+      "offset": 3977,
       "length": 24,
       "value": "\"NextNetwork: Not found\""
     },

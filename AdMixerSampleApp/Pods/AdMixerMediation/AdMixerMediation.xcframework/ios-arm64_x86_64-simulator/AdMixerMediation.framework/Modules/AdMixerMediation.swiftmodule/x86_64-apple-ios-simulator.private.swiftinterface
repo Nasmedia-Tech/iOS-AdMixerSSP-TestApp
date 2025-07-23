@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AdMixerMediation
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AdMixerMediation
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdMixer
 @_exported import AdMixerMediation
@@ -47,8 +47,8 @@ extension AdMixerMediation.AMMBannerView : AdMixerMediation.BannerHandler {
   @_Concurrency.MainActor @preconcurrency public func onClickBanner()
 }
 @objc public protocol AMMBannerViewDelegate {
-  @objc func onSuccessBanner()
-  @objc func onFailBanner()
+  @objc optional func onSuccessBanner()
+  @objc optional func onFailBanner()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class AMMediation : ObjectiveC.NSObject {
   @objc public static let shared: AdMixerMediation.AMMediation
@@ -85,10 +85,12 @@ extension AdMixerMediation.AMMInterstitial : AdMixerMediation.InterstitialHandle
   public func onSuccessBanner(mediationBanner: any AdMixerMediation.InterstitialAd)
   public func onFailBanner()
   public func onClickBanner()
+  public func onCloseBanner()
 }
 @objc public protocol AMMInterstitialDelegate {
-  @objc func onSuccessInterstitial()
-  @objc func onFailInterstitial()
+  @objc optional func onSuccessInterstitial()
+  @objc optional func onFailInterstitial()
+  @objc optional func onCloseInterstitial()
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class AMMNativeAdView : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
@@ -125,8 +127,8 @@ extension AdMixerMediation.AMMNativeAdViewContainer : AdMixerMediation.NativeHan
   @_Concurrency.MainActor @preconcurrency public func onClickNative()
 }
 @objc public protocol AMMNativeDelegate {
-  @objc func onSuccessNative()
-  @objc func onFailNative()
+  @objc optional func onSuccessNative()
+  @objc optional func onFailNative()
 }
 @objc @_inheritsConvenienceInitializers public class AMMRewardVideo : ObjectiveC.NSObject {
   public var adUnitID: Swift.Int
@@ -154,11 +156,11 @@ extension AdMixerMediation.AMMRewardVideo : AdMixerMediation.RewardHandler {
   public func onRewardVideoComplete()
 }
 @objc public protocol AMMRewardVideoDelegate {
-  @objc func onSuccessRewardVideo()
-  @objc func onFailRewardVideo()
-  @objc func onCloseRewardVideo()
-  @objc func onTapRewardVideo()
-  @objc func onRewardVideoComplete()
+  @objc optional func onSuccessRewardVideo()
+  @objc optional func onFailRewardVideo()
+  @objc optional func onCloseRewardVideo()
+  @objc optional func onTapRewardVideo()
+  @objc optional func onRewardVideoComplete()
 }
 @objc @_inheritsConvenienceInitializers public class AMMVideoInterstitial : ObjectiveC.NSObject {
   public var adUnitID: Swift.Int
@@ -178,11 +180,11 @@ extension AdMixerMediation.AMMVideoInterstitial : AdMixer.AMVideoAdDelegate {
   @objc dynamic public func didFullAdComplete()
 }
 @objc public protocol AMMVideoInterstitialDelegate {
-  @objc func onSuccessVideoInterstitial()
-  @objc func onFailVideoInterstitial()
-  @objc func onCloseVideoInterstitial()
-  @objc func onTapVideoInterstitialViewMore()
-  @objc func onCompleteVideoInterstitial()
+  @objc optional func onSuccessVideoInterstitial()
+  @objc optional func onFailVideoInterstitial()
+  @objc optional func onCloseVideoInterstitial()
+  @objc optional func onTapVideoInterstitialViewMore()
+  @objc optional func onCompleteVideoInterstitial()
 }
 @objc @_Concurrency.MainActor @preconcurrency public class AMMVideoView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
@@ -204,11 +206,11 @@ extension AdMixerMediation.AMMVideoView : AdMixer.AMVideoAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didAdComplete()
 }
 @objc public protocol AMMVideoViewDelegate {
-  @objc func onSuccessVideo()
-  @objc func onFailVideo()
-  @objc func onSkipVideo()
-  @objc func onTapVideoViewMore()
-  @objc func onCompleteVideo()
+  @objc optional func onSuccessVideo()
+  @objc optional func onFailVideo()
+  @objc optional func onSkipVideo()
+  @objc optional func onTapVideoViewMore()
+  @objc optional func onCompleteVideo()
 }
 public protocol BannerAd : ObjectiveC.NSObject {
   func view() -> UIKit.UIView
@@ -258,6 +260,16 @@ public protocol InterstitialHandler : AnyObject {
   func onSuccessBanner(mediationBanner: any AdMixerMediation.InterstitialAd)
   func onFailBanner()
   func onClickBanner()
+  func onCloseBanner()
+}
+public struct Log {
+}
+extension AdMixerMediation.Log {
+  public static func debug(_ message: Any, _ arguments: Any...)
+  public static func info(_ message: Any, _ arguments: Any...)
+  public static func network(_ message: Any, _ arguments: Any...)
+  public static func error(_ message: Any, _ arguments: Any...)
+  public static func custom(category: Swift.String, _ message: Any, _ arguments: Any...)
 }
 public protocol NativeAd : ObjectiveC.NSObject {
   func view() -> UIKit.UIView

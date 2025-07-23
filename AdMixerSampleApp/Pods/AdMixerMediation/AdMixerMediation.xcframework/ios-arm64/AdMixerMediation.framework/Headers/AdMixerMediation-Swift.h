@@ -328,6 +328,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation13AMMBannerView")
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation21AMMBannerViewDelegate_")
 @protocol AMMBannerViewDelegate
+@optional
 - (void)onSuccessBanner;
 - (void)onFailBanner;
 @end
@@ -339,7 +340,6 @@ SWIFT_CLASS("_TtC16AdMixerMediation15AMMInterstitial")
 @end
 
 
-
 @interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMBannerAdDelegate>
 - (void)didLoadFullBannerAdSuccess;
 - (void)didLoadFullBannerAdFailWith:(NSError * _Nullable)error;
@@ -349,10 +349,13 @@ SWIFT_CLASS("_TtC16AdMixerMediation15AMMInterstitial")
 
 
 
+
 SWIFT_PROTOCOL("_TtP16AdMixerMediation23AMMInterstitialDelegate_")
 @protocol AMMInterstitialDelegate
+@optional
 - (void)onSuccessInterstitial;
 - (void)onFailInterstitial;
+- (void)onCloseInterstitial;
 @end
 
 
@@ -406,6 +409,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation24AMMNativeAdViewContainer")
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation17AMMNativeDelegate_")
 @protocol AMMNativeDelegate
+@optional
 - (void)onSuccessNative;
 - (void)onFailNative;
 @end
@@ -431,6 +435,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation14AMMRewardVideo")
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation22AMMRewardVideoDelegate_")
 @protocol AMMRewardVideoDelegate
+@optional
 - (void)onSuccessRewardVideo;
 - (void)onFailRewardVideo;
 - (void)onCloseRewardVideo;
@@ -458,6 +463,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation20AMMVideoInterstitial")
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation28AMMVideoInterstitialDelegate_")
 @protocol AMMVideoInterstitialDelegate
+@optional
 - (void)onSuccessVideoInterstitial;
 - (void)onFailVideoInterstitial;
 - (void)onCloseVideoInterstitial;
@@ -486,6 +492,7 @@ SWIFT_CLASS("_TtC16AdMixerMediation12AMMVideoView")
 
 SWIFT_PROTOCOL("_TtP16AdMixerMediation20AMMVideoViewDelegate_")
 @protocol AMMVideoViewDelegate
+@optional
 - (void)onSuccessVideo;
 - (void)onFailVideo;
 - (void)onSkipVideo;

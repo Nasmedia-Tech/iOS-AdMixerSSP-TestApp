@@ -10,6 +10,7 @@ import AdMixerMediation
 import AdMixer
 import GoogleMobileAds
 import MobWithADSDKFramework
+import PAGAdSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -35,6 +36,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // MobWith 초기화
         MobWithADSDK.standard.initSDK()
+        
+        // Pangle 초기화
+        let config = PAGConfig.share()
+        config.appID = "8654138"
+        PAGSdk.start(with: config) { isSuccess, error in }
         
         return true
     }
