@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var rewardVideoButton: UIButton!
     @IBOutlet weak var nativeButton: UIButton!
     
+    var interstitialBanner: AMMInterstitial?
+    var rewardVideo: AMMRewardVideo?
+    var interstitialVideo: AMMVideoInterstitial?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "AdMixerSampleApp"
@@ -28,22 +32,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func interstitialBannerButtonTapped(_ sender: Any) {
-        let interstitialBanner = AMMInterstitial()
-        interstitialBanner.adUnitID = Constants.InterstitialBannerAdUnit
-        interstitialBanner.viewType = .popup
+        interstitialBanner = AMMInterstitial(rootViewController: self)
+        interstitialBanner?.adUnitID = Constants.InterstitialBannerAdUnit
+        interstitialBanner?.viewType = .popup
         
-        interstitialBanner.viewController = self
-        interstitialBanner.delegate = self
-        interstitialBanner.load()
+        interstitialBanner?.delegate = self
+        interstitialBanner?.load()
     }
     
     @IBAction func interstitialVideoButtonTapped(_ sender: Any) {
-        let interstitialVideo = AMMVideoInterstitial()
-        interstitialVideo.adUnitID = Constants.InterstitialVideoAdUnit
+        interstitialVideo = AMMVideoInterstitial(rootViewController: self)
+        interstitialVideo?.adUnitID = Constants.InterstitialVideoAdUnit
         
-        interstitialVideo.delegate = self
-        interstitialVideo.viewController = self
-        interstitialVideo.load()
+        interstitialVideo?.delegate = self
+        interstitialVideo?.load()
     }
     
     @IBAction func videoButtonTapped(_ sender: Any) {
@@ -52,11 +54,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func rewardVideoButtonTapped(_ sender: Any) {
-        let rewardVideo = AMMRewardVideo()
-        rewardVideo.adUnitID = Constants.RewardVideoAdUnit
-        rewardVideo.viewController = self
-        rewardVideo.delegate = self
-        rewardVideo.load()
+        rewardVideo = AMMRewardVideo(rootViewController: self)
+        rewardVideo?.adUnitID = Constants.RewardVideoAdUnit
+
+        rewardVideo?.delegate = self
+        rewardVideo?.load()
     }
     
     @IBAction func nativeButtonTapped(_ sender: Any) {

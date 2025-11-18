@@ -19,12 +19,11 @@ class NativeViewController: UIViewController {
         let nibView = Bundle.main.loadNibNamed("AMMNativeAdView", owner: nil, options: nil)?.first
         let nativeAdView = nibView as? AMMNativeAdView
         
-        ammNative = AMMNativeAdViewContainer()
+        ammNative = AMMNativeAdViewContainer(rootViewController: self)
         ammNative?.nativeAdView = nativeAdView
         addNativeViewToView(ammNative!)
         
         ammNative?.adUnitID = Constants.NativeAdUnit
-        ammNative?.viewController = self
         ammNative?.delegate = self
         ammNative?.load()
     }

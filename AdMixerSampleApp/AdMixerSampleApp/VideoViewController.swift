@@ -16,7 +16,7 @@ class VideoViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         
-        ammVideo = AMMVideoView()
+        ammVideo = AMMVideoView(rootViewController: self)
         addVideoViewToView(ammVideo!)
         ammVideo?.adUnitID = Constants.VideoAdUnit
         
