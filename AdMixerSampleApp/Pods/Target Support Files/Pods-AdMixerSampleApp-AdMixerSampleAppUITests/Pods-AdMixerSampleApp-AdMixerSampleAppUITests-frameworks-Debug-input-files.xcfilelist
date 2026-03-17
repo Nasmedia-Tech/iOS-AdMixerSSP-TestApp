@@ -3,4 +3,5 @@ ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdFitSDK/AdFitSDK.framework/AdFitSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixer/AdMixer.framework/AdMixer
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework/AdMixerMediation
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework/AdMixerMediationAdFit
-${PODS_XCFRAMEWORKS_BUILD_DIR}/MobWithADSDK/CouOffsiteAds.framework/CouOffsiteAds
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/AdMixerMediationAppLovin.framework/AdMixerMediationAppLovin
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework/AppLovinSDK

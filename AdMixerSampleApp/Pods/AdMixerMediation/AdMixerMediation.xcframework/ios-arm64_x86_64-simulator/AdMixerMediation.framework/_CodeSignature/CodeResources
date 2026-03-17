@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AdMixerMediation-Swift.h</key>
 		<data>
-		ct4slhdgUPkocTVzTWVPMGYjsnw=
+		TeBMvGQOptaihsXeItCz4NfdEpI=
 		</data>
 		<key>Headers/AdMixerMediation-umbrella.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AS8jXspvprFowHy/leaaHQ67K3c=
+		CFupBBNJ8iLPBMEKLk+4juPNt2A=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		P6K3FmhD9T8BEQ2bRJFMgimU6is=
+		fDwV+IbOcQvh/g0017reol7z0fY=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Vx6qzlIeYmB76sBh/ijlqg/1/RQ=
+		eVRjtZAOAITG24mqfbIS0Vqdlvk=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		O1WB46aRI9VSFLVYIwaIv2fAk/A=
+		bTcJUoliz5wijvPOg0WW0gKBi/s=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Vx6qzlIeYmB76sBh/ijlqg/1/RQ=
+		eVRjtZAOAITG24mqfbIS0Vqdlvk=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EOkK2+MqjB7cnof1ZLIRvawKNTs=
+		0NjKQvvqWooioK/rSjnExm2wyBg=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		P6K3FmhD9T8BEQ2bRJFMgimU6is=
+		fDwV+IbOcQvh/g0017reol7z0fY=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0RTEkPaGkGAXWkEjWLvRQTTuwO8=
+		MYaxJFz2pWn3uztKBbmMYKUDUvk=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1R+qcuVn+9yFvPEMNwjBFT4d2ek=
+		SPIEHdi01m/z/Tmxa4WcgWfwG+g=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0RTEkPaGkGAXWkEjWLvRQTTuwO8=
+		MYaxJFz2pWn3uztKBbmMYKUDUvk=
 		</data>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MVGLfZwmqP2mji3aq/41pDNcmao=
+		w+BVYp9Da5waY1h96SctFwzbALc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bt8ndlhwgJMsOEQd69v2bskxGsAsoLD/V2uuLA31w7U=
+			dhwNGMP/3pOU7EAjH9B9raZ5NIEcXXMzn/JT+/J4gPY=
 			</data>
 		</dict>
 		<key>Headers/AdMixerMediation-umbrella.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8DUd6V6OFD3DaGyKBg8Hof96+FVqRxizKQuY+kTiqnM=
+			ROn9YlgJrfwALNYNvF39HMQJtfmhnJ9Dms008p+CA/g=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ObD0JnCGSR2ebRWmk5og8U4f8rw1mwDwykOOp19g9tI=
+			ZwlxksCTR6v7kIrWSZzOrnOLGdd9wMOngPIVKzDYn90=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C5PNtyLBbAXMIw+zMfU/XckI308AGUf1+UY6hKVUHAI=
+			2lMxy3yzCsPE52r7y7WX1UGtoA0md20+mOELnFEnqZY=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ObD0JnCGSR2ebRWmk5og8U4f8rw1mwDwykOOp19g9tI=
+			ZwlxksCTR6v7kIrWSZzOrnOLGdd9wMOngPIVKzDYn90=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FTSnSyJldzViUwNWJoAMLW6638IdMXY/61Wks+nxZxI=
+			QsAqF/U8UcNJak3xMisFRTZ8Ui4SKc4DCdqncd0IvNY=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8DUd6V6OFD3DaGyKBg8Hof96+FVqRxizKQuY+kTiqnM=
+			ROn9YlgJrfwALNYNvF39HMQJtfmhnJ9Dms008p+CA/g=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nGJWpYqZGkDMK3kbUAO/2OoteeQjHA6+KCxdW2k0MHI=
+			D1nZphh9goTnlhyPpyrVMeig6hIbNVRS2PDr66jr1cI=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WVPFa6I3A0/rHybTtwRhQlF7ZXy27OFDGJH7SmjJKBI=
+			yf4VAlkhP9dSORTDJkQcMtq+harV3gCvRaEnFkoYSWQ=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nGJWpYqZGkDMK3kbUAO/2OoteeQjHA6+KCxdW2k0MHI=
+			D1nZphh9goTnlhyPpyrVMeig6hIbNVRS2PDr66jr1cI=
 			</data>
 		</dict>
 		<key>Modules/AdMixerMediation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iXFx4jUezGx2pXaNx68JfAjABjALrUXeiPvuF1pHNXM=
+			VP94rmnKwMJe2mINjBssU8Pb6kHA/ed3hGVn4NHCFxQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

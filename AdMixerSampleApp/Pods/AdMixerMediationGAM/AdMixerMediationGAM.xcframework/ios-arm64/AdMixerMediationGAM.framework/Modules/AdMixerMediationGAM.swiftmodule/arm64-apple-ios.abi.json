@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AdMixerMediationGAM",
+    "printedName": "AdMixerMediationGAM",
     "children": [
       {
         "kind": "Import",
@@ -168,11 +168,11 @@
                 "kind": "TypeNominal",
                 "name": "GAMAdapter",
                 "printedName": "AdMixerMediationGAM.GAMAdapter",
-                "usr": "s:19AdMixerMediationGAM10GAMAdapterC"
+                "usr": "c:@M@AdMixerMediationGAM@objc(cs)GAMAdapter"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19AdMixerMediationGAM10GAMAdapterCACycfc",
+            "usr": "c:@M@AdMixerMediationGAM@objc(cs)GAMAdapter(im)init",
             "mangledName": "$s19AdMixerMediationGAM10GAMAdapterCACycfc",
             "moduleName": "AdMixerMediationGAM",
             "overriding": true,
@@ -187,11 +187,12 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:19AdMixerMediationGAM10GAMAdapterC",
+        "usr": "c:@M@AdMixerMediationGAM@objc(cs)GAMAdapter",
         "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC",
         "moduleName": "AdMixerMediationGAM",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
         "superclassUsr": "c:@M@AdMixerMediation@objc(cs)Adapter",
         "inheritsConvenienceInitializers": true,
@@ -200,6 +201,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -335,34 +350,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAManagerInterstitialAd.swift",
-      "kind": "StringLiteral",
-      "offset": 54,
-      "length": 23,
-      "value": "\"AdMixerMediationGAM.GAManagerInterstitialAd\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAMBannerAd.swift",
-      "kind": "StringLiteral",
-      "offset": 54,
-      "length": 11,
-      "value": "\"AdMixerMediationGAM.GAMBannerAd\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAMNativeAd.swift",
-      "kind": "StringLiteral",
-      "offset": 54,
-      "length": 11,
-      "value": "\"AdMixerMediationGAM.GAMNativeAd\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Renderer\/GAMRewardAd.swift",
-      "kind": "StringLiteral",
-      "offset": 54,
-      "length": 11,
-      "value": "\"AdMixerMediationGAM.GAMRewardAd\""
-    },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Utils\/Log.swift",
       "kind": "StringLiteral",

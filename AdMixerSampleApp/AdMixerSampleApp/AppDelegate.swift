@@ -8,9 +8,11 @@
 import UIKit
 import AdMixerMediation
 import AdMixer
+
 import GoogleMobileAds
-import MobWithADSDKFramework
 import PAGAdSDK
+import AppLovinSDK
+import UnityAds
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -32,15 +34,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         
         // Google AdManager 초기화
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
-        
-        // MobWith 초기화
-        MobWithADSDK.standard.initSDK()
-        
+        MobileAds.shared.start()
+
         // Pangle 초기화
-        let config = PAGConfig.share()
-        config.appID = "8654138"
-        PAGSdk.start(with: config) { isSuccess, error in }
+        let pagConfig = PAGConfig.share()
+        pagConfig.appID = Constants.PangleAppId
+        PAGSdk.start(with: pagConfig) { isSuccess, error in }
+        
+        // AppLovin 초기화
+        let sdkKey = Constants.ApplovinSDKKey
+        let appLovinConfig = ALSdkInitializationConfiguration(sdkKey: sdkKey)
+        ALSdk.shared().initialize(with: appLovinConfig) { _ in }
+        
+        // UnityAds 초기화
+        UnityAds.initialize(Constants.UnityAdsAppId)
         
         return true
     }

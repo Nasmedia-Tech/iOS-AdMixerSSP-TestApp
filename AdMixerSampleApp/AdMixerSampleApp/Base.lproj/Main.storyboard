@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uve-TQ-P7A">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uve-TQ-P7A">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
             <objects>
                 <navigationController id="Uve-TQ-P7A" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dwk-j1-1Jf">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -32,8 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-Rk-DGQ">
-                                <rect key="frame" x="120.33333333333333" y="298" width="152.66666666666669" height="256"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-Rk-DGQ">
+                                <rect key="frame" x="120.33333333333333" y="185.66666666666663" width="152.66666666666669" height="281"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOh-OC-h2H">
                                         <rect key="frame" x="0.0" y="0.0" width="152.66666666666666" height="34.333333333333336"/>
@@ -44,7 +44,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKC-7p-iDR">
-                                        <rect key="frame" x="0.0" y="44.333333333333314" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="49.333333333333343" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="InterstitialBanner"/>
                                         <connections>
@@ -52,7 +52,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS4-mn-c6k">
-                                        <rect key="frame" x="0.0" y="88.666666666666686" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="98.666666666666657" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="OutstreamVideo"/>
                                         <connections>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pti-fV-i6O">
-                                        <rect key="frame" x="0.0" y="133" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="148.00000000000003" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="InstreamVideo"/>
                                         <connections>
@@ -68,7 +68,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xi6-KI-SFL">
-                                        <rect key="frame" x="0.0" y="177.33333333333331" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="197.33333333333334" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="RewardVideo"/>
                                         <connections>
@@ -76,7 +76,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyt-pL-xDM">
-                                        <rect key="frame" x="0.0" y="221.66666666666663" width="152.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="246.66666666666666" width="152.66666666666666" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Native"/>
                                         <connections>
@@ -89,19 +89,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="kf9-Rk-DGQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7Ai-id-ems"/>
+                            <constraint firstItem="kf9-Rk-DGQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="7Ai-id-ems"/>
                             <constraint firstItem="kf9-Rk-DGQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kLe-B9-noG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sGQ-rT-mN5"/>
-                    <connections>
-                        <outlet property="bannerButton" destination="sOh-OC-h2H" id="PjC-zO-ck2"/>
-                        <outlet property="interstitalBannerButton" destination="fKC-7p-iDR" id="rqR-zM-JEN"/>
-                        <outlet property="interstitialVideoButton" destination="HS4-mn-c6k" id="ImW-gd-Roq"/>
-                        <outlet property="nativeButton" destination="vyt-pL-xDM" id="UcG-B4-Jm0"/>
-                        <outlet property="rewardVideoButton" destination="xi6-KI-SFL" id="wjJ-Ay-tAT"/>
-                        <outlet property="videoButton" destination="Pti-fV-i6O" id="zC0-tq-5eR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

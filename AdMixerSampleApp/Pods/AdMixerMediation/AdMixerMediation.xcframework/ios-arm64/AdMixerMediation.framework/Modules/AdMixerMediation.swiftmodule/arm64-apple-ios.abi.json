@@ -281,7 +281,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC8adUnitIDSivp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(py)adUnitID",
             "mangledName": "$s16AdMixerMediation13AMMBannerViewC8adUnitIDSivp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -289,7 +289,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -306,10 +307,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC8adUnitIDSivg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)adUnitID",
                 "mangledName": "$s16AdMixerMediation13AMMBannerViewC8adUnitIDSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -330,10 +334,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC8adUnitIDSivs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)setAdUnitID:",
                 "mangledName": "$s16AdMixerMediation13AMMBannerViewC8adUnitIDSivs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -368,7 +375,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC8delegateAA0dE8Delegate_pSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(py)delegate",
             "mangledName": "$s16AdMixerMediation13AMMBannerViewC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -377,7 +384,8 @@
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -403,10 +411,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC8delegateAA0dE8Delegate_pSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)delegate",
                 "mangledName": "$s16AdMixerMediation13AMMBannerViewC8delegateAA0dE8Delegate_pSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -435,10 +446,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC8delegateAA0dE8Delegate_pSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)setDelegate:",
                 "mangledName": "$s16AdMixerMediation13AMMBannerViewC8delegateAA0dE8Delegate_pSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -462,121 +476,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvp",
-            "mangledName": "$s16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvp",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvg",
-                "mangledName": "$s16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvg",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvs",
-                "mangledName": "$s16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvs",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvM",
-                "mangledName": "$s16AdMixerMediation13AMMBannerViewC14viewControllerSo06UIViewG0CSgvM",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(width:)",
+            "printedName": "init(rootViewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -586,62 +488,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC5widthACSd_tcfc",
-            "mangledName": "$s16AdMixerMediation13AMMBannerViewC5widthACSd_tcfc",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)initWithRootViewController:",
+            "mangledName": "$s16AdMixerMediation13AMMBannerViewC04rootE10ControllerACSo06UIViewG0C_tcfc",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
               "AccessControl",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AdMixerMediation.AMMBannerView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AMMBannerView",
-                    "printedName": "AdMixerMediation.AMMBannerView",
-                    "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)initWithCoder:",
-            "mangledName": "$s16AdMixerMediation13AMMBannerViewC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "AdMixerMediation",
-            "overriding": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Required"
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -698,13 +558,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC4stopyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)stop",
             "mangledName": "$s16AdMixerMediation13AMMBannerViewC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -720,13 +581,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC4loadyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView(im)load",
             "mangledName": "$s16AdMixerMediation13AMMBannerViewC4loadyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -803,13 +665,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Foundation.NSError?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
                   }
                 ],
                 "usr": "s:Sq"
@@ -817,7 +679,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@AdMixerMediation@objc(cs)AMMBannerView(im)didLoadBannerAdFailWith:",
-            "mangledName": "$s16AdMixerMediation13AMMBannerViewC013didLoadBannerA4Fail4withys5Error_pSg_tF",
+            "mangledName": "$s16AdMixerMediation13AMMBannerViewC013didLoadBannerA4Fail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixerMediation",
             "objc_name": "didLoadBannerAdFailWith:",
             "declAttributes": [
@@ -897,13 +759,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC12onFailBanneryyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMBannerView(im)onFailBanner",
             "mangledName": "$s16AdMixerMediation13AMMBannerViewC12onFailBanneryyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
+              "Dynamic",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -920,13 +784,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation13AMMBannerViewC13onClickBanneryyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMBannerView(im)onClickBanner",
             "mangledName": "$s16AdMixerMediation13AMMBannerViewC13onClickBanneryyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
+              "Dynamic",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -940,9 +806,11 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIView",
           "UIKit.UIResponder",
@@ -1093,6 +961,31 @@
             "declKind": "Func",
             "usr": "c:@M@AdMixerMediation@objc(pl)AMMBannerViewDelegate(im)onFailBanner",
             "mangledName": "$s16AdMixerMediation21AMMBannerViewDelegateP12onFailBanneryyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMBannerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMBannerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTapBanner",
+            "printedName": "onTapBanner()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixerMediation@objc(pl)AMMBannerViewDelegate(im)onTapBanner",
+            "mangledName": "$s16AdMixerMediation21AMMBannerViewDelegateP11onTapBanneryyF",
             "moduleName": "AdMixerMediation",
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMBannerViewDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMBannerViewDelegate>",
@@ -1779,13 +1672,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC8adUnitIDSivp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(py)adUnitID",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC8adUnitIDSivp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1802,10 +1696,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC8adUnitIDSivg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)adUnitID",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC8adUnitIDSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -1826,10 +1723,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC8adUnitIDSivs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)setAdUnitID:",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC8adUnitIDSivs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -1864,14 +1764,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC8delegateAA0D8Delegate_pSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(py)delegate",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC8delegateAA0D8Delegate_pSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -1897,10 +1798,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC8delegateAA0D8Delegate_pSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)delegate",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC8delegateAA0D8Delegate_pSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -1929,10 +1833,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC8delegateAA0D8Delegate_pSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)setDelegate:",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC8delegateAA0D8Delegate_pSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -1957,116 +1864,6 @@
           },
           {
             "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvp",
-            "mangledName": "$s16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvp",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvg",
-                "mangledName": "$s16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvg",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvs",
-                "mangledName": "$s16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvs",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvM",
-                "mangledName": "$s16AdMixerMediation15AMMInterstitialC14viewControllerSo06UIViewF0CSgvM",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "viewType",
             "printedName": "viewType",
             "children": [
@@ -2074,17 +1871,18 @@
                 "kind": "TypeNominal",
                 "name": "AMMInterstitialType",
                 "printedName": "AdMixerMediation.AMMInterstitialType",
-                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC8viewTypeAA0dF0Ovp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(py)viewType",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC8viewTypeAA0dF0Ovp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2097,14 +1895,17 @@
                     "kind": "TypeNominal",
                     "name": "AMMInterstitialType",
                     "printedName": "AdMixerMediation.AMMInterstitialType",
-                    "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC8viewTypeAA0dF0Ovg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)viewType",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC8viewTypeAA0dF0Ovg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -2121,14 +1922,17 @@
                     "kind": "TypeNominal",
                     "name": "AMMInterstitialType",
                     "printedName": "AdMixerMediation.AMMInterstitialType",
-                    "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC8viewTypeAA0dF0Ovs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)setViewType:",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC8viewTypeAA0dF0Ovs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -2164,13 +1968,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC11popupOptionAA0d5PopupF0Cvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(py)popupOption",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC11popupOptionAA0d5PopupF0Cvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2187,10 +1992,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC11popupOptionAA0d5PopupF0Cvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)popupOption",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC11popupOptionAA0d5PopupF0Cvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -2211,10 +2019,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation15AMMInterstitialC11popupOptionAA0d5PopupF0Cvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)setPopupOption:",
                 "mangledName": "$s16AdMixerMediation15AMMInterstitialC11popupOptionAA0d5PopupF0Cvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -2238,6 +2049,215 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "countDownOption",
+            "printedName": "countDownOption",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMInterstitialCountDownOption",
+                "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(py)countDownOption",
+            "mangledName": "$s16AdMixerMediation15AMMInterstitialC15countDownOptionAA0d5CountfG0Cvp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMInterstitialCountDownOption",
+                    "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                    "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)countDownOption",
+                "mangledName": "$s16AdMixerMediation15AMMInterstitialC15countDownOptionAA0d5CountfG0Cvg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMInterstitialCountDownOption",
+                    "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                    "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)setCountDownOption:",
+                "mangledName": "$s16AdMixerMediation15AMMInterstitialC15countDownOptionAA0d5CountfG0Cvs",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation15AMMInterstitialC15countDownOptionAA0d5CountfG0CvM",
+                "mangledName": "$s16AdMixerMediation15AMMInterstitialC15countDownOptionAA0d5CountfG0CvM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButtonTouchAreaRatio",
+            "printedName": "closeButtonTouchAreaRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(py)closeButtonTouchAreaRatio",
+            "mangledName": "$s16AdMixerMediation15AMMInterstitialC25closeButtonTouchAreaRatioSfvp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)closeButtonTouchAreaRatio",
+                "mangledName": "$s16AdMixerMediation15AMMInterstitialC25closeButtonTouchAreaRatioSfvg",
+                "moduleName": "AdMixerMediation",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)setCloseButtonTouchAreaRatio:",
+                "mangledName": "$s16AdMixerMediation15AMMInterstitialC25closeButtonTouchAreaRatioSfvs",
+                "moduleName": "AdMixerMediation",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation15AMMInterstitialC25closeButtonTouchAreaRatioSfvM",
+                "mangledName": "$s16AdMixerMediation15AMMInterstitialC25closeButtonTouchAreaRatioSfvM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMInterstitial",
+                "printedName": "AdMixerMediation.AMMInterstitial",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)initWithRootViewController:",
+            "mangledName": "$s16AdMixerMediation15AMMInterstitialC18rootViewControllerACSo06UIViewG0C_tcfc",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "load",
             "printedName": "load()",
@@ -2249,11 +2269,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC4loadyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)load",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC4loadyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2269,11 +2290,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC4stopyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitial(im)stop",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2340,13 +2362,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Foundation.NSError?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2354,7 +2376,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@AdMixerMediation@objc(cs)AMMInterstitial(im)didLoadFullBannerAdFailWith:",
-            "mangledName": "$s16AdMixerMediation15AMMInterstitialC017didLoadFullBannerA4Fail4withys5Error_pSg_tF",
+            "mangledName": "$s16AdMixerMediation15AMMInterstitialC017didLoadFullBannerA4Fail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixerMediation",
             "objc_name": "didLoadFullBannerAdFailWith:",
             "declAttributes": [
@@ -2452,11 +2474,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC12onFailBanneryyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMInterstitial(im)onFailBanner",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC12onFailBanneryyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2473,11 +2497,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC13onClickBanneryyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMInterstitial(im)onClickBanner",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC13onClickBanneryyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2494,11 +2520,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation15AMMInterstitialC13onCloseBanneryyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMInterstitial(im)onCloseBanner",
             "mangledName": "$s16AdMixerMediation15AMMInterstitialC13onCloseBanneryyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2510,10 +2538,10 @@
         "moduleName": "AdMixerMediation",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -2673,6 +2701,31 @@
             "declKind": "Func",
             "usr": "c:@M@AdMixerMediation@objc(pl)AMMInterstitialDelegate(im)onCloseInterstitial",
             "mangledName": "$s16AdMixerMediation23AMMInterstitialDelegateP19onCloseInterstitialyyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMInterstitialDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMInterstitialDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTapInterstitial",
+            "printedName": "onTapInterstitial()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixerMediation@objc(pl)AMMInterstitialDelegate(im)onTapInterstitial",
+            "mangledName": "$s16AdMixerMediation23AMMInterstitialDelegateP17onTapInterstitialyyF",
             "moduleName": "AdMixerMediation",
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMInterstitialDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMInterstitialDelegate>",
@@ -3899,6 +3952,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3942,7 +4002,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC06nativeaE0AA0daE0CSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(py)nativeAdView",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC06nativeaE0AA0daE0CSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -3951,7 +4011,8 @@
               "Custom",
               "HasStorage",
               "AccessControl",
-              "RawDocComment"
+              "RawDocComment",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3976,10 +4037,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC06nativeaE0AA0daE0CSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)nativeAdView",
                 "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC06nativeaE0AA0daE0CSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -4008,10 +4072,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC06nativeaE0AA0daE0CSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)setNativeAdView:",
                 "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC06nativeaE0AA0daE0CSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -4047,7 +4114,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC8adUnitIDSivp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(py)adUnitID",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC8adUnitIDSivp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -4055,7 +4122,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4072,10 +4140,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC8adUnitIDSivg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)adUnitID",
                 "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC8adUnitIDSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -4096,10 +4167,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC8adUnitIDSivs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)setAdUnitID:",
                 "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC8adUnitIDSivs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -4124,118 +4198,6 @@
           },
           {
             "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvp",
-            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvp",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvg",
-                "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvg",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvs",
-                "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvs",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvM",
-                "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC14viewControllerSo06UIViewH0CSgvM",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
             "children": [
@@ -4246,7 +4208,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC8delegateAA0D8Delegate_pSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(py)delegate",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC8delegateAA0D8Delegate_pSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -4255,7 +4217,8 @@
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -4281,10 +4244,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC8delegateAA0D8Delegate_pSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)delegate",
                 "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC8delegateAA0D8Delegate_pSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -4313,10 +4279,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC8delegateAA0D8Delegate_pSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)setDelegate:",
                 "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC8delegateAA0D8Delegate_pSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -4342,27 +4311,30 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(rootViewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "AMMNativeAdViewContainer",
                 "printedName": "AdMixerMediation.AMMNativeAdViewContainer",
                 "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)init",
-            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerCACycfc",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)initWithRootViewController:",
+            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC04rootE10ControllerACSo06UIViewH0C_tcfc",
             "moduleName": "AdMixerMediation",
-            "overriding": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -4419,13 +4391,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC4stopyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)stop",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4441,13 +4414,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC4loadyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)load",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC4loadyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4530,13 +4504,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Foundation.NSError?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
                   }
                 ],
                 "usr": "s:Sq"
@@ -4544,7 +4518,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)didLoadNativeAdFailWith:",
-            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC013didLoadNativeA4Fail4withys5Error_pSg_tF",
+            "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC013didLoadNativeA4Fail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixerMediation",
             "objc_name": "didLoadNativeAdFailWith:",
             "declAttributes": [
@@ -4624,13 +4598,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC12onFailNativeyyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)onFailNative",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC12onFailNativeyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
+              "Dynamic",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4647,13 +4623,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation09AMMNativeA13ViewContainerC13onClickNativeyyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMNativeAdViewContainer(im)onClickNative",
             "mangledName": "$s16AdMixerMediation09AMMNativeA13ViewContainerC13onClickNativeyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
+              "Dynamic",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4667,6 +4645,7 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
@@ -4763,6 +4742,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AMNativeAdDelegate",
             "printedName": "AMNativeAdDelegate",
             "usr": "c:@M@AdMixer@objc(pl)AMNativeAdDelegate",
@@ -4838,6 +4824,31 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTapNative",
+            "printedName": "onTapNative()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixerMediation@objc(pl)AMMNativeDelegate(im)onTapNative",
+            "mangledName": "$s16AdMixerMediation17AMMNativeDelegateP11onTapNativeyyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMNativeDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMNativeDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -4899,13 +4910,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC8adUnitIDSivp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(py)adUnitID",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8adUnitIDSivp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4922,10 +4934,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC8adUnitIDSivg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)adUnitID",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8adUnitIDSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -4946,10 +4961,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC8adUnitIDSivs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)setAdUnitID:",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8adUnitIDSivs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -4984,14 +5002,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(py)delegate",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -5017,10 +5036,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)delegate",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -5049,10 +5071,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)setDelegate:",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -5069,109 +5094,6 @@
                 "declKind": "Accessor",
                 "usr": "s:16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvM",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC8delegateAA0dE8Delegate_pSgvM",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "UIKit.UIViewController?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvp",
-            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvp",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvg",
-                "mangledName": "$s16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvg",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvs",
-                "mangledName": "$s16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvs",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvM",
-                "mangledName": "$s16AdMixerMediation14AMMRewardVideoC14viewControllerSo06UIViewG0CSgvM",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5213,13 +5135,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC11customParamSDyS2SGSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(py)customParam",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC11customParamSDyS2SGSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5258,10 +5181,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC11customParamSDyS2SGSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)customParam",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC11customParamSDyS2SGSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -5304,10 +5230,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation14AMMRewardVideoC11customParamSDyS2SGSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)setCustomParam:",
                 "mangledName": "$s16AdMixerMediation14AMMRewardVideoC11customParamSDyS2SGSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -5331,6 +5260,34 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMRewardVideo",
+                "printedName": "AdMixerMediation.AMMRewardVideo",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)initWithRootViewController:",
+            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC18rootViewControllerACSo06UIViewH0C_tcfc",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "load",
             "printedName": "load()",
@@ -5342,11 +5299,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC4loadyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)load",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC4loadyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5362,11 +5320,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC4stopyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMRewardVideo(im)stop",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5433,13 +5392,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Foundation.NSError?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
                   }
                 ],
                 "usr": "s:Sq"
@@ -5447,7 +5406,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)didLoadRewardAdFailWith:",
-            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC013didLoadRewardA4Fail4withys5Error_pSg_tF",
+            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC013didLoadRewardA4Fail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixerMediation",
             "objc_name": "didLoadRewardAdFailWith:",
             "declAttributes": [
@@ -5556,6 +5515,30 @@
           },
           {
             "kind": "Function",
+            "name": "didRewardVideoEarned",
+            "printedName": "didRewardVideoEarned()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)didRewardVideoEarned",
+            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC09didRewardE6EarnedyyF",
+            "moduleName": "AdMixerMediation",
+            "objc_name": "didRewardVideoEarned",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onSuccessRewardVideo",
             "printedName": "onSuccessRewardVideo(rewardAd:)",
             "children": [
@@ -5593,11 +5576,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC012onFailRewardE0yyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)onFailRewardVideo",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC012onFailRewardE0yyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5614,11 +5599,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC013onCloseRewardE0yyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)onCloseRewardVideo",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC013onCloseRewardE0yyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5635,11 +5622,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC011onTapRewardE0yyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)onTapRewardVideo",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC011onTapRewardE0yyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5656,11 +5645,36 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation14AMMRewardVideoC08onRewardE8CompleteyyF",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)onRewardVideoComplete",
             "mangledName": "$s16AdMixerMediation14AMMRewardVideoC08onRewardE8CompleteyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardVideoEarned",
+            "printedName": "onRewardVideoEarned()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdMixerMediation@objc(cs)AMMRewardVideo(im)onRewardVideoEarned",
+            "mangledName": "$s16AdMixerMediation14AMMRewardVideoC08onRewardE6EarnedyyF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -5672,10 +5686,10 @@
         "moduleName": "AdMixerMediation",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -5895,6 +5909,31 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardVideoEarned",
+            "printedName": "onRewardVideoEarned()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixerMediation@objc(pl)AMMRewardVideoDelegate(im)onRewardVideoEarned",
+            "mangledName": "$s16AdMixerMediation22AMMRewardVideoDelegateP08onRewardE6EarnedyyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.AMMRewardVideoDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.AMMRewardVideoDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -5959,13 +5998,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation20AMMVideoInterstitialC8adUnitIDSivp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(py)adUnitID",
             "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC8adUnitIDSivp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5982,10 +6022,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC8adUnitIDSivg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)adUnitID",
                 "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC8adUnitIDSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -6006,10 +6049,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC8adUnitIDSivs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)setAdUnitID:",
                 "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC8adUnitIDSivs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -6044,14 +6090,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation20AMMVideoInterstitialC8delegateAA0dE8Delegate_pSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(py)delegate",
             "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -6077,10 +6124,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC8delegateAA0dE8Delegate_pSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)delegate",
                 "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC8delegateAA0dE8Delegate_pSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -6109,10 +6159,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC8delegateAA0dE8Delegate_pSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)setDelegate:",
                 "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC8delegateAA0dE8Delegate_pSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -6136,114 +6189,32 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "AMMVideoInterstitial",
+                "printedName": "AdMixerMediation.AMMVideoInterstitial",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvp",
-            "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvp",
+            "declKind": "Constructor",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)initWithRootViewController:",
+            "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC18rootViewControllerACSo06UIViewH0C_tcfc",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvg",
-                "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvg",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvs",
-                "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvs",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvM",
-                "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC14viewControllerSo06UIViewG0CSgvM",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -6257,11 +6228,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation20AMMVideoInterstitialC4loadyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)load",
             "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC4loadyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6277,11 +6249,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation20AMMVideoInterstitialC4stopyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)stop",
             "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6348,13 +6321,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Foundation.NSError?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
                   }
                 ],
                 "usr": "s:Sq"
@@ -6362,7 +6335,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@AdMixerMediation@objc(cs)AMMVideoInterstitial(im)didLoadFullAdFailWith:",
-            "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC011didLoadFullA4Fail4withys5Error_pSg_tF",
+            "mangledName": "$s16AdMixerMediation20AMMVideoInterstitialC011didLoadFullA4Fail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixerMediation",
             "objc_name": "didLoadFullAdFailWith:",
             "declAttributes": [
@@ -6476,10 +6449,10 @@
         "moduleName": "AdMixerMediation",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -6759,7 +6732,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation12AMMVideoViewC8adUnitIDSivp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(py)adUnitID",
             "mangledName": "$s16AdMixerMediation12AMMVideoViewC8adUnitIDSivp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -6767,7 +6740,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6784,10 +6758,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC8adUnitIDSivg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)adUnitID",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC8adUnitIDSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -6808,10 +6785,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC8adUnitIDSivs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)setAdUnitID:",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC8adUnitIDSivs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -6846,7 +6826,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(py)delegate",
             "mangledName": "$s16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -6855,7 +6835,8 @@
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -6881,10 +6862,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)delegate",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -6913,10 +6897,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)setDelegate:",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -6933,118 +6920,6 @@
                 "declKind": "Accessor",
                 "usr": "s:16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvM",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC8delegateAA0dE8Delegate_pSgvM",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "viewController",
-            "printedName": "viewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvp",
-            "mangledName": "$s16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvp",
-            "moduleName": "AdMixerMediation",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvg",
-                "mangledName": "$s16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvg",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvs",
-                "mangledName": "$s16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvs",
-                "moduleName": "AdMixerMediation",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvM",
-                "mangledName": "$s16AdMixerMediation12AMMVideoViewC14viewControllerSo06UIViewG0CSgvM",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -7086,7 +6961,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation12AMMVideoViewC11customParamSDyS2SGSgvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(py)customParam",
             "mangledName": "$s16AdMixerMediation12AMMVideoViewC11customParamSDyS2SGSgvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
@@ -7094,7 +6969,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7133,10 +7009,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC11customParamSDyS2SGSgvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)customParam",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC11customParamSDyS2SGSgvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -7179,10 +7058,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation12AMMVideoViewC11customParamSDyS2SGSgvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)setCustomParam:",
                 "mangledName": "$s16AdMixerMediation12AMMVideoViewC11customParamSDyS2SGSgvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -7208,27 +7090,30 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(rootViewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "AMMVideoView",
                 "printedName": "AdMixerMediation.AMMVideoView",
                 "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)init",
-            "mangledName": "$s16AdMixerMediation12AMMVideoViewCACycfc",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)initWithRootViewController:",
+            "mangledName": "$s16AdMixerMediation12AMMVideoViewC04rootE10ControllerACSo06UIViewG0C_tcfc",
             "moduleName": "AdMixerMediation",
-            "overriding": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -7286,13 +7171,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation12AMMVideoViewC4loadyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)load",
             "mangledName": "$s16AdMixerMediation12AMMVideoViewC4loadyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7308,14 +7194,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16AdMixerMediation12AMMVideoViewC4stopyyF",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMVideoView(im)stop",
             "mangledName": "$s16AdMixerMediation12AMMVideoViewC4stopyyF",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
               "AccessControl",
-              "RawDocComment"
+              "RawDocComment",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7392,13 +7279,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any Swift.Error)?",
+                "printedName": "Foundation.NSError?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
                   }
                 ],
                 "usr": "s:Sq"
@@ -7406,7 +7293,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@AdMixerMediation@objc(cs)AMMVideoView(im)didLoadAdFailWith:",
-            "mangledName": "$s16AdMixerMediation12AMMVideoViewC07didLoadA4Fail4withys5Error_pSg_tF",
+            "mangledName": "$s16AdMixerMediation12AMMVideoViewC07didLoadA4Fail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixerMediation",
             "objc_name": "didLoadAdFailWith:",
             "declAttributes": [
@@ -7532,6 +7419,7 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
@@ -7624,6 +7512,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -8146,7 +8041,7 @@
                 "kind": "TypeNominal",
                 "name": "AMMInterstitialType",
                 "printedName": "AdMixerMediation.AMMInterstitialType",
-                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
               }
             ],
             "declKind": "Var",
@@ -8155,7 +8050,8 @@
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -8168,7 +8064,7 @@
                     "kind": "TypeNominal",
                     "name": "AMMInterstitialType",
                     "printedName": "AdMixerMediation.AMMInterstitialType",
-                    "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                   }
                 ],
                 "declKind": "Accessor",
@@ -8176,6 +8072,9 @@
                 "mangledName": "$s16AdMixerMediation19BannerConfigurationC4typeAA19AMMInterstitialTypeOvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -8192,7 +8091,7 @@
                     "kind": "TypeNominal",
                     "name": "AMMInterstitialType",
                     "printedName": "AdMixerMediation.AMMInterstitialType",
-                    "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                   }
                 ],
                 "declKind": "Accessor",
@@ -8200,6 +8099,9 @@
                 "mangledName": "$s16AdMixerMediation19BannerConfigurationC4typeAA19AMMInterstitialTypeOvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -8315,9 +8217,285 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "countDownOption",
+            "printedName": "countDownOption",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMInterstitialCountDownOption",
+                "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0Cvp",
+            "mangledName": "$s16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0Cvp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMInterstitialCountDownOption",
+                    "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                    "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0Cvg",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0Cvg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMInterstitialCountDownOption",
+                    "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                    "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0Cvs",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0Cvs",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0CvM",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC15countDownOptionAA020AMMInterstitialCountgH0CvM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButtonDelay",
+            "printedName": "closeButtonDelay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivp",
+            "mangledName": "$s16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivg",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivs",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivs",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivM",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC16closeButtonDelaySivM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButtonTouchRatio",
+            "printedName": "closeButtonTouchRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvp",
+            "mangledName": "$s16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvg",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvs",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvs",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvM",
+                "mangledName": "$s16AdMixerMediation19BannerConfigurationC21closeButtonTouchRatioSfvM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(rootViewController:adUnitId:width:height:type:popupOption:)",
+            "printedName": "init(rootViewController:adUnitId:width:height:type:popupOption:countDownOption:closeButtonDelay:closeButtonTouchRatio:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8371,7 +8549,7 @@
                 "name": "AMMInterstitialType",
                 "printedName": "AdMixerMediation.AMMInterstitialType",
                 "hasDefaultArg": true,
-                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
               },
               {
                 "kind": "TypeNominal",
@@ -8379,11 +8557,32 @@
                 "printedName": "AdMixerMediation.AMMInterstitialPopupOption",
                 "hasDefaultArg": true,
                 "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AMMInterstitialCountDownOption",
+                "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                "hasDefaultArg": true,
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AdMixerMediation19BannerConfigurationC18rootViewController8adUnitId5width6height4type11popupOptionACSo06UIViewH0C_SSSdSgAlA19AMMInterstitialTypeOAA0r5PopupP0Ctcfc",
-            "mangledName": "$s16AdMixerMediation19BannerConfigurationC18rootViewController8adUnitId5width6height4type11popupOptionACSo06UIViewH0C_SSSdSgAlA19AMMInterstitialTypeOAA0r5PopupP0Ctcfc",
+            "usr": "s:16AdMixerMediation19BannerConfigurationC18rootViewController8adUnitId5width6height4type11popupOption09countDownP016closeButtonDelay0sT10TouchRatioACSo06UIViewH0C_SSSdSgAoA19AMMInterstitialTypeOAA0y5PopupP0CAA0y5CountrP0CSiSftcfc",
+            "mangledName": "$s16AdMixerMediation19BannerConfigurationC18rootViewController8adUnitId5width6height4type11popupOption09countDownP016closeButtonDelay0sT10TouchRatioACSo06UIViewH0C_SSSdSgAoA19AMMInterstitialTypeOAA0y5PopupP0CAA0y5CountrP0CSiSftcfc",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "AccessControl"
@@ -8861,6 +9060,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AdMixer",
+        "printedName": "AdMixer",
+        "declKind": "Import",
+        "moduleName": "AdMixerMediation"
+      },
+      {
         "kind": "TypeDecl",
         "name": "InterstitialConfiguration",
         "printedName": "InterstitialConfiguration",
@@ -8951,7 +9157,7 @@
                     "kind": "TypeNominal",
                     "name": "AMMInterstitialType",
                     "printedName": "AdMixerMediation.AMMInterstitialType",
-                    "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                   },
                   {
                     "kind": "TypeNominal",
@@ -8962,7 +9168,7 @@
                         "kind": "TypeNominal",
                         "name": "AMMInterstitialType",
                         "printedName": "AdMixerMediation.AMMInterstitialType",
-                        "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                        "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                       }
                     ]
                   }
@@ -8970,9 +9176,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO5popupyA2CmF",
+            "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType@AMMInterstitialTypePopup",
             "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO5popupyA2CmF",
-            "moduleName": "AdMixerMediation"
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -8988,7 +9198,7 @@
                     "kind": "TypeNominal",
                     "name": "AMMInterstitialType",
                     "printedName": "AdMixerMediation.AMMInterstitialType",
-                    "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                   },
                   {
                     "kind": "TypeNominal",
@@ -8999,7 +9209,7 @@
                         "kind": "TypeNominal",
                         "name": "AMMInterstitialType",
                         "printedName": "AdMixerMediation.AMMInterstitialType",
-                        "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
+                        "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
                       }
                     ]
                   }
@@ -9007,46 +9217,92 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO5basicyA2CmF",
+            "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType@AMMInterstitialTypeBasic",
             "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO5basicyA2CmF",
-            "moduleName": "AdMixerMediation"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AMMInterstitialType",
-                "printedName": "AdMixerMediation.AMMInterstitialType",
-                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AMMInterstitialType",
-                "printedName": "AdMixerMediation.AMMInterstitialType",
-                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO2eeoiySbAC_ACtFZ",
             "moduleName": "AdMixerMediation",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "countDown",
+            "printedName": "countDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdMixerMediation.AMMInterstitialType.Type) -> AdMixerMediation.AMMInterstitialType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMInterstitialType",
+                    "printedName": "AdMixerMediation.AMMInterstitialType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdMixerMediation.AMMInterstitialType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AMMInterstitialType",
+                        "printedName": "AdMixerMediation.AMMInterstitialType",
+                        "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType@AMMInterstitialTypeCountDown",
+            "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO9countDownyA2CmF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdMixerMediation.AMMInterstitialType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMInterstitialType",
+                    "printedName": "AdMixerMediation.AMMInterstitialType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AdMixerMediation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9056,8 +9312,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO9hashValueSivp",
-            "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO9hashValueSivp",
+            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO8rawValueSivp",
+            "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO8rawValueSivp",
             "moduleName": "AdMixerMediation",
             "implicit": true,
             "accessors": [
@@ -9074,47 +9330,24 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO9hashValueSivg",
-                "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO9hashValueSivg",
+                "usr": "s:16AdMixerMediation19AMMInterstitialTypeO8rawValueSivg",
+                "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO8rawValueSivg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16AdMixerMediation19AMMInterstitialTypeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO4hash4intoys6HasherVz_tF",
-            "moduleName": "AdMixerMediation",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:16AdMixerMediation19AMMInterstitialTypeO",
+        "usr": "c:@M@AdMixerMediation@E@AMMInterstitialType",
         "mangledName": "$s16AdMixerMediation19AMMInterstitialTypeO",
         "moduleName": "AdMixerMediation",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
+        "enumRawTypeName": "Int",
         "conformances": [
           {
             "kind": "Conformance",
@@ -9143,6 +9376,28 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -9164,12 +9419,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitleSSvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(py)buttonTitle",
             "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitleSSvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9186,10 +9442,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitleSSvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)buttonTitle",
                 "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitleSSvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9210,10 +9469,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitleSSvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)setButtonTitle:",
                 "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitleSSvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9249,12 +9511,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC15buttonTextColorSo7UIColorCvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(py)buttonTextColor",
             "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC15buttonTextColorSo7UIColorCvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9271,10 +9534,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC15buttonTextColorSo7UIColorCvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)buttonTextColor",
                 "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC15buttonTextColorSo7UIColorCvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9295,10 +9561,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC15buttonTextColorSo7UIColorCvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)setButtonTextColor:",
                 "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC15buttonTextColorSo7UIColorCvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9334,12 +9603,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC21buttonBackgroundColorSo7UIColorCvp",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(py)buttonBackgroundColor",
             "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC21buttonBackgroundColorSo7UIColorCvp",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9356,10 +9626,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC21buttonBackgroundColorSo7UIColorCvg",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)buttonBackgroundColor",
                 "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC21buttonBackgroundColorSo7UIColorCvg",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9380,10 +9653,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC21buttonBackgroundColorSo7UIColorCvs",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)setButtonBackgroundColor:",
                 "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC21buttonBackgroundColorSo7UIColorCvs",
                 "moduleName": "AdMixerMediation",
                 "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9440,11 +9716,12 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitle0G9TextColor0g10BackgroundJ0ACSS_So7UIColorCAHtcfc",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialPopupOption(im)initWithButtonTitle:buttonTextColor:buttonBackgroundColor:",
             "mangledName": "$s16AdMixerMediation26AMMInterstitialPopupOptionC11buttonTitle0G9TextColor0g10BackgroundJ0ACSS_So7UIColorCAHtcfc",
             "moduleName": "AdMixerMediation",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -9481,6 +9758,7 @@
         "moduleName": "AdMixerMediation",
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -9550,6 +9828,559 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AMMInterstitialCountDownOption",
+        "printedName": "AMMInterstitialCountDownOption",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "countDownTime",
+            "printedName": "countDownTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(py)countDownTime",
+            "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TimeSivp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(im)countDownTime",
+                "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TimeSivg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(im)setCountDownTime:",
+                "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TimeSivs",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TimeSivM",
+                "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TimeSivM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countDownType",
+            "printedName": "countDownType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMCountDownType",
+                "printedName": "AdMixerMediation.AMMCountDownType",
+                "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(py)countDownType",
+            "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TypeAA08AMMCountfI0Ovp",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMCountDownType",
+                    "printedName": "AdMixerMediation.AMMCountDownType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(im)countDownType",
+                "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TypeAA08AMMCountfI0Ovg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMCountDownType",
+                    "printedName": "AdMixerMediation.AMMCountDownType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(im)setCountDownType:",
+                "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TypeAA08AMMCountfI0Ovs",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TypeAA08AMMCountfI0OvM",
+                "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4TypeAA08AMMCountfI0OvM",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(countDownTime:countDownType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMInterstitialCountDownOption",
+                "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AMMCountDownType",
+                "printedName": "AdMixerMediation.AMMCountDownType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(im)initWithCountDownTime:countDownType:",
+            "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC05countF4Time0hF4TypeACSi_AA08AMMCountfJ0Otcfc",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMMInterstitialCountDownOption",
+                "printedName": "AdMixerMediation.AMMInterstitialCountDownOption",
+                "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption(im)init",
+            "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionCACycfc",
+            "moduleName": "AdMixerMediation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdMixerMediation@objc(cs)AMMInterstitialCountDownOption",
+        "mangledName": "$s16AdMixerMediation30AMMInterstitialCountDownOptionC",
+        "moduleName": "AdMixerMediation",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AMMCountDownType",
+        "printedName": "AMMCountDownType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "gauge",
+            "printedName": "gauge",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdMixerMediation.AMMCountDownType.Type) -> AdMixerMediation.AMMCountDownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMCountDownType",
+                    "printedName": "AdMixerMediation.AMMCountDownType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdMixerMediation.AMMCountDownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AMMCountDownType",
+                        "printedName": "AdMixerMediation.AMMCountDownType",
+                        "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdMixerMediation@E@AMMCountDownType@AMMCountDownTypeGauge",
+            "mangledName": "$s16AdMixerMediation16AMMCountDownTypeO5gaugeyA2CmF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdMixerMediation.AMMCountDownType.Type) -> AdMixerMediation.AMMCountDownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMCountDownType",
+                    "printedName": "AdMixerMediation.AMMCountDownType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdMixerMediation.AMMCountDownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AMMCountDownType",
+                        "printedName": "AdMixerMediation.AMMCountDownType",
+                        "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdMixerMediation@E@AMMCountDownType@AMMCountDownTypeText",
+            "mangledName": "$s16AdMixerMediation16AMMCountDownTypeO4textyA2CmF",
+            "moduleName": "AdMixerMediation",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdMixerMediation.AMMCountDownType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMMCountDownType",
+                    "printedName": "AdMixerMediation.AMMCountDownType",
+                    "usr": "c:@M@AdMixerMediation@E@AMMCountDownType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AdMixerMediation16AMMCountDownTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16AdMixerMediation16AMMCountDownTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AdMixerMediation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdMixerMediation16AMMCountDownTypeO8rawValueSivp",
+            "mangledName": "$s16AdMixerMediation16AMMCountDownTypeO8rawValueSivp",
+            "moduleName": "AdMixerMediation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation16AMMCountDownTypeO8rawValueSivg",
+                "mangledName": "$s16AdMixerMediation16AMMCountDownTypeO8rawValueSivg",
+                "moduleName": "AdMixerMediation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AdMixerMediation@E@AMMCountDownType",
+        "mangledName": "$s16AdMixerMediation16AMMCountDownTypeO",
+        "moduleName": "AdMixerMediation",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -10551,6 +11382,27 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRewardVideoEarned",
+            "printedName": "onRewardVideoEarned()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdMixerMediation13RewardHandlerP02onD11VideoEarnedyyF",
+            "mangledName": "$s16AdMixerMediation13RewardHandlerP02onD11VideoEarnedyyF",
+            "moduleName": "AdMixerMediation",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixerMediation.RewardHandler>",
+            "sugared_genericSig": "<Self where Self : AdMixerMediation.RewardHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -10658,24 +11510,24 @@
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 323,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 89,
+      "offset": 504,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 237,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/AMMBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 608,
-      "length": 4,
-      "value": "true"
+      "offset": 638,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/AMMediation.swift",
@@ -10687,9 +11539,23 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/AMMInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 111,
+      "offset": 124,
       "length": 2,
       "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/AMMInterstitial.swift",
+      "kind": "FloatLiteral",
+      "offset": 490,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/AMMInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1200,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdView.swift",
@@ -10701,51 +11567,93 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdViewContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 604,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdViewContainer.swift",
       "kind": "BooleanLiteral",
-      "offset": 736,
+      "offset": 749,
       "length": 4,
       "value": "true"
     },
     {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Native\/AMMNativeAdViewContainer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Reward\/AMMRewardVideo.swift",
       "kind": "IntegerLiteral",
-      "offset": 110,
+      "offset": 123,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Reward\/AMMRewardVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Video\/AMMVideoInterstitial.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Video\/AMMVideoInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Video\/AMMVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 219,
+      "offset": 214,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Video\/AMMVideoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 2,
-      "value": "-1"
+      "kind": "BooleanLiteral",
+      "offset": 522,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/APIList.swift",
       "kind": "StringLiteral",
-      "offset": 118,
+      "offset": 210,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/APIList.swift",
       "kind": "StringLiteral",
-      "offset": 154,
+      "offset": 246,
       "length": 6,
       "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/BannerConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 714,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Banner\/BannerConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 756,
+      "length": 3,
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
@@ -10785,91 +11693,98 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 593,
+      "length": 20,
+      "value": "\"\/network-event-log\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 673,
       "length": 4,
       "value": "\"ko\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 703,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 755,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 749,
+      "offset": 798,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 793,
+      "offset": 842,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 831,
+      "offset": 880,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 868,
+      "offset": 917,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 907,
+      "offset": 956,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 947,
+      "offset": 996,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "IntegerLiteral",
-      "offset": 985,
+      "offset": 1034,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1082,
       "length": 25,
       "value": "\"USER_DEFAULT_MEDIA_CONF\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1159,
       "length": 35,
       "value": "\"USER_DEFAULT_MEDIA_CONF_IMP_STATE\""
     },
@@ -10952,10 +11867,38 @@
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/InterstitialConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/InterstitialConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/InterstitialConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 776,
       "length": 15,
       "value": "\"광고 닫기\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/InterstitialConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1217,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/UI\/Interstitial\/InterstitialConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1441,
+      "length": 4,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/Log.swift",
@@ -10995,79 +11938,86 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 265,
       "length": 12,
       "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 306,
       "length": 15,
       "value": "\"error_message\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 640,
       "length": 11,
       "value": "\"media_key\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 710,
+      "offset": 704,
       "length": 17,
       "value": "\"bundle_interval\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 745,
       "length": 11,
       "value": "\"bg_req_yn\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 784,
       "length": 15,
       "value": "\"error_send_yn\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 829,
+      "offset": 823,
       "length": 10,
       "value": "\"debug_yn\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1206,
+      "offset": 1227,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1354,
+      "offset": 1375,
       "length": 17,
       "value": "\"close_btn_delay\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1442,
       "length": 18,
       "value": "\"network_req_type\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
       "kind": "StringLiteral",
-      "offset": 1467,
+      "offset": 1488,
       "length": 15,
       "value": "\"house_ads_use\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/MediaConf.swift",
+      "kind": "StringLiteral",
+      "offset": 1553,
+      "length": 14,
+      "value": "\"callback_url\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Utils\/MineType.swift",
@@ -11086,28 +12036,28 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 2617,
       "length": 13,
       "value": "\"adunit_code\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 2589,
+      "offset": 2770,
       "length": 14,
       "value": "\"data-ad-unit\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2912,
       "length": 9,
       "value": "\"zone_id\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 3064,
       "length": 14,
       "value": "\"placement_id\""
     },
@@ -11131,55 +12081,6 @@
       "offset": 260,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3261,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3420,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3505,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3700,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "StringLiteral",
-      "offset": 3860,
-      "length": 34,
-      "value": "\"NextNetwork: \""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "StringLiteral",
-      "offset": 3893,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Network\/ProcessMediaConf.swift",
-      "kind": "StringLiteral",
-      "offset": 3977,
-      "length": 24,
-      "value": "\"NextNetwork: Not found\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/WeightAdunit.swift",

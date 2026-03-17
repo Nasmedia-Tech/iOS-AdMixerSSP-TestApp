@@ -9,14 +9,7 @@ import UIKit
 import AdMixerMediation
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var bannerButton: UIButton!
-    @IBOutlet weak var interstitalBannerButton: UIButton!
-    @IBOutlet weak var interstitialVideoButton: UIButton!
-    @IBOutlet weak var videoButton: UIButton!
-    @IBOutlet weak var rewardVideoButton: UIButton!
-    @IBOutlet weak var nativeButton: UIButton!
-    
+
     var interstitialBanner: AMMInterstitial?
     var rewardVideo: AMMRewardVideo?
     var interstitialVideo: AMMVideoInterstitial?

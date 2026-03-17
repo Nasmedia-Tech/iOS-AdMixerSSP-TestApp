@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AdMixerMediation
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdMixerMediation
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AdMixer
 @_exported import AdMixerMediation
 import AdSupport
@@ -25,30 +25,33 @@ import os
   open func loadNativeAd(nativeConfiguration: AdMixerMediation.NativeConfiguration, nativeHandler: any AdMixerMediation.NativeHandler)
   @objc deinit
 }
-@objc @_Concurrency.MainActor @preconcurrency public class AMMBannerView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
-  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixerMediation.AMMBannerViewDelegate)?
-  @_Concurrency.MainActor @preconcurrency public var viewController: UIKit.UIViewController!
-  @_Concurrency.MainActor @preconcurrency required public init(width: Swift.Double)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class AMMBannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixerMediation.AMMBannerViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public init(rootViewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toWindow newWindow: UIKit.UIWindow?)
-  @_Concurrency.MainActor @preconcurrency public func stop()
-  @_Concurrency.MainActor @preconcurrency public func load()
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency public func stop()
+  @objc @_Concurrency.MainActor @preconcurrency public func load()
   @objc deinit
 }
 extension AdMixerMediation.AMMBannerView : AdMixer.AMBannerAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadBannerAdSuccess()
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadBannerAdFail(with error: (any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadBannerAdFail(with error: Foundation.NSError?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didTapBannerAd()
 }
 extension AdMixerMediation.AMMBannerView : AdMixerMediation.BannerHandler {
   @_Concurrency.MainActor @preconcurrency public func onSuccessBanner(mediationBanner: any AdMixerMediation.BannerAd)
-  @_Concurrency.MainActor @preconcurrency public func onFailBanner()
-  @_Concurrency.MainActor @preconcurrency public func onClickBanner()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func onFailBanner()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func onClickBanner()
 }
 @objc public protocol AMMBannerViewDelegate {
   @objc optional func onSuccessBanner()
   @objc optional func onFailBanner()
+  @objc optional func onTapBanner()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class AMMediation : ObjectiveC.NSObject {
   @objc public static let shared: AdMixerMediation.AMMediation
@@ -64,33 +67,40 @@ extension AdMixerMediation.AMMBannerView : AdMixerMediation.BannerHandler {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class AMMInterstitial : ObjectiveC.NSObject {
-  public var adUnitID: Swift.Int
-  weak public var delegate: (any AdMixerMediation.AMMInterstitialDelegate)?
-  public var viewController: UIKit.UIViewController!
-  public var viewType: AdMixerMediation.AMMInterstitialType
-  public var popupOption: AdMixerMediation.AMMInterstitialPopupOption
-  public func load()
-  public func stop()
-  @objc override dynamic public init()
+@objc @objcMembers public class AMMInterstitial : ObjectiveC.NSObject {
+  @objc public var adUnitID: Swift.Int
+  @objc weak public var delegate: (any AdMixerMediation.AMMInterstitialDelegate)?
+  @objc public var viewType: AdMixerMediation.AMMInterstitialType
+  @objc public var popupOption: AdMixerMediation.AMMInterstitialPopupOption
+  @objc public var countDownOption: AdMixerMediation.AMMInterstitialCountDownOption
+  @objc public var closeButtonTouchAreaRatio: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc public init(rootViewController: UIKit.UIViewController)
+  @objc public func load()
+  @objc public func stop()
   @objc deinit
 }
 extension AdMixerMediation.AMMInterstitial : AdMixer.AMBannerAdDelegate {
   @objc dynamic public func didLoadFullBannerAdSuccess()
-  @objc dynamic public func didLoadFullBannerAdFail(with error: (any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func didLoadFullBannerAdFail(with error: Foundation.NSError?)
+  #endif
   @objc dynamic public func didFullBannerAdDismiss()
   @objc dynamic public func didTapFullBannerAd()
 }
 extension AdMixerMediation.AMMInterstitial : AdMixerMediation.InterstitialHandler {
   public func onSuccessBanner(mediationBanner: any AdMixerMediation.InterstitialAd)
-  public func onFailBanner()
-  public func onClickBanner()
-  public func onCloseBanner()
+  @objc dynamic public func onFailBanner()
+  @objc dynamic public func onClickBanner()
+  @objc dynamic public func onCloseBanner()
 }
 @objc public protocol AMMInterstitialDelegate {
   @objc optional func onSuccessInterstitial()
   @objc optional func onFailInterstitial()
   @objc optional func onCloseInterstitial()
+  @objc optional func onTapInterstitial()
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class AMMNativeAdView : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
@@ -105,55 +115,62 @@ extension AdMixerMediation.AMMInterstitial : AdMixerMediation.InterstitialHandle
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMMNativeAdViewContainer : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var nativeAdView: AdMixerMediation.AMMNativeAdView!
-  @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
-  @_Concurrency.MainActor @preconcurrency public var viewController: UIKit.UIViewController!
-  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixerMediation.AMMNativeDelegate)?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class AMMNativeAdViewContainer : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var nativeAdView: AdMixerMediation.AMMNativeAdView!
+  @objc @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixerMediation.AMMNativeDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public init(rootViewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toWindow newWindow: UIKit.UIWindow?)
-  @_Concurrency.MainActor @preconcurrency public func stop()
-  @_Concurrency.MainActor @preconcurrency public func load()
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency public func stop()
+  @objc @_Concurrency.MainActor @preconcurrency public func load()
   @objc deinit
 }
 extension AdMixerMediation.AMMNativeAdViewContainer : AdMixer.AMNativeAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadNativeAdSuccess(amNative: AdMixer.AMNative)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadNativeAdFail(with error: (any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadNativeAdFail(with error: Foundation.NSError?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didTapNativeAd()
 }
 extension AdMixerMediation.AMMNativeAdViewContainer : AdMixerMediation.NativeHandler {
   @_Concurrency.MainActor @preconcurrency public func onSuccessNative(nativeAd: any AdMixerMediation.NativeAd)
-  @_Concurrency.MainActor @preconcurrency public func onFailNative()
-  @_Concurrency.MainActor @preconcurrency public func onClickNative()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func onFailNative()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func onClickNative()
 }
 @objc public protocol AMMNativeDelegate {
   @objc optional func onSuccessNative()
   @objc optional func onFailNative()
+  @objc optional func onTapNative()
 }
-@objc @_inheritsConvenienceInitializers public class AMMRewardVideo : ObjectiveC.NSObject {
-  public var adUnitID: Swift.Int
-  weak public var delegate: (any AdMixerMediation.AMMRewardVideoDelegate)?
-  weak public var viewController: UIKit.UIViewController!
-  public var customParam: [Swift.String : Swift.String]?
-  public func load()
-  public func stop()
-  @objc override dynamic public init()
+@objc @objcMembers public class AMMRewardVideo : ObjectiveC.NSObject {
+  @objc public var adUnitID: Swift.Int
+  @objc weak public var delegate: (any AdMixerMediation.AMMRewardVideoDelegate)?
+  @objc public var customParam: [Swift.String : Swift.String]?
+  @objc public init(rootViewController: UIKit.UIViewController)
+  @objc public func load()
+  @objc public func stop()
   @objc deinit
 }
 extension AdMixerMediation.AMMRewardVideo : AdMixer.AMVideoAdDelegate {
   @objc dynamic public func didLoadRewardAdSuccess()
-  @objc dynamic public func didLoadRewardAdFail(with error: (any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func didLoadRewardAdFail(with error: Foundation.NSError?)
+  #endif
   @objc dynamic public func didShowRewardAdSuccess()
   @objc dynamic public func didCloseRewardAd()
   @objc dynamic public func didTapRewardAdViewMore()
   @objc dynamic public func didRewardVideoComplete()
+  @objc dynamic public func didRewardVideoEarned()
 }
 extension AdMixerMediation.AMMRewardVideo : AdMixerMediation.RewardHandler {
   public func onSuccessRewardVideo(rewardAd: any AdMixerMediation.RewardAd)
-  public func onFailRewardVideo()
-  public func onCloseRewardVideo()
-  public func onTapRewardVideo()
-  public func onRewardVideoComplete()
+  @objc dynamic public func onFailRewardVideo()
+  @objc dynamic public func onCloseRewardVideo()
+  @objc dynamic public func onTapRewardVideo()
+  @objc dynamic public func onRewardVideoComplete()
+  @objc dynamic public func onRewardVideoEarned()
 }
 @objc public protocol AMMRewardVideoDelegate {
   @objc optional func onSuccessRewardVideo()
@@ -161,19 +178,21 @@ extension AdMixerMediation.AMMRewardVideo : AdMixerMediation.RewardHandler {
   @objc optional func onCloseRewardVideo()
   @objc optional func onTapRewardVideo()
   @objc optional func onRewardVideoComplete()
+  @objc optional func onRewardVideoEarned()
 }
-@objc @_inheritsConvenienceInitializers public class AMMVideoInterstitial : ObjectiveC.NSObject {
-  public var adUnitID: Swift.Int
-  weak public var delegate: (any AdMixerMediation.AMMVideoInterstitialDelegate)?
-  public var viewController: UIKit.UIViewController!
-  public func load()
-  public func stop()
-  @objc override dynamic public init()
+@objc @objcMembers public class AMMVideoInterstitial : ObjectiveC.NSObject {
+  @objc public var adUnitID: Swift.Int
+  @objc weak public var delegate: (any AdMixerMediation.AMMVideoInterstitialDelegate)?
+  @objc public init(rootViewController: UIKit.UIViewController)
+  @objc public func load()
+  @objc public func stop()
   @objc deinit
 }
 extension AdMixerMediation.AMMVideoInterstitial : AdMixer.AMVideoAdDelegate {
   @objc dynamic public func didLoadFullAdSuccess()
-  @objc dynamic public func didLoadFullAdFail(with error: (any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func didLoadFullAdFail(with error: Foundation.NSError?)
+  #endif
   @objc dynamic public func didShowFullAdSuccess()
   @objc dynamic public func didCloseFullAd()
   @objc dynamic public func didTapFullAdViewMore()
@@ -186,20 +205,23 @@ extension AdMixerMediation.AMMVideoInterstitial : AdMixer.AMVideoAdDelegate {
   @objc optional func onTapVideoInterstitialViewMore()
   @objc optional func onCompleteVideoInterstitial()
 }
-@objc @_Concurrency.MainActor @preconcurrency public class AMMVideoView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
-  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixerMediation.AMMVideoViewDelegate)?
-  @_Concurrency.MainActor @preconcurrency public var viewController: UIKit.UIViewController!
-  @_Concurrency.MainActor @preconcurrency public var customParam: [Swift.String : Swift.String]?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency public class AMMVideoView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var adUnitID: Swift.Int
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdMixerMediation.AMMVideoViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public var customParam: [Swift.String : Swift.String]?
+  @objc @_Concurrency.MainActor @preconcurrency public init(rootViewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency public func load()
-  @_Concurrency.MainActor @preconcurrency public func stop()
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency public func load()
+  @objc @_Concurrency.MainActor @preconcurrency public func stop()
   @objc deinit
 }
 extension AdMixerMediation.AMMVideoView : AdMixer.AMVideoAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadAdSuccess()
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadAdFail(with error: (any Swift.Error)?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadAdFail(with error: Foundation.NSError?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didShowAdSuccess()
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didSkipAd()
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func didTapAdViewMore()
@@ -218,9 +240,14 @@ public protocol BannerAd : ObjectiveC.NSObject {
 public class BannerConfiguration : AdMixerMediation.Configuration {
   public var width: Swift.Double?
   public var height: Swift.Double?
-  public var type: AdMixerMediation.AMMInterstitialType
+  @objc public var type: AdMixerMediation.AMMInterstitialType
   @objc public var popupOption: AdMixerMediation.AMMInterstitialPopupOption
-  public init(rootViewController: UIKit.UIViewController, adUnitId: Swift.String, width: Swift.Double?, height: Swift.Double? = nil, type: AdMixerMediation.AMMInterstitialType = .basic, popupOption: AdMixerMediation.AMMInterstitialPopupOption = AMMInterstitialPopupOption())
+  @objc public var countDownOption: AdMixerMediation.AMMInterstitialCountDownOption
+  @objc public var closeButtonDelay: Swift.Int
+  @objc public var closeButtonTouchRatio: Swift.Float
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(rootViewController: UIKit.UIViewController, adUnitId: Swift.String, width: Swift.Double?, height: Swift.Double? = nil, type: AdMixerMediation.AMMInterstitialType = .basic, popupOption: AdMixerMediation.AMMInterstitialPopupOption = .init(), countDownOption: AdMixerMediation.AMMInterstitialCountDownOption = .init(), closeButtonDelay: Swift.Int = 2, closeButtonTouchRatio: Swift.Float = 0.6)
+  #endif
   @objc deinit
 }
 public protocol BannerHandler : AnyObject {
@@ -240,21 +267,41 @@ public protocol InterstitialAd : ObjectiveC.NSObject {
   @objc override public init(rootViewController: UIKit.UIViewController, adUnitId: Swift.String)
   @objc deinit
 }
-public enum AMMInterstitialType {
+@objc public enum AMMInterstitialType : Swift.Int {
   case popup
   case basic
-  public static func == (a: AdMixerMediation.AMMInterstitialType, b: AdMixerMediation.AMMInterstitialType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  case countDown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
-@objc public class AMMInterstitialPopupOption : ObjectiveC.NSObject {
-  public var buttonTitle: Swift.String
-  public var buttonTextColor: UIKit.UIColor
-  public var buttonBackgroundColor: UIKit.UIColor
-  public init(buttonTitle: Swift.String = "광고 닫기", buttonTextColor: UIKit.UIColor = .black, buttonBackgroundColor: UIKit.UIColor = .white)
+@objc @objcMembers public class AMMInterstitialPopupOption : ObjectiveC.NSObject {
+  @objc public var buttonTitle: Swift.String
+  @objc public var buttonTextColor: UIKit.UIColor
+  @objc public var buttonBackgroundColor: UIKit.UIColor
+  @objc public init(buttonTitle: Swift.String = "광고 닫기", buttonTextColor: UIKit.UIColor = .black, buttonBackgroundColor: UIKit.UIColor = .white)
   @objc deinit
+}
+@objc @objcMembers public class AMMInterstitialCountDownOption : ObjectiveC.NSObject {
+  @objc public var countDownTime: Swift.Int
+  @objc public var countDownType: AdMixerMediation.AMMCountDownType
+  @objc public init(countDownTime: Swift.Int = 5, countDownType: AdMixerMediation.AMMCountDownType = .gauge)
+  @objc deinit
+}
+@objc public enum AMMCountDownType : Swift.Int {
+  case gauge
+  case text
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public protocol InterstitialHandler : AnyObject {
   func onSuccessBanner(mediationBanner: any AdMixerMediation.InterstitialAd)
@@ -297,6 +344,11 @@ public protocol RewardHandler : AnyObject {
   func onCloseRewardVideo()
   func onTapRewardVideo()
   func onRewardVideoComplete()
+  func onRewardVideoEarned()
 }
 extension AdMixerMediation.AMMInterstitialType : Swift.Equatable {}
 extension AdMixerMediation.AMMInterstitialType : Swift.Hashable {}
+extension AdMixerMediation.AMMInterstitialType : Swift.RawRepresentable {}
+extension AdMixerMediation.AMMCountDownType : Swift.Equatable {}
+extension AdMixerMediation.AMMCountDownType : Swift.Hashable {}
+extension AdMixerMediation.AMMCountDownType : Swift.RawRepresentable {}

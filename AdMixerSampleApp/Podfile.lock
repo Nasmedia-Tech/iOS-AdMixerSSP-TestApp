@@ -1,40 +1,43 @@
 PODS:
-  - AdFitSDK (3.14.5)
-  - AdMixer (1.1.0)
-  - AdMixerMediation (2.1.0):
+  - AdFitSDK (3.18.3)
+  - AdMixer (1.1.5)
+  - AdMixerMediation (2.2.0):
     - AdMixer
-  - AdMixerMediationAdFit (1.0.2):
-    - AdFitSDK (= 3.14.5)
+  - AdMixerMediationAdFit (1.0.6):
+    - AdFitSDK (< 3.18.6, >= 3.14.7)
     - AdMixerMediation
-  - AdMixerMediationGAM (1.0.1):
+  - AdMixerMediationAppLovin (1.0.3):
     - AdMixerMediation
-    - Google-Mobile-Ads-SDK (= 11.10.0)
-  - AdMixerMediationMobWith (1.0.1):
+    - AppLovinSDK (< 13.5.2, >= 13.3.1)
+  - AdMixerMediationGAM (1.0.5):
     - AdMixerMediation
-    - MobWithADSDK (= 1.2.22)
-  - AdMixerMediationPangle (1.0.0):
+    - Google-Mobile-Ads-SDK (< 12.14.1, >= 12.7.0)
+  - AdMixerMediationPangle (1.0.4):
     - AdMixerMediation
-    - Ads-Global (= 7.1.1.1)
-  - Ads-Global (7.1.1.1):
-    - Ads-Global/BUAdSDK (= 7.1.1.1)
-  - Ads-Global/BUAdSDK (7.1.1.1)
-  - Google-Mobile-Ads-SDK (11.10.0):
+    - Ads-Global (< 7.8.8.9, >= 7.4.0.8)
+  - AdMixerMediationUnityAds (1.0.3):
+    - AdMixerMediation
+    - UnityAds (< 4.16.6, >= 4.15.1)
+  - Ads-Global (7.8.5.9):
+    - Ads-Global/BUAdSDK (= 7.8.5.9)
+  - Ads-Global/BUAdSDK (7.8.5.9):
+    - Ads-Global/PangleSDK
+    - Ads-Global/TikTokBusinessSDK
+  - Ads-Global/PangleSDK (7.8.5.9)
+  - Ads-Global/TikTokBusinessSDK (7.8.5.9)
+  - AppLovinSDK (13.5.1)
+  - Google-Mobile-Ads-SDK (12.14.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.1.0)
-  - IronSourceSDK (8.7.0.0)
-  - MobWithADSDK (1.2.22):
-    - AdFitSDK (= 3.14.5)
-    - Ads-Global (= 7.1.1.1)
-    - IronSourceSDK (= 8.7.0.0)
-    - UnityAds (= 4.14.1)
-  - UnityAds (4.14.1)
+  - UnityAds (4.16.5)
 
 DEPENDENCIES:
-  - AdMixerMediation (= 2.1.0)
-  - AdMixerMediationAdFit (= 1.0.2)
-  - AdMixerMediationGAM (= 1.0.1)
-  - AdMixerMediationMobWith (= 1.0.1)
-  - AdMixerMediationPangle (= 1.0.0)
+  - AdMixerMediation (= 2.2.0)
+  - AdMixerMediationAdFit (= 1.0.6)
+  - AdMixerMediationAppLovin (= 1.0.3)
+  - AdMixerMediationGAM (= 1.0.5)
+  - AdMixerMediationPangle (= 1.0.4)
+  - AdMixerMediationUnityAds (= 1.0.3)
 
 SPEC REPOS:
   trunk:
@@ -42,31 +45,31 @@ SPEC REPOS:
     - AdMixer
     - AdMixerMediation
     - AdMixerMediationAdFit
+    - AdMixerMediationAppLovin
     - AdMixerMediationGAM
-    - AdMixerMediationMobWith
     - AdMixerMediationPangle
+    - AdMixerMediationUnityAds
     - Ads-Global
+    - AppLovinSDK
     - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
-    - IronSourceSDK
-    - MobWithADSDK
     - UnityAds
 
 SPEC CHECKSUMS:
-  AdFitSDK: 421ea48b024d6274ea23d81d188457a21e6348ef
-  AdMixer: 8cd3d753d5bb8922d714596a1ec89f89a3917554
-  AdMixerMediation: 505b507e5e9a94fbd0ea36e3649b21dc7e4ac189
-  AdMixerMediationAdFit: 2c2bb047b5d349910f19e7bfbd04ac689aa34a48
-  AdMixerMediationGAM: 2263da790890134f58636cde0765a337acdc3ccd
-  AdMixerMediationMobWith: 5073d2f8a640b93427ffc4939a8b2f60fe091e40
-  AdMixerMediationPangle: efeb2ff764e1e0e2337b108f9d9081dbd5c8a240
-  Ads-Global: b81917c405e94ad38dd45022f0fe17042429f578
-  Google-Mobile-Ads-SDK: 13e6e98edfd78ad8d8a791edb927658cc260a56f
+  AdFitSDK: 5dced95f618805b9881365edc8c922de8feb5550
+  AdMixer: 6fe6e90e59318a44f1fc54ba5e6ef5bf422d0e1c
+  AdMixerMediation: 7949d9916105a4463b4b8e69c8ce58c3ec621a3b
+  AdMixerMediationAdFit: 12225ab938936719bcbda60226cfd8bbfd03f8f2
+  AdMixerMediationAppLovin: d0a48ead0207152e401d484021347bb705df33a9
+  AdMixerMediationGAM: 5ddc1fe5a9bcf6de98204e5e641bd458149225b0
+  AdMixerMediationPangle: 5e1820d1955053447251589064b9b0bb0f9f0b62
+  AdMixerMediationUnityAds: 07e854c19967b2b4856f12dbceb53bdcb5cb59c7
+  Ads-Global: 5462b4aeff0bc7c1cb9a1ec580fcc621bee6a2dc
+  AppLovinSDK: 8d9af6c7617e4d35b38aa8393a3e9d161a74b230
+  Google-Mobile-Ads-SDK: 4534fd2dfcd3f705c5485a6633c5188d03d4eed2
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  IronSourceSDK: 0b5a640179ef91acc637332608183a05db1757df
-  MobWithADSDK: dc68d2ecea35ee3cc71b858a27db436ded738a3b
-  UnityAds: b79991b34b0fc648f3b6052274ac8a0a3463cd4f
+  UnityAds: 8b9e0ecf7c4aa7334d15f81efb58db279e28f502
 
-PODFILE CHECKSUM: 20433fc5297b1c77e1a695bf0d75623e5d345534
+PODFILE CHECKSUM: 849fc9767c70b04a1dc2ffc01ffc43456d71027b
 
 COCOAPODS: 1.16.2

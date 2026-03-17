@@ -180,14 +180,16 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixer/AdMixer.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/MobWithADSDK/CouOffsiteAds.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/AdMixerMediationAppLovin.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdFitSDK/AdFitSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixer/AdMixer.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/MobWithADSDK/CouOffsiteAds.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/AdMixerMediationAppLovin.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
