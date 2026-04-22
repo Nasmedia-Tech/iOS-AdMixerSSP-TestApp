@@ -25,20 +25,39 @@ class ViewController: UIViewController {
     }
     
     @IBAction func interstitialBannerButtonTapped(_ sender: Any) {
-        interstitialBanner = AMMInterstitial(rootViewController: self)
-        interstitialBanner?.adUnitID = Constants.InterstitialBannerAdUnit
-        interstitialBanner?.viewType = .popup
         
-        interstitialBanner?.delegate = self
-        interstitialBanner?.load()
+        let config = AMMInterstitialConfig()
+        config.viewType = .popup
+        
+        AMMInterstitial.load(adUnitID: Constants.InterstitialBannerAdUnit, config: config) { [weak self] interstitial, error in
+            guard let self else { return }
+            if let error {
+                print("AMMInterstitial error: \(error)")
+            }
+            
+            if let interstitial {
+                self.interstitialBanner = interstitial
+                self.interstitialBanner?.delegate = self
+                self.interstitialBanner?.show(rootViewController: self)
+            }
+        }
     }
     
     @IBAction func interstitialVideoButtonTapped(_ sender: Any) {
-        interstitialVideo = AMMVideoInterstitial(rootViewController: self)
-        interstitialVideo?.adUnitID = Constants.InterstitialVideoAdUnit
         
-        interstitialVideo?.delegate = self
-        interstitialVideo?.load()
+        AMMVideoInterstitial.load(adUnitID: Constants.InterstitialVideoAdUnit) { [weak self] videointerstitial, error in
+            guard let self else { return }
+            
+            if let error {
+                print("AMMVideoInterstitial error: \(error)")
+            }
+            
+            if let videointerstitial {
+                self.interstitialVideo = videointerstitial
+                self.interstitialVideo?.delegate = self
+                self.interstitialVideo?.show(rootViewController: self)
+            }
+        }
     }
     
     @IBAction func videoButtonTapped(_ sender: Any) {
@@ -47,11 +66,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func rewardVideoButtonTapped(_ sender: Any) {
-        rewardVideo = AMMRewardVideo(rootViewController: self)
-        rewardVideo?.adUnitID = Constants.RewardVideoAdUnit
-
-        rewardVideo?.delegate = self
-        rewardVideo?.load()
+        
+        AMMRewardVideo.load(adUnitID: Constants.RewardVideoAdUnit) { [weak self] reward, error in
+            guard let self else { return }
+            
+            if let error {
+                print("AMMRewardVideo error: \(error)")
+            }
+            
+            if let reward {
+                self.rewardVideo = reward
+                self.rewardVideo?.delegate = self
+                self.rewardVideo?.show(rootViewController: self)
+            }
+        }
     }
     
     @IBAction func nativeButtonTapped(_ sender: Any) {
@@ -62,22 +90,30 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: AMMInterstitialDelegate {
-    func onSuccessInterstitial() {
+    func onSuccessShowInterstitial() {
         print("onSuccessInterstitial")
     }
     
-    func onFailInterstitial() {
-        print("onFailInterstitial")
+    func onFailShowInterstitial(error: Error?) {
+        print("onFailInterstitial: \(error)")
+    }
+    
+    func onTapInterstitial() {
+        print("onTapInterstitial")
+    }
+    
+    func onCloseInterstitial() {
+        print("onCloseInterstitial")
     }
 }
 
 extension ViewController: AMMVideoInterstitialDelegate {
-    func onSuccessVideoInterstitial() {
-        print("onSuccessVideoInterstitial")
+    func onSuccessShowVideoInterstitial() {
+        print("onSuccessShowVideoInterstitial")
     }
     
-    func onFailVideoInterstitial() {
-        print("onFailVideoInterstitial")
+    func onFailShowVideoInterstitial(error: Error?) {
+        print("onFailShowVideoInterstitial: \(error)")
     }
     
     func onCloseVideoInterstitial() {
@@ -93,14 +129,13 @@ extension ViewController: AMMVideoInterstitialDelegate {
     }
 }
 
-
 extension ViewController: AMMRewardVideoDelegate {
-    func onSuccessRewardVideo() {
-        print("onSuccessRewardVideo")
+    func onSuccessShowReward() {
+        print("onSuccessShowReward")
     }
     
-    func onFailRewardVideo() {
-        print("onFailRewardVideo")
+    func onFailShowReward(error: Error?) {
+        print("onFailShowReward: \(error)")
     }
     
     func onCloseRewardVideo() {
@@ -113,5 +148,9 @@ extension ViewController: AMMRewardVideoDelegate {
     
     func onRewardVideoComplete() {
         print("onRewardVideoComplete")
+    }
+    
+    func onRewardVideoEarned() {
+        print("onRewardVideoEarned")
     }
 }
