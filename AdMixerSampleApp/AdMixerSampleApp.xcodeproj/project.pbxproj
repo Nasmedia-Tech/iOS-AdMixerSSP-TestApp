@@ -65,11 +65,15 @@
 		};
 		0249C3192D09514300DC7B41 /* AdMixerSampleAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AdMixerSampleAppTests;
 			sourceTree = "<group>";
 		};
 		0249C3232D09514300DC7B41 /* AdMixerSampleAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = AdMixerSampleAppUITests;
 			sourceTree = "<group>";
 		};
@@ -252,8 +256,6 @@
 			);
 			mainGroup = 0249C2F72D09514200DC7B41;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0249C3012D09514200DC7B41 /* Products */;
 			projectDirPath = "";
@@ -487,7 +489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.dailyshot.hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -517,7 +519,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.dailyshot.hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,7 +657,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.dailyshot.hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -675,7 +677,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nasmedia.AdMixerSampleAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.dailyshot.hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

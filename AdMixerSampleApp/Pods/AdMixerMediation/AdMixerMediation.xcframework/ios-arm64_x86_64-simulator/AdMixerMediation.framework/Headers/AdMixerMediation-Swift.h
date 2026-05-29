@@ -350,35 +350,47 @@ typedef SWIFT_ENUM(NSInteger, AMMCountDownType, open) {
 };
 
 @protocol AMMInterstitialDelegate;
-enum AMMInterstitialType : NSInteger;
-@class AMMInterstitialPopupOption;
-@class AMMInterstitialCountDownOption;
+@class AMMInterstitialConfig;
 SWIFT_CLASS("_TtC16AdMixerMediation15AMMInterstitial")
 @interface AMMInterstitial : NSObject
 @property (nonatomic) NSInteger adUnitID;
 @property (nonatomic, weak) id <AMMInterstitialDelegate> _Nullable delegate;
+@property (nonatomic, strong) AMMInterstitialConfig * _Nonnull config;
+@property (nonatomic, readonly) BOOL isAdReady;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID config:(AMMInterstitialConfig * _Nullable)config completionHandler:(void (^ _Nonnull)(AMMInterstitial * _Nullable, NSError * _Nullable))completionHandler;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID config:(AMMInterstitialConfig * _Nullable)config completion:(void (^ _Nonnull)(AMMInterstitial * _Nullable, NSError * _Nullable))completion;
+- (void)showWithRootViewController:(UIViewController * _Nonnull)rootViewController;
+- (void)stop;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMBannerAdDelegate>
+- (void)didLoadInterstitialSuccess;
+- (void)didLoadInterstitialFailWith:(NSError * _Nullable)error;
+- (void)didShowInterstitialSuccess;
+- (void)didShowInterstitialFailWith:(NSError * _Nullable)error;
+- (void)didCloseInterstitial;
+- (void)didTapInterstitial;
+@end
+
+@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation))
+- (void)onFailLoadInterstitialWithError:(NSError * _Nullable)error;
+- (void)onSuccessShowInterstitial;
+- (void)onFailShowInterstitialWithError:(NSError * _Nullable)error;
+- (void)onClickInterstitial;
+- (void)onCloseInterstitial;
+@end
+
+enum AMMInterstitialType : NSInteger;
+@class AMMInterstitialPopupOption;
+@class AMMInterstitialCountDownOption;
+SWIFT_CLASS("_TtC16AdMixerMediation21AMMInterstitialConfig")
+@interface AMMInterstitialConfig : NSObject
 @property (nonatomic) enum AMMInterstitialType viewType;
 @property (nonatomic, strong) AMMInterstitialPopupOption * _Nonnull popupOption;
 @property (nonatomic, strong) AMMInterstitialCountDownOption * _Nonnull countDownOption;
 @property (nonatomic) float closeButtonTouchAreaRatio;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (void)load;
-- (void)stop;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMBannerAdDelegate>
-- (void)didLoadFullBannerAdSuccess;
-- (void)didLoadFullBannerAdFailWith:(NSError * _Nullable)error;
-- (void)didFullBannerAdDismiss;
-- (void)didTapFullBannerAd;
-@end
-
-@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation))
-- (void)onFailBanner;
-- (void)onClickBanner;
-- (void)onCloseBanner;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC16AdMixerMediation30AMMInterstitialCountDownOption")
@@ -393,10 +405,10 @@ SWIFT_CLASS("_TtC16AdMixerMediation30AMMInterstitialCountDownOption")
 SWIFT_PROTOCOL("_TtP16AdMixerMediation23AMMInterstitialDelegate_")
 @protocol AMMInterstitialDelegate
 @optional
-- (void)onSuccessInterstitial;
-- (void)onFailInterstitial;
-- (void)onCloseInterstitial;
+- (void)onSuccessShowInterstitial;
+- (void)onFailShowInterstitialWithError:(NSError * _Nullable)error;
 - (void)onTapInterstitial;
+- (void)onCloseInterstitial;
 @end
 
 @class NSString;
@@ -477,36 +489,40 @@ SWIFT_CLASS("_TtC16AdMixerMediation14AMMRewardVideo")
 @property (nonatomic) NSInteger adUnitID;
 @property (nonatomic, weak) id <AMMRewardVideoDelegate> _Nullable delegate;
 @property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nullable customParam;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (void)load;
+@property (nonatomic, readonly) BOOL isAdReady;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID customParam:(NSDictionary<NSString *, NSString *> * _Nullable)customParam completionHandler:(void (^ _Nonnull)(AMMRewardVideo * _Nullable, NSError * _Nullable))completionHandler;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID customParam:(NSDictionary<NSString *, NSString *> * _Nullable)customParam completion:(void (^ _Nonnull)(AMMRewardVideo * _Nullable, NSError * _Nullable))completion;
+- (void)showWithRootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)stop;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@interface AMMRewardVideo (SWIFT_EXTENSION(AdMixerMediation))
-- (void)onFailRewardVideo;
-- (void)onCloseRewardVideo;
-- (void)onTapRewardVideo;
-- (void)onRewardVideoComplete;
-- (void)onRewardVideoEarned;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @interface AMMRewardVideo (SWIFT_EXTENSION(AdMixerMediation)) <AMVideoAdDelegate>
 - (void)didLoadRewardAdSuccess;
 - (void)didLoadRewardAdFailWith:(NSError * _Nullable)error;
 - (void)didShowRewardAdSuccess;
+- (void)didShowRewardAdFailWith:(NSError * _Nullable)error;
 - (void)didCloseRewardAd;
 - (void)didTapRewardAdViewMore;
 - (void)didRewardVideoComplete;
 - (void)didRewardVideoEarned;
 @end
 
+@interface AMMRewardVideo (SWIFT_EXTENSION(AdMixerMediation))
+- (void)onFailLoadRewardWithError:(NSError * _Nullable)error;
+- (void)onSuccessShowReward;
+- (void)onFailShowRewardWithError:(NSError * _Nullable)error;
+- (void)onCloseRewardVideo;
+- (void)onTapRewardVideo;
+- (void)onRewardVideoComplete;
+- (void)onRewardVideoEarned;
+@end
+
 SWIFT_PROTOCOL("_TtP16AdMixerMediation22AMMRewardVideoDelegate_")
 @protocol AMMRewardVideoDelegate
 @optional
-- (void)onSuccessRewardVideo;
-- (void)onFailRewardVideo;
+- (void)onSuccessShowReward;
+- (void)onFailShowRewardWithError:(NSError * _Nullable)error;
 - (void)onCloseRewardVideo;
 - (void)onTapRewardVideo;
 - (void)onRewardVideoComplete;
@@ -518,11 +534,13 @@ SWIFT_CLASS("_TtC16AdMixerMediation20AMMVideoInterstitial")
 @interface AMMVideoInterstitial : NSObject
 @property (nonatomic) NSInteger adUnitID;
 @property (nonatomic, weak) id <AMMVideoInterstitialDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) BOOL isAdReady;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID completionHandler:(void (^ _Nonnull)(AMMVideoInterstitial * _Nullable, NSError * _Nullable))completionHandler;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID completion:(void (^ _Nonnull)(AMMVideoInterstitial * _Nullable, NSError * _Nullable))completion;
+- (void)showWithRootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)load;
 - (void)stop;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @interface AMMVideoInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMVideoAdDelegate>
@@ -537,8 +555,8 @@ SWIFT_CLASS("_TtC16AdMixerMediation20AMMVideoInterstitial")
 SWIFT_PROTOCOL("_TtP16AdMixerMediation28AMMVideoInterstitialDelegate_")
 @protocol AMMVideoInterstitialDelegate
 @optional
-- (void)onSuccessVideoInterstitial;
-- (void)onFailVideoInterstitial;
+- (void)onSuccessShowVideoInterstitial;
+- (void)onFailShowVideoInterstitialWithError:(NSError * _Nullable)error;
 - (void)onCloseVideoInterstitial;
 - (void)onTapVideoInterstitialViewMore;
 - (void)onCompleteVideoInterstitial;
@@ -555,6 +573,12 @@ SWIFT_CLASS("_TtC16AdMixerMediation12AMMVideoView")
 - (void)load;
 - (void)stop;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@interface AMMVideoView (SWIFT_EXTENSION(AdMixerMediation))
+- (void)onFailVideo;
+- (void)onClickVideo;
+- (void)onCompleteVideo;
 @end
 
 @interface AMMVideoView (SWIFT_EXTENSION(AdMixerMediation)) <AMVideoAdDelegate>
@@ -581,7 +605,10 @@ SWIFT_CLASS("_TtC16AdMixerMediation11AMMediation")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AMMediation * _Nonnull shared;)
 + (AMMediation * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic) BOOL isDebugEnabled;
+@property (nonatomic) BOOL isMediaConfThrottleEnabled;
+@property (nonatomic) BOOL isMockEnabled;
 - (void)setDebugEnabledWithIsEnabled:(BOOL)isEnabled;
+- (void)setMediaConfThrottleWithIsEnabled:(BOOL)isEnabled;
 - (void)initializeWithMediaKey:(NSInteger)mediaKey adunitID:(NSSet<NSNumber *> * _Nonnull)adunitID;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -959,35 +986,47 @@ typedef SWIFT_ENUM(NSInteger, AMMCountDownType, open) {
 };
 
 @protocol AMMInterstitialDelegate;
-enum AMMInterstitialType : NSInteger;
-@class AMMInterstitialPopupOption;
-@class AMMInterstitialCountDownOption;
+@class AMMInterstitialConfig;
 SWIFT_CLASS("_TtC16AdMixerMediation15AMMInterstitial")
 @interface AMMInterstitial : NSObject
 @property (nonatomic) NSInteger adUnitID;
 @property (nonatomic, weak) id <AMMInterstitialDelegate> _Nullable delegate;
+@property (nonatomic, strong) AMMInterstitialConfig * _Nonnull config;
+@property (nonatomic, readonly) BOOL isAdReady;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID config:(AMMInterstitialConfig * _Nullable)config completionHandler:(void (^ _Nonnull)(AMMInterstitial * _Nullable, NSError * _Nullable))completionHandler;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID config:(AMMInterstitialConfig * _Nullable)config completion:(void (^ _Nonnull)(AMMInterstitial * _Nullable, NSError * _Nullable))completion;
+- (void)showWithRootViewController:(UIViewController * _Nonnull)rootViewController;
+- (void)stop;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMBannerAdDelegate>
+- (void)didLoadInterstitialSuccess;
+- (void)didLoadInterstitialFailWith:(NSError * _Nullable)error;
+- (void)didShowInterstitialSuccess;
+- (void)didShowInterstitialFailWith:(NSError * _Nullable)error;
+- (void)didCloseInterstitial;
+- (void)didTapInterstitial;
+@end
+
+@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation))
+- (void)onFailLoadInterstitialWithError:(NSError * _Nullable)error;
+- (void)onSuccessShowInterstitial;
+- (void)onFailShowInterstitialWithError:(NSError * _Nullable)error;
+- (void)onClickInterstitial;
+- (void)onCloseInterstitial;
+@end
+
+enum AMMInterstitialType : NSInteger;
+@class AMMInterstitialPopupOption;
+@class AMMInterstitialCountDownOption;
+SWIFT_CLASS("_TtC16AdMixerMediation21AMMInterstitialConfig")
+@interface AMMInterstitialConfig : NSObject
 @property (nonatomic) enum AMMInterstitialType viewType;
 @property (nonatomic, strong) AMMInterstitialPopupOption * _Nonnull popupOption;
 @property (nonatomic, strong) AMMInterstitialCountDownOption * _Nonnull countDownOption;
 @property (nonatomic) float closeButtonTouchAreaRatio;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (void)load;
-- (void)stop;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMBannerAdDelegate>
-- (void)didLoadFullBannerAdSuccess;
-- (void)didLoadFullBannerAdFailWith:(NSError * _Nullable)error;
-- (void)didFullBannerAdDismiss;
-- (void)didTapFullBannerAd;
-@end
-
-@interface AMMInterstitial (SWIFT_EXTENSION(AdMixerMediation))
-- (void)onFailBanner;
-- (void)onClickBanner;
-- (void)onCloseBanner;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_CLASS("_TtC16AdMixerMediation30AMMInterstitialCountDownOption")
@@ -1002,10 +1041,10 @@ SWIFT_CLASS("_TtC16AdMixerMediation30AMMInterstitialCountDownOption")
 SWIFT_PROTOCOL("_TtP16AdMixerMediation23AMMInterstitialDelegate_")
 @protocol AMMInterstitialDelegate
 @optional
-- (void)onSuccessInterstitial;
-- (void)onFailInterstitial;
-- (void)onCloseInterstitial;
+- (void)onSuccessShowInterstitial;
+- (void)onFailShowInterstitialWithError:(NSError * _Nullable)error;
 - (void)onTapInterstitial;
+- (void)onCloseInterstitial;
 @end
 
 @class NSString;
@@ -1086,36 +1125,40 @@ SWIFT_CLASS("_TtC16AdMixerMediation14AMMRewardVideo")
 @property (nonatomic) NSInteger adUnitID;
 @property (nonatomic, weak) id <AMMRewardVideoDelegate> _Nullable delegate;
 @property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nullable customParam;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (void)load;
+@property (nonatomic, readonly) BOOL isAdReady;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID customParam:(NSDictionary<NSString *, NSString *> * _Nullable)customParam completionHandler:(void (^ _Nonnull)(AMMRewardVideo * _Nullable, NSError * _Nullable))completionHandler;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID customParam:(NSDictionary<NSString *, NSString *> * _Nullable)customParam completion:(void (^ _Nonnull)(AMMRewardVideo * _Nullable, NSError * _Nullable))completion;
+- (void)showWithRootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)stop;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@interface AMMRewardVideo (SWIFT_EXTENSION(AdMixerMediation))
-- (void)onFailRewardVideo;
-- (void)onCloseRewardVideo;
-- (void)onTapRewardVideo;
-- (void)onRewardVideoComplete;
-- (void)onRewardVideoEarned;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @interface AMMRewardVideo (SWIFT_EXTENSION(AdMixerMediation)) <AMVideoAdDelegate>
 - (void)didLoadRewardAdSuccess;
 - (void)didLoadRewardAdFailWith:(NSError * _Nullable)error;
 - (void)didShowRewardAdSuccess;
+- (void)didShowRewardAdFailWith:(NSError * _Nullable)error;
 - (void)didCloseRewardAd;
 - (void)didTapRewardAdViewMore;
 - (void)didRewardVideoComplete;
 - (void)didRewardVideoEarned;
 @end
 
+@interface AMMRewardVideo (SWIFT_EXTENSION(AdMixerMediation))
+- (void)onFailLoadRewardWithError:(NSError * _Nullable)error;
+- (void)onSuccessShowReward;
+- (void)onFailShowRewardWithError:(NSError * _Nullable)error;
+- (void)onCloseRewardVideo;
+- (void)onTapRewardVideo;
+- (void)onRewardVideoComplete;
+- (void)onRewardVideoEarned;
+@end
+
 SWIFT_PROTOCOL("_TtP16AdMixerMediation22AMMRewardVideoDelegate_")
 @protocol AMMRewardVideoDelegate
 @optional
-- (void)onSuccessRewardVideo;
-- (void)onFailRewardVideo;
+- (void)onSuccessShowReward;
+- (void)onFailShowRewardWithError:(NSError * _Nullable)error;
 - (void)onCloseRewardVideo;
 - (void)onTapRewardVideo;
 - (void)onRewardVideoComplete;
@@ -1127,11 +1170,13 @@ SWIFT_CLASS("_TtC16AdMixerMediation20AMMVideoInterstitial")
 @interface AMMVideoInterstitial : NSObject
 @property (nonatomic) NSInteger adUnitID;
 @property (nonatomic, weak) id <AMMVideoInterstitialDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) BOOL isAdReady;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID completionHandler:(void (^ _Nonnull)(AMMVideoInterstitial * _Nullable, NSError * _Nullable))completionHandler;
++ (void)loadWithAdUnitID:(NSInteger)adUnitID completion:(void (^ _Nonnull)(AMMVideoInterstitial * _Nullable, NSError * _Nullable))completion;
+- (void)showWithRootViewController:(UIViewController * _Nonnull)rootViewController;
 - (void)load;
 - (void)stop;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @interface AMMVideoInterstitial (SWIFT_EXTENSION(AdMixerMediation)) <AMVideoAdDelegate>
@@ -1146,8 +1191,8 @@ SWIFT_CLASS("_TtC16AdMixerMediation20AMMVideoInterstitial")
 SWIFT_PROTOCOL("_TtP16AdMixerMediation28AMMVideoInterstitialDelegate_")
 @protocol AMMVideoInterstitialDelegate
 @optional
-- (void)onSuccessVideoInterstitial;
-- (void)onFailVideoInterstitial;
+- (void)onSuccessShowVideoInterstitial;
+- (void)onFailShowVideoInterstitialWithError:(NSError * _Nullable)error;
 - (void)onCloseVideoInterstitial;
 - (void)onTapVideoInterstitialViewMore;
 - (void)onCompleteVideoInterstitial;
@@ -1164,6 +1209,12 @@ SWIFT_CLASS("_TtC16AdMixerMediation12AMMVideoView")
 - (void)load;
 - (void)stop;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@interface AMMVideoView (SWIFT_EXTENSION(AdMixerMediation))
+- (void)onFailVideo;
+- (void)onClickVideo;
+- (void)onCompleteVideo;
 @end
 
 @interface AMMVideoView (SWIFT_EXTENSION(AdMixerMediation)) <AMVideoAdDelegate>
@@ -1190,7 +1241,10 @@ SWIFT_CLASS("_TtC16AdMixerMediation11AMMediation")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AMMediation * _Nonnull shared;)
 + (AMMediation * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic) BOOL isDebugEnabled;
+@property (nonatomic) BOOL isMediaConfThrottleEnabled;
+@property (nonatomic) BOOL isMockEnabled;
 - (void)setDebugEnabledWithIsEnabled:(BOOL)isEnabled;
+- (void)setMediaConfThrottleWithIsEnabled:(BOOL)isEnabled;
 - (void)initializeWithMediaKey:(NSInteger)mediaKey adunitID:(NSSet<NSNumber *> * _Nonnull)adunitID;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

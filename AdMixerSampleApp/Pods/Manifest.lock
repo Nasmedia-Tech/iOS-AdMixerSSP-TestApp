@@ -1,43 +1,47 @@
 PODS:
   - AdFitSDK (3.18.3)
-  - AdMixer (1.1.5)
-  - AdMixerMediation (2.2.0):
-    - AdMixer
-  - AdMixerMediationAdFit (1.0.6):
+  - AdMixer (1.1.7)
+  - AdMixerMediation (2.3.5):
+    - AdMixer (>= 1.1.6)
+  - AdMixerMediationAdFit (1.0.8):
     - AdFitSDK (< 3.18.6, >= 3.14.7)
-    - AdMixerMediation
-  - AdMixerMediationAppLovin (1.0.3):
-    - AdMixerMediation
+    - AdMixerMediation (>= 2.3.0)
+  - AdMixerMediationAppLovin (1.0.6):
+    - AdMixerMediationAppLovin/WithCore (= 1.0.6)
+  - AdMixerMediationAppLovin/WithCore (1.0.6):
+    - AdMixerMediation (>= 2.3.0)
     - AppLovinSDK (< 13.5.2, >= 13.3.1)
-  - AdMixerMediationGAM (1.0.5):
-    - AdMixerMediation
-    - Google-Mobile-Ads-SDK (< 12.14.1, >= 12.7.0)
-  - AdMixerMediationPangle (1.0.4):
-    - AdMixerMediation
-    - Ads-Global (< 7.8.8.9, >= 7.4.0.8)
-  - AdMixerMediationUnityAds (1.0.3):
-    - AdMixerMediation
+  - AdMixerMediationGAM (1.0.10):
+    - AdMixerMediation (>= 2.3.0)
+    - Google-Mobile-Ads-SDK (< 13.3.1, >= 12.7.0)
+  - AdMixerMediationPangle (1.0.7):
+    - AdMixerMediation (>= 2.3.0)
+    - Ads-Global
+  - AdMixerMediationUnityAds (1.0.9):
+    - AdMixerMediationUnityAds/WithCore (= 1.0.9)
+  - AdMixerMediationUnityAds/WithCore (1.0.9):
+    - AdMixerMediation (>= 2.3.0)
     - UnityAds (< 4.16.6, >= 4.15.1)
-  - Ads-Global (7.8.5.9):
-    - Ads-Global/BUAdSDK (= 7.8.5.9)
-  - Ads-Global/BUAdSDK (7.8.5.9):
+  - Ads-Global (8.1.0.6):
+    - Ads-Global/BUAdSDK (= 8.1.0.6)
+  - Ads-Global/BUAdSDK (8.1.0.6):
     - Ads-Global/PangleSDK
     - Ads-Global/TikTokBusinessSDK
-  - Ads-Global/PangleSDK (7.8.5.9)
-  - Ads-Global/TikTokBusinessSDK (7.8.5.9)
+  - Ads-Global/PangleSDK (8.1.0.6)
+  - Ads-Global/TikTokBusinessSDK (8.1.0.6)
   - AppLovinSDK (13.5.1)
-  - Google-Mobile-Ads-SDK (12.14.0):
+  - Google-Mobile-Ads-SDK (13.3.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.1.0)
   - UnityAds (4.16.5)
 
 DEPENDENCIES:
-  - AdMixerMediation (= 2.2.0)
-  - AdMixerMediationAdFit (= 1.0.6)
-  - AdMixerMediationAppLovin (= 1.0.3)
-  - AdMixerMediationGAM (= 1.0.5)
-  - AdMixerMediationPangle (= 1.0.4)
-  - AdMixerMediationUnityAds (= 1.0.3)
+  - AdMixerMediation (= 2.3.5)
+  - AdMixerMediationAdFit (= 1.0.8)
+  - AdMixerMediationAppLovin (= 1.0.6)
+  - AdMixerMediationGAM (= 1.0.10)
+  - AdMixerMediationPangle (= 1.0.7)
+  - AdMixerMediationUnityAds (= 1.0.9)
 
 SPEC REPOS:
   trunk:
@@ -57,19 +61,19 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AdFitSDK: 5dced95f618805b9881365edc8c922de8feb5550
-  AdMixer: 6fe6e90e59318a44f1fc54ba5e6ef5bf422d0e1c
-  AdMixerMediation: 7949d9916105a4463b4b8e69c8ce58c3ec621a3b
-  AdMixerMediationAdFit: 12225ab938936719bcbda60226cfd8bbfd03f8f2
-  AdMixerMediationAppLovin: d0a48ead0207152e401d484021347bb705df33a9
-  AdMixerMediationGAM: 5ddc1fe5a9bcf6de98204e5e641bd458149225b0
-  AdMixerMediationPangle: 5e1820d1955053447251589064b9b0bb0f9f0b62
-  AdMixerMediationUnityAds: 07e854c19967b2b4856f12dbceb53bdcb5cb59c7
-  Ads-Global: 5462b4aeff0bc7c1cb9a1ec580fcc621bee6a2dc
+  AdMixer: 7532d0faf6cd24bd4cc277d290f72cdbf565a609
+  AdMixerMediation: bc7e11c8179f03a2cc300eb4e436a1cb14a6981c
+  AdMixerMediationAdFit: 6d7397db569a6977c6baf088ae86471a00d198fc
+  AdMixerMediationAppLovin: ef7c64ce92ebaf7aa002bc536618e566328d96ae
+  AdMixerMediationGAM: e1945d70aa11c0969c254dc9542607f22773bd06
+  AdMixerMediationPangle: 51cf3b4bf96c9901deec73fb4c4a528bf04b1876
+  AdMixerMediationUnityAds: 22bdadaa073693b78eeb59dbcc22dd1bf56e9ba5
+  Ads-Global: 928e2669595256b915df04a4a2f299d3bb8fe6b7
   AppLovinSDK: 8d9af6c7617e4d35b38aa8393a3e9d161a74b230
-  Google-Mobile-Ads-SDK: 4534fd2dfcd3f705c5485a6633c5188d03d4eed2
+  Google-Mobile-Ads-SDK: 7692126a35ed859f20635af281c50a2162be8bea
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
   UnityAds: 8b9e0ecf7c4aa7334d15f81efb58db279e28f502
 
-PODFILE CHECKSUM: 849fc9767c70b04a1dc2ffc01ffc43456d71027b
+PODFILE CHECKSUM: 841b1386f21f0e8b806bb933302fabf312b369af
 
 COCOAPODS: 1.16.2

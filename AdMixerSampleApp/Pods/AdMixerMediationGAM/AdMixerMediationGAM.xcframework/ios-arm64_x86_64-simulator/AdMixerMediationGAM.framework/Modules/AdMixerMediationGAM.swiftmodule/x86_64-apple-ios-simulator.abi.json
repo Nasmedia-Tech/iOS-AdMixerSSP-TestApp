@@ -60,7 +60,7 @@
           {
             "kind": "Function",
             "name": "loadInterstitialAd",
-            "printedName": "loadInterstitialAd(bannerAdConfiguration:interstitialHandler:)",
+            "printedName": "loadInterstitialAd(interstitialConfiguration:interstitialHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -69,9 +69,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "BannerConfiguration",
-                "printedName": "AdMixerMediation.BannerConfiguration",
-                "usr": "s:16AdMixerMediation19BannerConfigurationC"
+                "name": "InterstitialConfiguration",
+                "printedName": "AdMixerMediation.InterstitialConfiguration",
+                "usr": "s:16AdMixerMediation25InterstitialConfigurationC"
               },
               {
                 "kind": "TypeNominal",
@@ -81,8 +81,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19AdMixerMediationGAM10GAMAdapterC016loadInterstitialA006bannerA13Configuration19interstitialHandlery0abC006BannerI0C_AG0gK0_ptF",
-            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC016loadInterstitialA006bannerA13Configuration19interstitialHandlery0abC006BannerI0C_AG0gK0_ptF",
+            "usr": "s:19AdMixerMediationGAM10GAMAdapterC016loadInterstitialA025interstitialConfiguration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC016loadInterstitialA025interstitialConfiguration0H7Handlery0abC00gI0C_AG0gJ0_ptF",
             "moduleName": "AdMixerMediationGAM",
             "overriding": true,
             "declAttributes": [

@@ -123,7 +123,8 @@
             "objc_name": "debugWithIsEnabled:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -504,6 +505,23 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdMixer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AdMixer"
       },
       {
         "kind": "Import",
@@ -1347,6 +1365,311 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "AMAdPodConfig",
+        "printedName": "AMAdPodConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "maxAdCount",
+            "printedName": "maxAdCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AdMixer13AMAdPodConfigV03maxA5CountSivp",
+            "mangledName": "$s7AdMixer13AMAdPodConfigV03maxA5CountSivp",
+            "moduleName": "AdMixer",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV03maxA5CountSivg",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV03maxA5CountSivg",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV03maxA5CountSivs",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV03maxA5CountSivs",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV03maxA5CountSivM",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV03maxA5CountSivM",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxTotalDuration",
+            "printedName": "maxTotalDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AdMixer13AMAdPodConfigV16maxTotalDurationSdvp",
+            "mangledName": "$s7AdMixer13AMAdPodConfigV16maxTotalDurationSdvp",
+            "moduleName": "AdMixer",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV16maxTotalDurationSdvg",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV16maxTotalDurationSdvg",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV16maxTotalDurationSdvs",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV16maxTotalDurationSdvs",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV16maxTotalDurationSdvM",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV16maxTotalDurationSdvM",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMAdPodConfig",
+                "printedName": "AdMixer.AMAdPodConfig",
+                "usr": "s:7AdMixer13AMAdPodConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AdMixer13AMAdPodConfigV7defaultACvpZ",
+            "mangledName": "$s7AdMixer13AMAdPodConfigV7defaultACvpZ",
+            "moduleName": "AdMixer",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMAdPodConfig",
+                    "printedName": "AdMixer.AMAdPodConfig",
+                    "usr": "s:7AdMixer13AMAdPodConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer13AMAdPodConfigV7defaultACvgZ",
+                "mangledName": "$s7AdMixer13AMAdPodConfigV7defaultACvgZ",
+                "moduleName": "AdMixer",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(maxAdCount:maxTotalDuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMAdPodConfig",
+                "printedName": "AdMixer.AMAdPodConfig",
+                "usr": "s:7AdMixer13AMAdPodConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AdMixer13AMAdPodConfigV03maxA5Count0F13TotalDurationACSi_Sdtcfc",
+            "mangledName": "$s7AdMixer13AMAdPodConfigV03maxA5Count0F13TotalDurationACSi_Sdtcfc",
+            "moduleName": "AdMixer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AdMixer13AMAdPodConfigV",
+        "mangledName": "$s7AdMixer13AMAdPodConfigV",
+        "moduleName": "AdMixer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdMixer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdMixer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "AMBannerAdDelegate",
         "printedName": "AMBannerAdDelegate",
         "children": [
@@ -1443,8 +1766,8 @@
           },
           {
             "kind": "Function",
-            "name": "didLoadFullBannerAdSuccess",
-            "printedName": "didLoadFullBannerAdSuccess()",
+            "name": "didLoadInterstitialSuccess",
+            "printedName": "didLoadInterstitialSuccess()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1453,8 +1776,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didLoadFullBannerAdSuccess",
-            "mangledName": "$s7AdMixer08AMBannerA8DelegateP017didLoadFullBannerA7SuccessyyF",
+            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didLoadInterstitialSuccess",
+            "mangledName": "$s7AdMixer08AMBannerA8DelegateP26didLoadInterstitialSuccessyyF",
             "moduleName": "AdMixer",
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMBannerAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixer.AMBannerAdDelegate>",
@@ -1469,8 +1792,8 @@
           },
           {
             "kind": "Function",
-            "name": "didLoadFullBannerAdFail",
-            "printedName": "didLoadFullBannerAdFail(with:)",
+            "name": "didLoadInterstitialFail",
+            "printedName": "didLoadInterstitialFail(with:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1493,13 +1816,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didLoadFullBannerAdFailWith:",
-            "mangledName": "$s7AdMixer08AMBannerA8DelegateP017didLoadFullBannerA4Fail4withySo7NSErrorCSg_tF",
+            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didLoadInterstitialFailWith:",
+            "mangledName": "$s7AdMixer08AMBannerA8DelegateP23didLoadInterstitialFail4withySo7NSErrorCSg_tF",
             "moduleName": "AdMixer",
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMBannerAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixer.AMBannerAdDelegate>",
             "protocolReq": true,
-            "objc_name": "didLoadFullBannerAdFailWith:",
+            "objc_name": "didLoadInterstitialFailWith:",
             "declAttributes": [
               "Optional",
               "ObjC"
@@ -1509,8 +1832,8 @@
           },
           {
             "kind": "Function",
-            "name": "didFullBannerAdDismiss",
-            "printedName": "didFullBannerAdDismiss()",
+            "name": "didShowInterstitialSuccess",
+            "printedName": "didShowInterstitialSuccess()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1519,8 +1842,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didFullBannerAdDismiss",
-            "mangledName": "$s7AdMixer08AMBannerA8DelegateP013didFullBannerA7DismissyyF",
+            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didShowInterstitialSuccess",
+            "mangledName": "$s7AdMixer08AMBannerA8DelegateP26didShowInterstitialSuccessyyF",
             "moduleName": "AdMixer",
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMBannerAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixer.AMBannerAdDelegate>",
@@ -1534,8 +1857,48 @@
           },
           {
             "kind": "Function",
-            "name": "didTapFullBannerAd",
-            "printedName": "didTapFullBannerAd()",
+            "name": "didShowInterstitialFail",
+            "printedName": "didShowInterstitialFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didShowInterstitialFailWith:",
+            "mangledName": "$s7AdMixer08AMBannerA8DelegateP23didShowInterstitialFail4withySo7NSErrorCSg_tF",
+            "moduleName": "AdMixer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMBannerAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixer.AMBannerAdDelegate>",
+            "protocolReq": true,
+            "objc_name": "didShowInterstitialFailWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCloseInterstitial",
+            "printedName": "didCloseInterstitial()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1544,8 +1907,33 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didTapFullBannerAd",
-            "mangledName": "$s7AdMixer08AMBannerA8DelegateP016didTapFullBannerA0yyF",
+            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didCloseInterstitial",
+            "mangledName": "$s7AdMixer08AMBannerA8DelegateP20didCloseInterstitialyyF",
+            "moduleName": "AdMixer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMBannerAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixer.AMBannerAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTapInterstitial",
+            "printedName": "didTapInterstitial()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(pl)AMBannerAdDelegate(im)didTapInterstitial",
+            "mangledName": "$s7AdMixer08AMBannerA8DelegateP18didTapInterstitialyyF",
             "moduleName": "AdMixer",
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMBannerAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixer.AMBannerAdDelegate>",
@@ -2043,6 +2431,20 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2176,7 +2578,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adInfo:rootViewController:)",
+            "printedName": "init(adInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2189,17 +2591,11 @@
                 "name": "AMFullBannerAdInfo",
                 "printedName": "AdMixer.AMFullBannerAdInfo",
                 "usr": "c:@M@AdMixer@objc(cs)AMFullBannerAdInfo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AdMixer08AMBannerA14ViewControllerC6adInfo04rootdE0AcA012AMFullBanneraG0C_So06UIViewE0Ctcfc",
-            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC6adInfo04rootdE0AcA012AMFullBanneraG0C_So06UIViewE0Ctcfc",
+            "usr": "s:7AdMixer08AMBannerA14ViewControllerC6adInfoAcA012AMFullBanneraG0C_tcfc",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC6adInfoAcA012AMFullBanneraG0C_tcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -2325,17 +2721,23 @@
           {
             "kind": "Function",
             "name": "loadAd",
-            "printedName": "loadAd()",
+            "printedName": "loadAd(isHouseAd:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AdMixer08AMBannerA14ViewControllerC04loadA0yyF",
-            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC04loadA0yyF",
+            "usr": "s:7AdMixer08AMBannerA14ViewControllerC04loadA007isHouseA0ySb_tF",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC04loadA007isHouseA0ySb_tF",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -2346,18 +2748,24 @@
           },
           {
             "kind": "Function",
-            "name": "loadHouseAd",
-            "printedName": "loadHouseAd()",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AdMixer08AMBannerA14ViewControllerC09loadHouseA0yyF",
-            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC09loadHouseA0yyF",
+            "usr": "s:7AdMixer08AMBannerA14ViewControllerC04showA04fromySo06UIViewE0C_tF",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC04showA04fromySo06UIViewE0C_tF",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -2365,6 +2773,44 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adInfo:rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMBannerAdViewController",
+                "printedName": "AdMixer.AMBannerAdViewController",
+                "usr": "c:@M@AdMixer@objc(cs)AMBannerAdViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AMFullBannerAdInfo",
+                "printedName": "AdMixer.AMFullBannerAdInfo",
+                "usr": "c:@M@AdMixer@objc(cs)AMFullBannerAdInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AdMixer08AMBannerA14ViewControllerC6adInfo04rootdE0AcA012AMFullBanneraG0C_So06UIViewE0Ctcfc",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC6adInfo04rootdE0AcA012AMFullBanneraG0C_So06UIViewE0Ctcfc",
+            "moduleName": "AdMixer",
+            "deprecated": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl",
+              "Available"
+            ],
+            "init_kind": "Convenience"
           },
           {
             "kind": "Function",
@@ -2387,10 +2833,12 @@
             "usr": "s:7AdMixer08AMBannerA14ViewControllerC04showA08animatedySb_tF",
             "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC04showA08animatedySb_tF",
             "moduleName": "AdMixer",
+            "deprecated": true,
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2504,8 +2952,7 @@
               "ObjC",
               "Preconcurrency",
               "Custom",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2513,7 +2960,7 @@
           {
             "kind": "Function",
             "name": "webView",
-            "printedName": "webView(_:didCommit:)",
+            "printedName": "webView(_:didFinish:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2542,10 +2989,114 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdViewController(im)webView:didCommitNavigation:",
-            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC03webD0_9didCommitySo05WKWebD0C_So12WKNavigationCSgtF",
+            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
             "moduleName": "AdMixer",
-            "objc_name": "webView:didCommitNavigation:",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC03webD0_7didFail9withErrorySo05WKWebD0C_So12WKNavigationCSgs0J0_ptF",
+            "moduleName": "AdMixer",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdMixer@objc(cs)AMBannerAdViewController(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s7AdMixer08AMBannerA14ViewControllerC03webD0_28didFailProvisionalNavigation9withErrorySo05WKWebD0C_So12WKNavigationCSgs0L0_ptF",
+            "moduleName": "AdMixer",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -2785,7 +3336,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adInfo:rootViewController:videoType:)",
+            "printedName": "init(adInfo:videoType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2801,20 +3352,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "VideoType",
                 "printedName": "AdMixer.VideoType",
                 "usr": "s:7AdMixer9VideoTypeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AdMixer25AMBaseVideoViewControllerC6adInfo04rooteF09videoTypeAcA07AMVideoaH0C_So06UIViewF0CAA0dK0Otcfc",
-            "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC6adInfo04rooteF09videoTypeAcA07AMVideoaH0C_So06UIViewF0CAA0dK0Otcfc",
+            "usr": "s:7AdMixer25AMBaseVideoViewControllerC6adInfo9videoTypeAcA07AMVideoaH0C_AA0dJ0Otcfc",
+            "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC6adInfo9videoTypeAcA07AMVideoaH0C_AA0dJ0Otcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -2822,6 +3367,33 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(cs)AMBaseVideoViewController(im)viewDidLoad",
+            "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC11viewDidLoadyyF",
+            "moduleName": "AdMixer",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -2961,12 +3533,18 @@
           {
             "kind": "Function",
             "name": "showAd",
-            "printedName": "showAd(animated:success:)",
+            "printedName": "showAd(rootVC:animated:success:fail:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -2998,11 +3576,46 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AdMixer25AMBaseVideoViewControllerC04showA08animated7successySb_yycSgtF",
-            "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC04showA08animated7successySb_yycSgtF",
+            "usr": "s:7AdMixer25AMBaseVideoViewControllerC04showA06rootVC8animated7success4failySo06UIViewF0C_SbyycSgySo7NSErrorCSgcSgtF",
+            "mangledName": "$s7AdMixer25AMBaseVideoViewControllerC04showA06rootVC8animated7success4failySo06UIViewF0C_SbyycSgySo7NSErrorCSgcSgtF",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -7027,7 +7640,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adInfo:rootViewController:)",
+            "printedName": "init(adInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7040,17 +7653,11 @@
                 "name": "AMVideoAdInfo",
                 "printedName": "AdMixer.AMVideoAdInfo",
                 "usr": "c:@M@AdMixer@objc(cs)AMVideoAdInfo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AdMixer08AMRewardA14ViewControllerC6adInfo04rootdE0AcA07AMVideoaG0C_So06UIViewE0Ctcfc",
-            "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC6adInfo04rootdE0AcA07AMVideoaG0C_So06UIViewE0Ctcfc",
+            "usr": "s:7AdMixer08AMRewardA14ViewControllerC6adInfoAcA07AMVideoaG0C_tcfc",
+            "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC6adInfoAcA07AMVideoaG0C_tcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -7084,12 +7691,18 @@
           {
             "kind": "Function",
             "name": "showAd",
-            "printedName": "showAd(animated:)",
+            "printedName": "showAd(from:animated:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -7099,8 +7712,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AdMixer08AMRewardA14ViewControllerC04showA08animatedySb_tF",
-            "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC04showA08animatedySb_tF",
+            "usr": "s:7AdMixer08AMRewardA14ViewControllerC04showA04from8animatedySo06UIViewE0C_SbtF",
+            "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC04showA04from8animatedySo06UIViewE0C_SbtF",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -7112,7 +7725,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adInfo:rootViewController:videoType:)",
+            "printedName": "init(adInfo:videoType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7128,20 +7741,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "VideoType",
                 "printedName": "AdMixer.VideoType",
                 "usr": "s:7AdMixer9VideoTypeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AdMixer08AMRewardA14ViewControllerC6adInfo04rootdE09videoTypeAcA07AMVideoaG0C_So06UIViewE0CAA05VideoJ0Otcfc",
-            "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC6adInfo04rootdE09videoTypeAcA07AMVideoaG0C_So06UIViewE0CAA05VideoJ0Otcfc",
+            "usr": "s:7AdMixer08AMRewardA14ViewControllerC6adInfo9videoTypeAcA07AMVideoaG0C_AA05VideoI0Otcfc",
+            "mangledName": "$s7AdMixer08AMRewardA14ViewControllerC6adInfo9videoTypeAcA07AMVideoaG0C_AA05VideoI0Otcfc",
             "moduleName": "AdMixer",
             "overriding": true,
             "implicit": true,
@@ -7563,6 +8170,46 @@
           },
           {
             "kind": "Function",
+            "name": "didShowFullAdFail",
+            "printedName": "didShowFullAdFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(pl)AMVideoAdDelegate(im)didShowFullAdFailWith:",
+            "mangledName": "$s7AdMixer07AMVideoA8DelegateP011didShowFullA4Fail4withySo7NSErrorCSg_tF",
+            "moduleName": "AdMixer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMVideoAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixer.AMVideoAdDelegate>",
+            "protocolReq": true,
+            "objc_name": "didShowFullAdFailWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didCloseFullAd",
             "printedName": "didCloseFullAd()",
             "children": [
@@ -7720,6 +8367,46 @@
             "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMVideoAdDelegate>",
             "sugared_genericSig": "<Self where Self : AdMixer.AMVideoAdDelegate>",
             "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didShowRewardAdFail",
+            "printedName": "didShowRewardAdFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSError",
+                    "printedName": "Foundation.NSError",
+                    "usr": "c:objc(cs)NSError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMixer@objc(pl)AMVideoAdDelegate(im)didShowRewardAdFailWith:",
+            "mangledName": "$s7AdMixer07AMVideoA8DelegateP013didShowRewardA4Fail4withySo7NSErrorCSg_tF",
+            "moduleName": "AdMixer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdMixer.AMVideoAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AdMixer.AMVideoAdDelegate>",
+            "protocolReq": true,
+            "objc_name": "didShowRewardAdFailWith:",
             "declAttributes": [
               "Optional",
               "ObjC"
@@ -8240,7 +8927,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adInfo:rootViewController:)",
+            "printedName": "init(adInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8253,17 +8940,11 @@
                 "name": "AMVideoAdInfo",
                 "printedName": "AdMixer.AMVideoAdInfo",
                 "usr": "c:@M@AdMixer@objc(cs)AMVideoAdInfo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AdMixer07AMVideoA14ViewControllerC6adInfo04rootdE0AcA0caG0C_So06UIViewE0Ctcfc",
-            "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC6adInfo04rootdE0AcA0caG0C_So06UIViewE0Ctcfc",
+            "usr": "s:7AdMixer07AMVideoA14ViewControllerC6adInfoAcA0caG0C_tcfc",
+            "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC6adInfoAcA0caG0C_tcfc",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -8297,12 +8978,18 @@
           {
             "kind": "Function",
             "name": "showAd",
-            "printedName": "showAd(animated:)",
+            "printedName": "showAd(from:animated:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -8312,8 +8999,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AdMixer07AMVideoA14ViewControllerC04showA08animatedySb_tF",
-            "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC04showA08animatedySb_tF",
+            "usr": "s:7AdMixer07AMVideoA14ViewControllerC04showA04from8animatedySo06UIViewE0C_SbtF",
+            "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC04showA04from8animatedySo06UIViewE0C_SbtF",
             "moduleName": "AdMixer",
             "declAttributes": [
               "Preconcurrency",
@@ -8325,7 +9012,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(adInfo:rootViewController:videoType:)",
+            "printedName": "init(adInfo:videoType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8341,20 +9028,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "VideoType",
                 "printedName": "AdMixer.VideoType",
                 "usr": "s:7AdMixer9VideoTypeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AdMixer07AMVideoA14ViewControllerC6adInfo04rootdE09videoTypeAcA0caG0C_So06UIViewE0CAA05VideoJ0Otcfc",
-            "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC6adInfo04rootdE09videoTypeAcA0caG0C_So06UIViewE0CAA05VideoJ0Otcfc",
+            "usr": "s:7AdMixer07AMVideoA14ViewControllerC6adInfo9videoTypeAcA0caG0C_AA05VideoI0Otcfc",
+            "mangledName": "$s7AdMixer07AMVideoA14ViewControllerC6adInfo9videoTypeAcA0caG0C_AA05VideoI0Otcfc",
             "moduleName": "AdMixer",
             "overriding": true,
             "implicit": true,
@@ -9961,6 +10642,116 @@
                 "moduleName": "AdMixer",
                 "implicit": true,
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sequence",
+            "printedName": "sequence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AdMixer04VastA0V8sequenceSiSgvp",
+            "mangledName": "$s7AdMixer04VastA0V8sequenceSiSgvp",
+            "moduleName": "AdMixer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer04VastA0V8sequenceSiSgvg",
+                "mangledName": "$s7AdMixer04VastA0V8sequenceSiSgvg",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer04VastA0V8sequenceSiSgvs",
+                "mangledName": "$s7AdMixer04VastA0V8sequenceSiSgvs",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AdMixer04VastA0V8sequenceSiSgvM",
+                "mangledName": "$s7AdMixer04VastA0V8sequenceSiSgvM",
+                "moduleName": "AdMixer",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -22221,16 +23012,72 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Banner\/Interstitial\/AMBannerAdViewController.swift",
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/AdPodIndicatorView.swift",
+      "kind": "Array",
+      "offset": 583,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/AdPodIndicatorView.swift",
+      "kind": "Array",
+      "offset": 679,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/AdPodIndicatorView.swift",
+      "kind": "Array",
+      "offset": 814,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/AdPodIndicatorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 927,
+      "offset": 890,
       "length": 1,
       "value": "0"
     },
     {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/AdPodIndicatorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AMAdPodConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AMAdPodConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 442,
+      "length": 5,
+      "value": "120.0"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AMAdPodConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Domain\/AMAdPodConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 514,
+      "length": 5,
+      "value": "120.0"
+    },
+    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Banner\/Interstitial\/AMBannerAdViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 949,
+      "offset": 894,
       "length": 1,
       "value": "2"
     },
@@ -22377,7 +23224,35 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 524,
+      "offset": 645,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
+      "kind": "Array",
+      "offset": 859,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 900,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 938,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/AMVideoPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1385,
       "length": 5,
       "value": "false"
     },
@@ -23674,7 +24549,7 @@
       "kind": "FloatLiteral",
       "offset": 337,
       "length": 4,
-      "value": "15.0"
+      "value": "20.0"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/TimeCountView.swift",
@@ -23694,6 +24569,20 @@
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/TimeCountView.swift",
       "kind": "BooleanLiteral",
       "offset": 435,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/TimeCountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/AdView\/Video\/Common\/VideoPlayer\/VideoPlayerItem\/TimeCountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 625,
       "length": 5,
       "value": "false"
     },
@@ -23769,22 +24658,29 @@
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 10,
+      "value": "\"sequence\""
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastAd.swift",
       "kind": "Array",
-      "offset": 809,
+      "offset": 876,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastAd.swift",
       "kind": "Array",
-      "offset": 843,
+      "offset": 910,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/Models\/VastAd.swift",
       "kind": "Array",
-      "offset": 889,
+      "offset": 956,
       "length": 2,
       "value": "[]"
     },
@@ -24505,14 +25401,21 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastXMLParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2590,
+      "offset": 2814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastXMLParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4307,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixer\/AdMixer\/Classes\/Utils\/VastXMLParser\/VastXMLParser.swift",
       "kind": "Dictionary",
-      "offset": 4119,
+      "offset": 5836,
       "length": 3,
       "value": "[]"
     }

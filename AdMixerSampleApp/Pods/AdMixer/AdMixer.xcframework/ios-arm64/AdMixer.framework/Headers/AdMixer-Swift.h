@@ -321,10 +321,12 @@ SWIFT_PROTOCOL("_TtP7AdMixer18AMBannerAdDelegate_")
 - (void)didLoadBannerAdSuccess;
 - (void)didLoadBannerAdFailWith:(NSError * _Nullable)error;
 - (void)didTapBannerAd;
-- (void)didLoadFullBannerAdSuccess;
-- (void)didLoadFullBannerAdFailWith:(NSError * _Nullable)error;
-- (void)didFullBannerAdDismiss;
-- (void)didTapFullBannerAd;
+- (void)didLoadInterstitialSuccess;
+- (void)didLoadInterstitialFailWith:(NSError * _Nullable)error;
+- (void)didShowInterstitialSuccess;
+- (void)didShowInterstitialFailWith:(NSError * _Nullable)error;
+- (void)didCloseInterstitial;
+- (void)didTapInterstitial;
 @end
 
 SWIFT_CLASS("_TtC7AdMixer14AMBannerAdInfo")
@@ -361,12 +363,15 @@ SWIFT_CLASS("_TtC7AdMixer24AMBannerAdViewController")
 
 @interface AMBannerAdViewController (SWIFT_EXTENSION(AdMixer)) <WKNavigationDelegate, WKUIDelegate>
 - (WKWebView * _Nullable)webView:(WKWebView * _Nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * _Nonnull)configuration forNavigationAction:(WKNavigationAction * _Nonnull)navigationAction windowFeatures:(WKWindowFeatures * _Nonnull)windowFeatures SWIFT_WARN_UNUSED_RESULT;
-- (void)webView:(WKWebView * _Nonnull)webView didCommitNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
 @end
 
 SWIFT_CLASS("_TtC7AdMixer25AMBaseVideoViewController")
 @interface AMBaseVideoViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
@@ -479,12 +484,14 @@ SWIFT_PROTOCOL("_TtP7AdMixer17AMVideoAdDelegate_")
 - (void)didLoadFullAdSuccess;
 - (void)didLoadFullAdFailWith:(NSError * _Nullable)error;
 - (void)didShowFullAdSuccess;
+- (void)didShowFullAdFailWith:(NSError * _Nullable)error;
 - (void)didCloseFullAd;
 - (void)didTapFullAdViewMore;
 - (void)didFullAdComplete;
 - (void)didLoadRewardAdSuccess;
 - (void)didLoadRewardAdFailWith:(NSError * _Nullable)error;
 - (void)didShowRewardAdSuccess;
+- (void)didShowRewardAdFailWith:(NSError * _Nullable)error;
 - (void)didCloseRewardAd;
 - (void)didTapRewardAdViewMore;
 - (void)didRewardVideoComplete;
