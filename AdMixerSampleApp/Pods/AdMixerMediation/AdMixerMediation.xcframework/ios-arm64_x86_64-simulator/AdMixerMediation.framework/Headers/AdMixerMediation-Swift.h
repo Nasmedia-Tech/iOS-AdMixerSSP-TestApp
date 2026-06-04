@@ -624,6 +624,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AMMediationS
 SWIFT_CLASS("_TtC16AdMixerMediation7Adapter")
 @interface Adapter : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif
@@ -1260,6 +1262,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AMMediationS
 SWIFT_CLASS("_TtC16AdMixerMediation7Adapter")
 @interface Adapter : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif

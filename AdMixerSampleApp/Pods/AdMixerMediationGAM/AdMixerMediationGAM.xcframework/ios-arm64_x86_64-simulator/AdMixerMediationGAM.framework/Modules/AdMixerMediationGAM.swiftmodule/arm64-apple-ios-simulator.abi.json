@@ -24,6 +24,58 @@
         "printedName": "GAMAdapter",
         "children": [
           {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdMixerMediationGAM@objc(cs)GAMAdapter(cpy)sdkVersion",
+            "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC10sdkVersionSSvpZ",
+            "moduleName": "AdMixerMediationGAM",
+            "static": true,
+            "overriding": true,
+            "objc_name": "sdkVersion",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediationGAM@objc(cs)GAMAdapter(cm)sdkVersion",
+                "mangledName": "$s19AdMixerMediationGAM10GAMAdapterC10sdkVersionSSvgZ",
+                "moduleName": "AdMixerMediationGAM",
+                "static": true,
+                "overriding": true,
+                "objc_name": "sdkVersion",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "loadBannerAd",
             "printedName": "loadBannerAd(bannerAdConfiguration:bannerHandler:)",
@@ -350,6 +402,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/GAMAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 8,
+      "value": "\"1.0.11\""
+    },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediationGAM\/Classes\/Utils\/Log.swift",
       "kind": "StringLiteral",

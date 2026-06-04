@@ -14,6 +14,9 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 @objc @_inheritsConvenienceInitializers public class GAMAdapter : AdMixerMediation.Adapter {
+  @objc override public class var sdkVersion: Swift.String {
+    @objc get
+  }
   override public func loadBannerAd(bannerAdConfiguration: AdMixerMediation.BannerConfiguration, bannerHandler: any AdMixerMediation.BannerHandler)
   override public func loadInterstitialAd(interstitialConfiguration: AdMixerMediation.InterstitialConfiguration, interstitialHandler: any AdMixerMediation.InterstitialHandler)
   override public func loadRewardAd(rewardConfiguration: AdMixerMediation.RewardConfiguration, rewardHandler: any AdMixerMediation.RewardHandler)

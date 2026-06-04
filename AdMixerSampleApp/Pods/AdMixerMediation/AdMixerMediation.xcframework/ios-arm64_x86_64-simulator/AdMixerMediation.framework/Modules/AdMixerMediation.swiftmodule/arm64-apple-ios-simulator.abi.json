@@ -37,6 +37,55 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdMixerMediation@objc(cs)Adapter(cpy)sdkVersion",
+            "mangledName": "$s16AdMixerMediation7AdapterC10sdkVersionSSvpZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdMixerMediation@objc(cs)Adapter(cm)sdkVersion",
+                "mangledName": "$s16AdMixerMediation7AdapterC10sdkVersionSSvgZ",
+                "moduleName": "AdMixerMediation",
+                "static": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "loadBannerAd",
             "printedName": "loadBannerAd(bannerAdConfiguration:bannerHandler:)",
@@ -13927,6 +13976,66 @@
             "moduleName": "AdMixerMediation",
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AdMixerMediation.NetworkType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkType",
+                    "printedName": "AdMixerMediation.NetworkType",
+                    "usr": "s:16AdMixerMediation11NetworkTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdMixerMediation11NetworkTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s16AdMixerMediation11NetworkTypeO8allCasesSayACGvpZ",
+            "moduleName": "AdMixerMediation",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdMixerMediation.NetworkType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "AdMixerMediation.NetworkType",
+                        "usr": "s:16AdMixerMediation11NetworkTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdMixerMediation11NetworkTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s16AdMixerMediation11NetworkTypeO8allCasesSayACGvgZ",
+                "moduleName": "AdMixerMediation",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -13964,6 +14073,36 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdMixerMediation.NetworkType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "AdMixerMediation.NetworkType",
+                        "usr": "s:16AdMixerMediation11NetworkTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -14892,6 +15031,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Adapter.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/AMInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 66,
@@ -15475,35 +15621,35 @@
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 3099,
+      "offset": 3113,
       "length": 13,
       "value": "\"adunit_code\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 3252,
+      "offset": 3266,
       "length": 14,
       "value": "\"data-ad-unit\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 3394,
+      "offset": 3408,
       "length": 9,
       "value": "\"zone_id\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3560,
       "length": 14,
       "value": "\"placement_id\""
     },
     {
       "filePath": "\/Users\/iosnasmedia\/Desktop\/JSYWorkSpace\/iOS-AdMixerMediation\/AdMixerMediation\/Classes\/Model\/NetworkType.swift",
       "kind": "StringLiteral",
-      "offset": 3694,
+      "offset": 3708,
       "length": 11,
       "value": "\"adunit_id\""
     },

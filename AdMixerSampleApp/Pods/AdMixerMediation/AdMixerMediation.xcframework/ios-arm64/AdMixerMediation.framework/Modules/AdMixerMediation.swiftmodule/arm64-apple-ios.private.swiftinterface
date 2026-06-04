@@ -19,6 +19,9 @@ import os.log
 import os
 @objc @_inheritsConvenienceInitializers open class Adapter : ObjectiveC.NSObject {
   @objc required override dynamic public init()
+  @objc open class var sdkVersion: Swift.String {
+    @objc get
+  }
   open func loadBannerAd(bannerAdConfiguration: AdMixerMediation.BannerConfiguration, bannerHandler: any AdMixerMediation.BannerHandler)
   open func loadInterstitialAd(interstitialConfiguration: AdMixerMediation.InterstitialConfiguration, interstitialHandler: any AdMixerMediation.InterstitialHandler)
   open func loadRewardAd(rewardConfiguration: AdMixerMediation.RewardConfiguration, rewardHandler: any AdMixerMediation.RewardHandler)
@@ -432,7 +435,7 @@ public protocol NativeHandler : AnyObject {
   func onFailNative()
   func onClickNative()
 }
-public enum NetworkType {
+public enum NetworkType : Swift.CaseIterable {
   case admixer
   case googleAdManager
   case kakaoAdFit
@@ -443,6 +446,10 @@ public enum NetworkType {
   case teads
   case naverAdManager
   public static func == (a: AdMixerMediation.NetworkType, b: AdMixerMediation.NetworkType) -> Swift.Bool
+  public typealias AllCases = [AdMixerMediation.NetworkType]
+  nonisolated public static var allCases: [AdMixerMediation.NetworkType] {
+    get
+  }
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
