@@ -11,19 +11,25 @@ import AdMixerMediation
 class VideoViewController: UIViewController {
 
     var ammVideo: AMMVideoView?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        
-        ammVideo = AMMVideoView(rootViewController: self)
-        addVideoViewToView(ammVideo!)
-        ammVideo?.adUnitID = Constants.VideoAdUnit
-        
-        ammVideo?.delegate = self
-        ammVideo?.load()
+
+        // static load: 로드 완료 시 completion 으로 비디오를 받아 addSubview → 화면 진입 시 노출
+        AMMVideoView.load(adUnitID: Constants.VideoAdUnit, rootViewController: self) { [weak self] video, adapterName, error in
+            guard let self else { return }
+            if let error {
+                print("AMMVideoView error: \(error)")
+                return
+            }
+            guard let video else { return }
+            self.ammVideo = video
+            video.delegate = self
+            self.addVideoViewToView(video)
+        }
     }
-    
+
     func addVideoViewToView(_ videoView: UIView) {
         videoView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(videoView)
@@ -37,22 +43,18 @@ class VideoViewController: UIViewController {
 }
 
 extension VideoViewController: AMMVideoViewDelegate {
-    func onSuccessVideo() {
-        print("onSuccessVideo")
+    func onSuccessShowVideo() {
+        print("onSuccessShowVideo")
     }
-    
-    func onFailVideo() {
-        print("onFailVideo")
+
+    func onClickVideo() {
+        print("onClickVideo")
     }
-    
+
     func onSkipVideo() {
         print("onSkipVideo")
     }
-    
-    func onTapVideoViewMore() {
-        print("onTapVideoViewMore")
-    }
-    
+
     func onCompleteVideo() {
         print("onCompleteVideo")
     }

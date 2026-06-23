@@ -38,10 +38,8 @@ import os
   public init(mediaKey: Swift.String, adUnitId: Swift.Int, size: CoreFoundation.CGSize = .zero)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc public class AMFullBannerAdInfo : AdMixer.AMAdInfo {
-  public var popupOption: AdMixer.AMFullBannerPopupOption
-  public var countDownOption: AdMixer.AMFullBannerCountDownOption
-  public init(mediaKey: Swift.String, adUnitId: Swift.Int, type: AdMixer.AMFullBannerType = .basic, popupOption: AdMixer.AMFullBannerPopupOption = AMFullBannerPopupOption(), countDownOption: AdMixer.AMFullBannerCountDownOption = AMFullBannerCountDownOption())
+@_inheritsConvenienceInitializers @objc public class AMFullBannerAdInfo : AdMixer.AMAdInfo {
+  public init(mediaKey: Swift.String, adUnitId: Swift.Int)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class AMVideoAdInfo : AdMixer.AMAdInfo {
@@ -135,49 +133,6 @@ extension AdMixer.AMBannerAdViewController : WebKit.WKNavigationDelegate, WebKit
   @_Concurrency.MainActor @preconcurrency public func showAd(rootVC: UIKit.UIViewController, animated: Swift.Bool, success: (() -> ())?, fail: ((Foundation.NSError?) -> ())? = nil)
   #endif
   @objc deinit
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMCountDownView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var onCloseButtonTapped: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public init(option: AdMixer.AMFullBannerCountDownOption)
-  @objc deinit
-  @_Concurrency.MainActor @preconcurrency public func startCount()
-  @_Concurrency.MainActor @preconcurrency public func startTimer()
-  @_Concurrency.MainActor @preconcurrency public func stopTimer()
-}
-@objc @objcMembers public class AMFullBannerCountDownOption : ObjectiveC.NSObject {
-  @objc public init(countDownType: AdMixer.AMCountDownType = .gauge, countDownTime: Swift.Int = 5)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class AMFullBannerPopupOption : ObjectiveC.NSObject {
-  @objc override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public func setButton(title: Swift.String?, textColor color: UIKit.UIColor?)
-  #endif
-  @objc public func setButtonBackgroundColor(color: UIKit.UIColor)
-  @objc deinit
-}
-@objc public enum AMFullBannerType : Swift.Int {
-  case basic = 0
-  case popup = 1
-  case countdown = 2
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum AMCountDownType : Swift.Int {
-  case gauge = 0
-  case text = 1
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AMLimitedHitAreaButton : UIKit.UIButton {
   @_Concurrency.MainActor @preconcurrency public init(ratio: Swift.Float)
@@ -660,12 +615,6 @@ public enum VideoType {
     get
   }
 }
-extension AdMixer.AMFullBannerType : Swift.Equatable {}
-extension AdMixer.AMFullBannerType : Swift.Hashable {}
-extension AdMixer.AMFullBannerType : Swift.RawRepresentable {}
-extension AdMixer.AMCountDownType : Swift.Equatable {}
-extension AdMixer.AMCountDownType : Swift.Hashable {}
-extension AdMixer.AMCountDownType : Swift.RawRepresentable {}
 extension AdMixer.NasTrackingEventType : Swift.Equatable {}
 extension AdMixer.NasTrackingEventType : Swift.Hashable {}
 extension AdMixer.NasTrackingEventType : Swift.RawRepresentable {}

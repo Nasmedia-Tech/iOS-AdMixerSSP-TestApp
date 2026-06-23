@@ -6,12 +6,13 @@ target 'AdMixerSampleApp' do
   use_frameworks!
 
   # Pods for AdMixerSampleApp
-  pod 'AdMixerMediation', '2.3.6'
-  pod 'AdMixerMediationGAM', '1.0.11'
-  pod 'AdMixerMediationAdFit', '1.0.9'
-  pod 'AdMixerMediationPangle', '1.0.8'
+  pod 'AdMixerMediation', '2.3.7'
+  pod 'AdMixerMediationGAM', '1.1.0'
+  pod 'AdMixerMediationAdFit', '1.1.0'
+  pod 'AdMixerMediationPangle', '1.1.0'
   pod 'AdMixerMediationAppLovin', '1.0.7'
   pod 'AdMixerMediationUnityAds', '1.0.10'
+  pod 'AdMixerMediationNAM', '1.1.0'
 
   target 'AdMixerSampleAppTests' do
     inherit! :search_paths

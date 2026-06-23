@@ -1,46 +1,62 @@
 PODS:
   - AdFitSDK (3.18.3)
-  - AdMixer (1.1.7)
-  - AdMixerMediation (2.3.6):
-    - AdMixer (>= 1.1.6)
-  - AdMixerMediationAdFit (1.0.9):
+  - AdMixer (1.2.0)
+  - AdMixerMediation (2.3.7):
+    - AdMixer (>= 1.2.0)
+  - AdMixerMediationAdFit (1.1.0):
     - AdFitSDK (< 3.18.6, >= 3.14.7)
-    - AdMixerMediation (>= 2.3.6)
+    - AdMixerMediation (>= 2.3.7)
   - AdMixerMediationAppLovin (1.0.7):
     - AdMixerMediationAppLovin/WithCore (= 1.0.7)
   - AdMixerMediationAppLovin/WithCore (1.0.7):
     - AdMixerMediation (>= 2.3.6)
     - AppLovinSDK (< 13.5.2, >= 13.3.1)
-  - AdMixerMediationGAM (1.0.11):
-    - AdMixerMediation (>= 2.3.6)
+  - AdMixerMediationGAM (1.1.0):
+    - AdMixerMediation (>= 2.3.7)
     - Google-Mobile-Ads-SDK (< 13.3.1, >= 12.7.0)
-  - AdMixerMediationPangle (1.0.8):
-    - AdMixerMediation (>= 2.3.6)
+  - AdMixerMediationNAM (1.1.0):
+    - AdMixerMediation (>= 2.3.7)
+    - NAMSDK
+    - NAMSDK/MediationNDA
+    - NAMSDK/MediationNDAVideo
+  - AdMixerMediationPangle (1.1.0):
+    - AdMixerMediation (>= 2.3.7)
     - Ads-Global
   - AdMixerMediationUnityAds (1.0.10):
     - AdMixerMediationUnityAds/WithCore (= 1.0.10)
   - AdMixerMediationUnityAds/WithCore (1.0.10):
     - AdMixerMediation (>= 2.3.6)
     - UnityAds (< 4.16.6, >= 4.15.1)
-  - Ads-Global (8.1.0.6):
-    - Ads-Global/BUAdSDK (= 8.1.0.6)
-  - Ads-Global/BUAdSDK (8.1.0.6):
+  - Ads-Global (8.1.0.9):
+    - Ads-Global/BUAdSDK (= 8.1.0.9)
+  - Ads-Global/BUAdSDK (8.1.0.9):
     - Ads-Global/PangleSDK
     - Ads-Global/TikTokBusinessSDK
-  - Ads-Global/PangleSDK (8.1.0.6)
-  - Ads-Global/TikTokBusinessSDK (8.1.0.6)
+  - Ads-Global/PangleSDK (8.1.0.9)
+  - Ads-Global/TikTokBusinessSDK (8.1.0.9)
   - AppLovinSDK (13.5.1)
   - Google-Mobile-Ads-SDK (13.3.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleUserMessagingPlatform (3.1.0)
+  - NAMSDK (8.22.1):
+    - NAMSDK/GFPSDK (= 8.22.1)
+  - NAMSDK/GFPSDK (8.22.1):
+    - Naver-Ads-Services (~> 1.5.6)
+  - NAMSDK/MediationNDA (8.22.1):
+    - NAMSDK/GFPSDK
+  - NAMSDK/MediationNDAVideo (8.22.1):
+    - NAMSDK/GFPSDK
+    - NAMSDK/MediationNDA
+  - Naver-Ads-Services (1.5.7)
   - UnityAds (4.16.5)
 
 DEPENDENCIES:
-  - AdMixerMediation (= 2.3.6)
-  - AdMixerMediationAdFit (= 1.0.9)
+  - AdMixerMediation (= 2.3.7)
+  - AdMixerMediationAdFit (= 1.1.0)
   - AdMixerMediationAppLovin (= 1.0.7)
-  - AdMixerMediationGAM (= 1.0.11)
-  - AdMixerMediationPangle (= 1.0.8)
+  - AdMixerMediationGAM (= 1.1.0)
+  - AdMixerMediationNAM (= 1.1.0)
+  - AdMixerMediationPangle (= 1.1.0)
   - AdMixerMediationUnityAds (= 1.0.10)
 
 SPEC REPOS:
@@ -51,29 +67,35 @@ SPEC REPOS:
     - AdMixerMediationAdFit
     - AdMixerMediationAppLovin
     - AdMixerMediationGAM
+    - AdMixerMediationNAM
     - AdMixerMediationPangle
     - AdMixerMediationUnityAds
     - Ads-Global
     - AppLovinSDK
     - Google-Mobile-Ads-SDK
     - GoogleUserMessagingPlatform
+    - NAMSDK
+    - Naver-Ads-Services
     - UnityAds
 
 SPEC CHECKSUMS:
   AdFitSDK: 5dced95f618805b9881365edc8c922de8feb5550
-  AdMixer: 7532d0faf6cd24bd4cc277d290f72cdbf565a609
-  AdMixerMediation: 404b75303f3a302db0571ad9ba5520fbe56ce2d2
-  AdMixerMediationAdFit: 170594ff2e1e5db16d6c5a2c35f018f8034f3425
+  AdMixer: 8e1b090f657762f4084b1995c31f33064c1126d9
+  AdMixerMediation: a5277a59fa828b63ac8964acf992b154bb24458b
+  AdMixerMediationAdFit: 21228eb47ad90b35a4027b5f490a6feacef13696
   AdMixerMediationAppLovin: ae1186a5db94b0e6f271ad4f0e16361341dac29a
-  AdMixerMediationGAM: 0e37cd9498fc238e9196d3da1c9e49a847f1c54f
-  AdMixerMediationPangle: afca34ad3afc33712825f7a5322ea828f4f5725e
+  AdMixerMediationGAM: 40f2316763132b01dfa226b520615a8345b279f4
+  AdMixerMediationNAM: 2afda87c46ad61f10f2582e719e54ce5bd3cda8a
+  AdMixerMediationPangle: f95ff9f6fe92bb20ba3c668faeedf957aafc7590
   AdMixerMediationUnityAds: aaf413452507425901c11167c66962db1e24c31e
-  Ads-Global: 928e2669595256b915df04a4a2f299d3bb8fe6b7
+  Ads-Global: 9a098ffd3da726d493d43298ded562997aed54c1
   AppLovinSDK: 8d9af6c7617e4d35b38aa8393a3e9d161a74b230
   Google-Mobile-Ads-SDK: 7692126a35ed859f20635af281c50a2162be8bea
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  NAMSDK: 6b58b64b89a91a4c95e6369a0c7db63ba7542347
+  Naver-Ads-Services: 75ff4bb48b02f1b43fd97c3814182ecfecf390ce
   UnityAds: 8b9e0ecf7c4aa7334d15f81efb58db279e28f502
 
-PODFILE CHECKSUM: 42709cdc9467592b51572379688b4689be56d185
+PODFILE CHECKSUM: 00b17fa2588a396611ae35aff235181d64620cb1
 
 COCOAPODS: 1.16.2

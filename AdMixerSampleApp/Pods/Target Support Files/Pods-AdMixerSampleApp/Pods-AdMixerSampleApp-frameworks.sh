@@ -182,6 +182,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/WithCore/AdMixerMediationAppLovin.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/NAMSDK/GFPSDK/OMSDK_Navercorp.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Naver-Ads-Services/NaverAdsServices.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdFitSDK/AdFitSDK.framework"
@@ -190,6 +192,8 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/WithCore/AdMixerMediationAppLovin.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/NAMSDK/GFPSDK/OMSDK_Navercorp.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Naver-Ads-Services/NaverAdsServices.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -5,3 +5,5 @@ ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework/AdMix
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework/AdMixerMediationAdFit
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/WithCore/AdMixerMediationAppLovin.framework/AdMixerMediationAppLovin
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework/AppLovinSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NAMSDK/GFPSDK/OMSDK_Navercorp.framework/OMSDK_Navercorp
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Naver-Ads-Services/NaverAdsServices.framework/NaverAdsServices

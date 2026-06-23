@@ -102,6 +102,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Ads-Global/TikTokBusinessSDK.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/NAMSDK/NAMSDKResources.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPSDKResource.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPNDAMraidResource.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPNDANativeResource.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPNDAVideoResource.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAdsResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -110,6 +115,11 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Ads-Global/TikTokBusinessSDK.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/NAMSDK/NAMSDKResources.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPSDKResource.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPNDAMraidResource.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPNDANativeResource.bundle"
+  install_resource "${PODS_ROOT}/NAMSDK/NAMSDK/resourcebundle/GFPNDAVideoResource.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAdsResources.bundle"
 fi
 

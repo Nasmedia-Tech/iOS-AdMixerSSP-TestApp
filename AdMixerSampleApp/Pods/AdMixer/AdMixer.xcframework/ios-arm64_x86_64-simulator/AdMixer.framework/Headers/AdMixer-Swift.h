@@ -376,41 +376,9 @@ SWIFT_CLASS("_TtC7AdMixer25AMBaseVideoViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-typedef SWIFT_ENUM(NSInteger, AMCountDownType, open) {
-  AMCountDownTypeGauge = 0,
-  AMCountDownTypeText = 1,
-};
-
-SWIFT_CLASS("_TtC7AdMixer15AMCountDownView")
-@interface AMCountDownView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
 SWIFT_CLASS("_TtC7AdMixer18AMFullBannerAdInfo")
 @interface AMFullBannerAdInfo : AMAdInfo
 @end
-
-SWIFT_CLASS("_TtC7AdMixer27AMFullBannerCountDownOption")
-@interface AMFullBannerCountDownOption : NSObject
-- (nonnull instancetype)initWithCountDownType:(enum AMCountDownType)countDownType countDownTime:(NSInteger)countDownTime OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class UIColor;
-SWIFT_CLASS("_TtC7AdMixer23AMFullBannerPopupOption")
-@interface AMFullBannerPopupOption : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setButtonWithTitle:(NSString * _Nullable)title textColor:(UIColor * _Nullable)color;
-- (void)setButtonBackgroundColorWithColor:(UIColor * _Nonnull)color;
-@end
-
-typedef SWIFT_ENUM(NSInteger, AMFullBannerType, open) {
-  AMFullBannerTypeBasic = 0,
-  AMFullBannerTypePopup = 1,
-  AMFullBannerTypeCountdown = 2,
-};
 
 @class UIEvent;
 SWIFT_CLASS("_TtC7AdMixer22AMLimitedHitAreaButton")
@@ -917,41 +885,9 @@ SWIFT_CLASS("_TtC7AdMixer25AMBaseVideoViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-typedef SWIFT_ENUM(NSInteger, AMCountDownType, open) {
-  AMCountDownTypeGauge = 0,
-  AMCountDownTypeText = 1,
-};
-
-SWIFT_CLASS("_TtC7AdMixer15AMCountDownView")
-@interface AMCountDownView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
 SWIFT_CLASS("_TtC7AdMixer18AMFullBannerAdInfo")
 @interface AMFullBannerAdInfo : AMAdInfo
 @end
-
-SWIFT_CLASS("_TtC7AdMixer27AMFullBannerCountDownOption")
-@interface AMFullBannerCountDownOption : NSObject
-- (nonnull instancetype)initWithCountDownType:(enum AMCountDownType)countDownType countDownTime:(NSInteger)countDownTime OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class UIColor;
-SWIFT_CLASS("_TtC7AdMixer23AMFullBannerPopupOption")
-@interface AMFullBannerPopupOption : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setButtonWithTitle:(NSString * _Nullable)title textColor:(UIColor * _Nullable)color;
-- (void)setButtonBackgroundColorWithColor:(UIColor * _Nonnull)color;
-@end
-
-typedef SWIFT_ENUM(NSInteger, AMFullBannerType, open) {
-  AMFullBannerTypeBasic = 0,
-  AMFullBannerTypePopup = 1,
-  AMFullBannerTypeCountdown = 2,
-};
 
 @class UIEvent;
 SWIFT_CLASS("_TtC7AdMixer22AMLimitedHitAreaButton")

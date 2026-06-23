@@ -27,9 +27,8 @@ class ViewController: UIViewController {
     @IBAction func interstitialBannerButtonTapped(_ sender: Any) {
         
         let config = AMMInterstitialConfig()
-        config.viewType = .popup
-        
-        AMMInterstitial.load(adUnitID: Constants.InterstitialBannerAdUnit, config: config) { [weak self] interstitial, error in
+
+        AMMInterstitial.load(adUnitID: Constants.InterstitialBannerAdUnit, config: config) { [weak self] interstitial, adapterName, error in
             guard let self else { return }
             if let error {
                 print("AMMInterstitial error: \(error)")
@@ -45,7 +44,7 @@ class ViewController: UIViewController {
     
     @IBAction func interstitialVideoButtonTapped(_ sender: Any) {
         
-        AMMVideoInterstitial.load(adUnitID: Constants.InterstitialVideoAdUnit) { [weak self] videointerstitial, error in
+        AMMVideoInterstitial.load(adUnitID: Constants.InterstitialVideoAdUnit) { [weak self] videointerstitial, adapterName, error in
             guard let self else { return }
             
             if let error {
@@ -67,7 +66,7 @@ class ViewController: UIViewController {
     
     @IBAction func rewardVideoButtonTapped(_ sender: Any) {
         
-        AMMRewardVideo.load(adUnitID: Constants.RewardVideoAdUnit) { [weak self] reward, error in
+        AMMRewardVideo.load(adUnitID: Constants.RewardVideoAdUnit) { [weak self] reward, adapterName, error in
             guard let self else { return }
             
             if let error {
@@ -98,8 +97,8 @@ extension ViewController: AMMInterstitialDelegate {
         print("onFailInterstitial: \(error)")
     }
     
-    func onTapInterstitial() {
-        print("onTapInterstitial")
+    func onClickInterstitial() {
+        print("onClickInterstitial")
     }
     
     func onCloseInterstitial() {
@@ -120,8 +119,8 @@ extension ViewController: AMMVideoInterstitialDelegate {
         print("onCloseVideoInterstitial")
     }
     
-    func onTapVideoInterstitialViewMore() {
-        print("onTapVideoInterstitialViewMore")
+    func onClickVideoInterstitial() {
+        print("onClickVideoInterstitial")
     }
     
     func onCompleteVideoInterstitial() {
@@ -142,8 +141,8 @@ extension ViewController: AMMRewardVideoDelegate {
         print("onCloseRewardVideo")
     }
     
-    func onTapRewardVideo() {
-        print("onTapRewardVideo")
+    func onClickRewardVideo() {
+        print("onClickRewardVideo")
     }
     
     func onRewardVideoComplete() {
