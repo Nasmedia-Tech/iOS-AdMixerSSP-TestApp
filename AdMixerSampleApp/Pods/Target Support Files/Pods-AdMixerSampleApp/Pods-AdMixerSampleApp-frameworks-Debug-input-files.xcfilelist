@@ -1,9 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-AdMixerSampleApp/Pods-AdMixerSampleApp-frameworks.sh
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AdFitSDK/AdFitSDK.framework/AdFitSDK
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixer/AdMixer.framework/AdMixer
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediation/AdMixerMediation.framework/AdMixerMediation
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAdFit/AdMixerMediationAdFit.framework/AdMixerMediationAdFit
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AdMixerMediationAppLovin/WithCore/AdMixerMediationAppLovin.framework/AdMixerMediationAppLovin
-${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework/AppLovinSDK
-${PODS_XCFRAMEWORKS_BUILD_DIR}/NAMSDK/GFPSDK/OMSDK_Navercorp.framework/OMSDK_Navercorp
-${PODS_XCFRAMEWORKS_BUILD_DIR}/Naver-Ads-Services/NaverAdsServices.framework/NaverAdsServices
